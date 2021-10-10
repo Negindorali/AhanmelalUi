@@ -77,8 +77,16 @@
     background: rgba(111, 66, 193, 0.38);
     border-radius: 65px;
 }
-button.active{
+.ng_panel_button{
+    color: black;
+    text-decoration: none;
+}
+.ng_panel_button.active{
     border-bottom: 4px solid #007BFF;
+}
+.ng_panel_button:hover{
+    color: black;
+    text-decoration: none;
 }
 .menu-overlay {
     position: absolute;
@@ -90,6 +98,17 @@ button.active{
     text-align: center;
     border-radius: 10%;
 }
+/*.menu-homepage-overlay {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    width: 102px;*/
+/*    height: 423px;*/
+/*    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.4) 15.1%, rgba(0, 0, 0, 0.13) 35.94%, rgba(0, 0, 0, 0) 100%);*/
+/*    border-radius: 16px;*/
+/*    color: #fff;*/
+/*    text-align: center;*/
+/*}*/
+
 .btn-filter-factory:hover{
     background: #347BA1;
     border-radius: 68px;
@@ -106,4 +125,23 @@ button.active{
 .btn-dashboard:hover{
     background: rgba(0, 88, 135, 0.39);
     border-radius: 8px;
+}
+
+.rightPointer::before {
+    content: "";
+    width: 13rem;
+    height: 2px;
+    transform: translate(31px,5px) scaleX(1.2);
+    background: #007bff;
+    display: inline-block;
+}
+
+.leftPointer::after {
+    content: "";
+    width: 11rem;
+    height: 2px;
+    transform: translate(-13px,5px) scaleX(1.16);
+    background: #007bff;
+    display: inline-block;
+    margin-right: 15px;
 }
