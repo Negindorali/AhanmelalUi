@@ -72,6 +72,8 @@
 .btn-filter:hover{
     background: #6F42C1;
     color: white;
+    width: 140px;
+    height: 50px;
 }
 .orders:hover{
     background: rgba(111, 66, 193, 0.38);
@@ -91,6 +93,7 @@
 .menu-overlay {
     position: absolute;
     top: 0;
+    left: 1rem;
     width: 160px;
     height: 160px;
     background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.5) 15.1%, rgba(0, 0, 0, 0.01) 100%);
@@ -158,6 +161,22 @@
     width: 54rem;
     height: 1.5px;
     transform: translate(-11px,5px) scaleX(0.94);
+    background: #A82633;
+    display: inline-block;
+}
+.leftPointer-phone::after {
+    content: "";
+    width: 50rem;
+    height: 1.5px;
+    transform: translate(-11px,5px) scaleX(.8);
+    background: #A82633;
+    display: inline-block;
+}
+.rightPointer-phone::before {
+    content: "";
+    width: 54rem;
+    height: 1.5px;
+    transform: translate(-11px,5px) scaleX(.8);
     background: #A82633;
     display: inline-block;
 }
