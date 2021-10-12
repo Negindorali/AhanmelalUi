@@ -166,21 +166,25 @@
 }
 .leftPointer-phone::after {
     content: "";
-    width: 50rem;
-    height: 1.5px;
-    transform: translate(-11px,5px) scaleX(.8);
-    background: #A82633;
+    width: 51rem;
+    height:2px;
+    transform: translate(-11px,5px) scaleX(.99);
+    background: #005887;
     display: inline-block;
 }
 .rightPointer-phone::before {
     content: "";
-    width: 54rem;
-    height: 1.5px;
-    transform: translate(-11px,5px) scaleX(.8);
-    background: #A82633;
+    width: 51rem;
+    height: 2px;
+    transform: translate(-11px,5px) scaleX(.93);
+    background: #005887;
     display: inline-block;
 }
 .prices:hover{
     background: #C7B7E6 !important;
 
+}
+a.faq-activate:active{
+    border-bottom: 4px solid #007BFF!important;
+    box-sizing: border-box;
 }
