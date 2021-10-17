@@ -228,18 +228,22 @@
   <div class="col-md-12 mt-5 mx-auto mb-5 pb-5" style="background: #FFFFFF;box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;">
     <p class="text-center pt-4" style="font-family: irsans;font-size:26px;font-weight: bold ">استخدام</p>
     <div class="row justify-content-center">
-      <div class="col-md-3 text-center">
-        <img src="../images/estekhdam/Rectangle%201222.png" alt="" class="img-fluid">
-        <p class="text-center" style="font-family: irsans;font-size:20px "> کارشناس فروش</p>
-      </div>
-      <div class="col-md-3 text-center">
-        <img src="../images/estekhdam/Rectangle%201223.png" alt="" class="img-fluid">
-        <p class="text-center" style="font-family: irsans;font-size:20px "> کارشناس IT</p>
-      </div>
-      <div class="col-md-3 text-center">
+
+      <div class=" text-center">
         <img src="../images/estekhdam/Rectangle%201224.png" alt="" class="img-fluid">
+        <p class="text-center" style="font-family: irsans;font-size:20px ;"> کارشناس فروش</p>
+      </div>
+
+      <div class=" text-center ">
+        <img src="../images/estekhdam/Rectangle%201223.png" alt="" class="img-fluid">
         <p class="text-center" style="font-family: irsans;font-size:20px "> مسول انبار</p>
       </div>
+
+      <div class=" text-center">
+        <img src="../images/estekhdam/Rectangle%201224.png" alt="" class="img-fluid">
+        <p class="text-center" style="font-family: irsans;font-size:20px "> کارشناس IT</p>
+      </div>
+
     </div>
     <div class="text-right mr-5" style="font-family: irsans;font-size:20px;line-height: 43.41px ">
       <li>استخدام کارشناس فروش میلگرد</li>
@@ -282,25 +286,41 @@
           <input type="text" class="form-control" id="input4" style="border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px; height: 60px;"/>
         </div>
         <div class="col-md-4 pt-4 text-right">
-          <label for="input5" style="font-size: 20px;font-weight: bold">جنسیت: </label>
-          <label class="form-check-label" for="input5">
+          <label style="font-size: 20px;font-weight: bold">جنسیت: </label>
+          <label class="form-check-label pr-2 font-weight-bold" for="input25">
             زن
           </label>
-          <input class="form-check-input mr-5 mt-3" type="radio" style="width: 26px;height: 26px;border: 1px solid #808080;box-sizing: border-box;background-color: #00AF27!important;" name="exampleRadios" id="input5"
-                 value="option1" checked>
+          <input class="form-check-input mr-2 mt-1" type="radio" style="width: 26px;height: 26px;border: 1px solid #808080;box-sizing: border-box;background-color: #00AF27!important;" name="exampleRadios"
+                 id="input25"
+                 value="option1" >
 
-
-
-        </div>
-        <div class="col-md-4 pt-4 text-right">
-          <label for="input5" style="font-size: 20px;font-weight: bold">وضعیت تاهل: </label>
-          <label class="form-check-label" for="input5">
-            زن
+          <label class="form-check-label font-weight-bold mr-5 pr-5" for="input45">
+            مرد
           </label>
-          <input class="form-check-input mr-5 mt-3" type="radio" style="width: 26px;height: 26px;border: 1px solid #808080;box-sizing: border-box;background-color: #00AF27!important;" name="exampleRadios" id="input5"
-                 value="option1" checked>
+          <input class="form-check-input mr-2 mt-1" type="radio" style="width: 26px;height: 26px;border: 1px solid #808080;box-sizing: border-box;background-color: #00AF27!important;" name="exampleRadios"
+                 id="input45"
+                 value="option1" >
+        </div>
+
+        <div class="col-md-4 pt-4 form text-right">
+          <label  style="font-size: 20px;font-weight: bold">وضعیت تاهل: </label>
+          <label class="form-check-label font-weight-bold pr-2  text-left" for="input35">
+            مجرد
+          </label>
+          <input class="form-check-input mr-2 mt-1" type="radio"  style="width: 26px;height: 26px;border: 1px solid #808080;box-sizing: border-box;background-color: #00AF27!important;" name="exampleRadios" id="input35" value="option1" >
+
+          <label class="form-check-label font-weight-bold mr-5 pr-5 text-left" for="input55">
+            متاهل
+          </label>
+          <input class="form-check-input mr-2 mt-1" type="radio" style="width: 26px;height: 26px;border: 1px solid #808080;box-sizing: border-box;background-color: #00AF27!important;" name="exampleRadios" id="input55" value="option1" >
+
+          <label class="form-check-label font-weight-bold mr-5 pr-5 text-left" for="input65">
+            سایر
+          </label>
+          <input class="form-check-input mr-2 mt-1" type="radio" style="width: 26px;height: 26px;border: 1px solid #808080;box-sizing: border-box;background-color: #00AF27!important;" name="exampleRadios" id="input65" value="option1" >
 
         </div>
+
       </div>
       <div class="row mt-4">
         <div class="col-md-4 text-right">
@@ -317,13 +337,13 @@
         </div>
         <div class="col-md-12 text-right mt-3 mb-5">
           <label for="input10" style="font-size: 20px;font-weight: bold">آدرس ارسالی</label>
-          <textarea  class="form-control position-relative" id="input10"  rows="6" style="border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px;"></textarea>
+          <textarea  class="form-control position-relative" id="input10"  rows="5" style="border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px;"></textarea>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4 text-right">
           <label for="input11" style="font-size: 20px;font-weight: bold">حوزه همکاری</label>
-          <select class="form-control" style="border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px; height: 60px;">
+          <select id="input11" class="form-control" style="border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px; height: 60px;">
             <option></option>
             <option></option>
           </select>
@@ -331,13 +351,16 @@
         <div class="col-md-4 text-right">
           <label for="" style="font-size: 20px;font-weight: bold">میزان تسلط به زبان انگلیسی</label>
           <select class="form-control" style="border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px; height: 60px;">
-            <option></option>
-            <option></option>
+            <option>خیلی خوب</option>
+            <option>متوسط</option>
+            <option>کم</option>
+            <option>در حد سلام کردن</option>
           </select>
         </div>
         <div class="col-md-4 text-right">
           <label for="inp1" style="font-size: 20px;font-weight: bold">ارسال رزومه</label>
-          <input id="inp1" class="form-control" style="background: #E5E5E5;border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px;width: 400px;height: 60px;"/>
+          <input type="file" id="inp1" class="form-control" hidden/>
+          <div class="text-center pt-3" onclick="$('#inp1').click()" style="background: #E5E5E5;border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px;height: 60px;">choose file</div>
         </div>
       </div>
       <div class="text-center mt-5">
@@ -345,7 +368,7 @@
       </div>
     </form>
   </div>
-  <!--  end-form-signin-->
+  <!--  end-form-sign-in-->
 </div>
   <!--  start-more-about-us-->
 

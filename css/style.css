@@ -101,6 +101,18 @@
     text-align: center;
     border-radius: 10%;
 }
+.menu-overlays {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    width: 160px;
+    height: 160px;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.5) 15.1%, rgba(0, 0, 0, 0.01) 100%);
+    color: #fff;
+    text-align: center;
+    border-radius: 10%;
+}
+
 .menu-homepage-overlay {
     position: absolute;
     top: 0;
@@ -223,4 +235,24 @@ a.faq-activate:active{
     border: 2px solid #005887;
     box-sizing: border-box;
     border-radius: 22px;
+}
+.menu-selected{
+   width: fit-content;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    background-color: white;
+    padding: 2px 2px 4px 2px;
+}
+input[type='radio']:checked:after {
+    width: 22px;
+    height: 22px;
+    border-radius: 15px;
+    top: 2px;
+    right: 2px;
+    position: relative;
+    background-color: #00AF27;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white!important;
 }
