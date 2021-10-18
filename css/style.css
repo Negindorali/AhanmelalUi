@@ -113,17 +113,17 @@
     border-radius: 10%;
 }
 
-.menu-homepage-overlay {
-    position: absolute;
-    top: 0;
-    right: 2.3rem;
-    width: 105px;
-    height: 423px;
-    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.4) 15.1%, rgba(0, 0, 0, 0.13) 35.94%, rgba(0, 0, 0, 0) 100%);
-    border-radius: 16px;
-    color: #fff;
-    text-align: center;
-}
+/*.menu-homepage-overlay {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    right: 2.3rem;*/
+/*    width: 105px;*/
+/*    height: 423px;*/
+/*    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.4) 15.1%, rgba(0, 0, 0, 0.13) 35.94%, rgba(0, 0, 0, 0) 100%);*/
+/*    border-radius: 16px;*/
+/*    color: #fff;*/
+/*    text-align: center;*/
+/*}*/
 
 .btn-filter-factory:hover{
     background: #347BA1;
