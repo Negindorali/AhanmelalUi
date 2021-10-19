@@ -288,5 +288,28 @@ input[type='radio']:checked:after {
     width: 45%;
 }
 
+.zoom {
 
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
 
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom)*/
+}
+
+.paginate:hover{
+    border: 2px solid #495F9E;
+    border-radius: 5px;
+}
+
+.paginate{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+a.last-price-changes.active{
+    border-bottom: 4px solid #007BFF!important;
+    box-sizing: border-box;
+}

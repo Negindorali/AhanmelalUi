@@ -180,6 +180,21 @@
     </nav>
     <!--end-product-menu-->
 
+    <!--    start-diagram-modal-->
+    <div class="modal fade " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="  m-4 pt-5 pr-5 pl-5 pb-5 position-relative" style="background: rgba(31, 31, 31, 0.11);backdrop-filter: blur(6px);border-radius: 20px;">
+                <div class=" p-3" style="background: rgba(240, 244, 245, 0.27);box-shadow: 3px 3px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 8px;border:5px solid #4C4C4C">
+                    <canvas id="myChart" width="900" height="320"></canvas>
+                </div>
+                <div class="position-absolute" style="left: 0%">
+                    <a href="" class="btn mr-5 " ><i style="background-color:  #E04F5F;border-radius: 50%" class="fa fa-times p-2 text-white "></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    start-diagram-modal-->
+
     <!--start-last-all-products-prices-->
     <div class="text-center mt-5" style="font-family: irsans;">
         <p class="font-weight-bold" style="font-size:18pt ">آخرین تغییرات قیمت ها</p>
@@ -187,13 +202,13 @@
     <div class="col-md-12 mx-auto" style="font-family: irsans">
         <div class="row justify-content-center mt-5">
             <div class="col-md-1 text-center">
-                <a href="" class="text-dark" style="text-decoration: none;font-size: 16.25pt">همه</a>
+                <a href="#" class="text-dark last-price-changes active" style="text-decoration: none;font-size: 16.25pt">همه</a>
             </div>
             <div class="col-md-1 text-center">
-                <a href="" class="text-dark" style="text-decoration: none;font-size: 16.25pt">افزایش ها</a>
+                <a href="#" class="text-dark last-price-changes" style="text-decoration: none;font-size: 16.25pt">افزایش ها</a>
             </div>
             <div class="col-md-1 text-center">
-                <a href="" class="text-dark" style="text-decoration: none;font-size: 16.25pt">کاهش ها</a>
+                <a href="#" class="text-dark last-price-changes" style="text-decoration: none;font-size: 16.25pt">کاهش ها</a>
             </div>
         </div>
 
@@ -213,27 +228,34 @@
                     <th scope="row"><i class="fas fa-caret-down fa-2x pl-3" style="color:#B42332"></i>ورق شرکت فولاد تاراز چهارمحال</th>
                     <td class="pt-4" style="font-size: 15pt">۲,۷۵۰</td>
                     <td class="pt-4" style="font-size: 15pt;color:#299A17 "> ٪ ۵</td>
-                    <td style="font-size: 15pt"><a href=""><img src="../images/MomnetedNews/Group%20444.svg"></a></td>
+                    <td style="font-size: 15pt"><a href="" class="diagramModal"><img src="../images/MomnetedNews/Group%20444.svg"></a></td>
                     <td class="pt-4" style="font-size: 15pt;color: #B42332">۳ ساعت پیش</td>
                 </tr>
                 <tr class="font-weight-bold ">
                     <th scope="row"><i class="fas fa-caret-down fa-2x pl-3" style="color:#B42332"></i>ورق شرکت فولاد تاراز چهارمحال</th>
                     <td class="pt-4" style="font-size: 15pt">۲,۷۵۰</td>
                     <td class="pt-4" style="font-size: 15pt;color:#299A17 "> ٪ ۵</td>
-                    <td style="font-size: 15pt"><a href=""><img src="../images/MomnetedNews/Group%20444.svg"></a></td>
+                    <td style="font-size: 15pt"><a href="" class="diagramModal"><img src="../images/MomnetedNews/Group%20444.svg"></a></td>
                     <td class="pt-4" style="font-size: 15pt;color: #B42332">۳ ساعت پیش</td>
                 </tr>
                 <tr class="font-weight-bold ">
                     <th scope="row"><i class="fas fa-caret-down fa-2x pl-3" style="color:#B42332"></i>ورق شرکت فولاد تاراز چهارمحال</th>
                     <td class="pt-4" style="font-size: 15pt">۲,۷۵۰</td>
                     <td class="pt-4" style="font-size: 15pt;color:#299A17 "> ٪ ۵</td>
-                    <td style="font-size: 15pt"><a href=""><img src="../images/MomnetedNews/Group%20444.svg"></a></td>
+                    <td style="font-size: 15pt"><a href="" class="diagramModal"><img src="../images/MomnetedNews/Group%20444.svg"></a></td>
                     <td class="pt-4" style="font-size: 15pt;color: #B42332">۳ ساعت پیش</td>
                 </tr>
                 </tbody>
             </table>
             <div>
-
+                <div class="row justify-content-center">
+                    <i class="fas fa-chevron-right fa-2x mr-3 mt-3 pt-2" style="color: #495F9E"></i>
+                    <a href="" class="text-dark p-1 pr-2 pl-2 m-3 paginate" style="font-size: 18pt;text-decoration: none">1</a>
+                    <a href="" class="text-dark p-1 pr-2 pl-2 m-3 paginate" style="font-size: 18pt;text-decoration: none">2</a>
+                    <a href="" class="text-dark p-1 pr-2 pl-2 m-3 paginate" style="font-size: 18pt;text-decoration: none">3</a>
+                    <a href="" class="text-dark p-1 pr-2 pl-2 m-3 paginate" style="font-size: 18pt;text-decoration: none">4</a>
+                    <i class="fas fa-chevron-left fa-2x mr-3 mt-3 pt-2" style="color: #495F9E"></i>
+                </div>
             </div>
         </div>
     </div>
@@ -293,25 +315,37 @@
                    <th scope="row"><i class="fas fa-caret-down fa-2x pl-3" style="color:#B42332"></i>ورق شرکت فولاد تاراز چهارمحال</th>
                    <td class="pt-4" style="font-size: 15pt">۲,۷۵۰</td>
                    <td class="pt-4" style="font-size: 15pt;color:#299A17 "> ٪ ۵</td>
-                   <td style="font-size: 15pt"><a href=""><img src="../images/MomnetedNews/Group%20444.svg"></a></td>
+                   <td style="font-size: 15pt"><a href="" class="diagramModal"><img src="../images/MomnetedNews/Group%20444.svg"></a></td>
                    <td class="pt-4" style="font-size: 15pt;color: #B42332">۳ ساعت پیش</td>
                </tr>
                <tr class="font-weight-bold ">
                    <th scope="row"><i class="fas fa-caret-down fa-2x pl-3" style="color:#B42332"></i>ورق شرکت فولاد تاراز چهارمحال</th>
                    <td class="pt-4" style="font-size: 15pt">۲,۷۵۰</td>
                    <td class="pt-4" style="font-size: 15pt;color:#299A17 "> ٪ ۵</td>
-                   <td style="font-size: 15pt"><a href=""><img src="../images/MomnetedNews/Group%20444.svg"></a></td>
+                   <td style="font-size: 15pt"><a href="#" class="diagramModal"><img src="../images/MomnetedNews/Group%20444.svg"></a>
+
+                   </td>
                    <td class="pt-4" style="font-size: 15pt;color: #B42332">۳ ساعت پیش</td>
                </tr>
                <tr class="font-weight-bold ">
                    <th scope="row"><i class="fas fa-caret-down fa-2x pl-3" style="color:#B42332"></i>ورق شرکت فولاد تاراز چهارمحال</th>
                    <td class="pt-4" style="font-size: 15pt">۲,۷۵۰</td>
                    <td class="pt-4" style="font-size: 15pt;color:#299A17 "> ٪ ۵</td>
-                   <td style="font-size: 15pt"><a href=""><img src="../images/MomnetedNews/Group%20444.svg"></a></td>
+                   <td style="font-size: 15pt"><a href="#" class="diagramModal"><img src="../images/MomnetedNews/Group%20444.svg"></a></td>
                    <td class="pt-4" style="font-size: 15pt;color: #B42332">۳ ساعت پیش</td>
                </tr>
                </tbody>
            </table>
+           <div>
+               <div class="row justify-content-center">
+                   <i class="fas fa-chevron-right fa-2x mr-3 mt-3 pt-2" style="color: #495F9E"></i>
+                   <a href="" class="text-dark p-1 pr-2 pl-2 m-3 paginate" style="font-size: 18pt;text-decoration: none">1</a>
+                   <a href="" class="text-dark p-1 pr-2 pl-2 m-3 paginate" style="font-size: 18pt;text-decoration: none">2</a>
+                   <a href="" class="text-dark p-1 pr-2 pl-2 m-3 paginate" style="font-size: 18pt;text-decoration: none">3</a>
+                   <a href="" class="text-dark p-1 pr-2 pl-2 m-3 paginate" style="font-size: 18pt;text-decoration: none">4</a>
+                   <i class="fas fa-chevron-left fa-2x mr-3 mt-3 pt-2" style="color: #495F9E"></i>
+               </div>
+           </div>
            <div>
 
            </div>
@@ -409,6 +443,59 @@
 <script src="../js/main.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+<script>
+    var ctx = document.getElementById('myChart').getContext('2d');
 
+    var stars = [2, 250, 80, 960, 150, 40]
+    var months = ['۲مرداد', '۴مرداد', '۶مرداد', '۸مرداد', '۱۰ مرداد'];
+
+    var gradient = ctx.createLinearGradient(0, 0, 0, 400);
+    gradient.addColorStop(0, 'rgb(111,66,193)');
+    gradient.addColorStop(1, 'rgba(255,255,255,0.25)');
+
+    var myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: months,
+            datasets: [{
+                data: stars,
+                label: "wow",
+                backgroundColor: gradient,
+                hoverBackgroundColor: gradient,
+                borderColor: 'rgba(66, 47, 138, 0.87)',
+                borderWidth: 4
+            }]
+        },
+        options: {
+            legend: {
+                display: false
+            },
+            tooltips: {
+                callbacks: {
+                    label: function(tooltipItem) {
+                        return tooltipItem.yLabel;
+                    }
+                }
+            }
+        }
+    })
+
+    $(".ng_panel_button").click(function (event) {
+        event.preventDefault();
+        const id=$(this).attr('href');
+        $("a.active").removeClass("active");
+        $(this).addClass("active");
+        $(".ng_panel.active").removeClass("active").hide();
+        $(id).addClass("active").show();
+    });
+
+    $('.diagramModal').click(function (e){
+        e.preventDefault();
+        $('#exampleModal').modal();
+
+    })
+
+
+</script>
 </body>
 </html>
