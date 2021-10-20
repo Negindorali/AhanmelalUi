@@ -113,16 +113,27 @@
     border-radius: 10%;
 }
 
-/*.menu-homepage-overlay {*/
+.menu-homepage-overlay {
+    position: absolute;
+    top: 0;
+    right: 3rem;
+    width: 105px;
+    height: 423px;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.4) 15.1%, rgba(0, 0, 0, 0.13) 35.94%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 16px;
+    color: #fff;
+    text-align: center;
+}
+/*.menu-homepage-overlay:hover {*/
 /*    position: absolute;*/
 /*    top: 0;*/
 /*    right: 2.3rem;*/
 /*    width: 105px;*/
 /*    height: 423px;*/
-/*    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.4) 15.1%, rgba(0, 0, 0, 0.13) 35.94%, rgba(0, 0, 0, 0) 100%);*/
+/*    background: linear-gradient(0deg, rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)), linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.5) 15.1%, rgba(0, 0, 0, 0.01) 100%);*/
 /*    border-radius: 16px;*/
 /*    color: #fff;*/
-/*    text-align: center;*/
+
 /*}*/
 
 .btn-filter-factory:hover{
@@ -197,7 +208,7 @@
     background: #C7B7E6 !important;
 
 }
-a.faq-activate:active{
+a.faq-activate.active{
     border-bottom: 4px solid #007BFF!important;
     box-sizing: border-box;
 }
@@ -211,23 +222,16 @@ a.faq-activate:active{
     display: inline-block;
     margin-right: 15px;
 }
-/*#brightness:hover {*/
-/*    -webkit-filter: brightness(.2);*/
-/*    filter: brightness(.15);*/
-/*}*/
+#brightness:hover {
+    -webkit-filter: brightness(.2);
+    filter: brightness(.15);
+}
 
-/*.menu-homepage-overlay:hover {*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    right: 2.3rem;*/
-/*    width: 105px;*/
-/*    height: 423px;*/
-/*    background: linear-gradient(0deg, rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)), linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.5) 15.1%, rgba(0, 0, 0, 0.01) 100%);*/
-/*    border-radius: 16px;*/
-/*    color: #fff;*/
-/*    text-align: center;*/
-/*}*/
-.part-section:active{
+.menu-homepage-overlay p:hover {
+    transform: translateY(10%);
+}
+
+.part-section.active{
     border-bottom: 4px solid #BB2717;
     box-sizing: border-box;
 }

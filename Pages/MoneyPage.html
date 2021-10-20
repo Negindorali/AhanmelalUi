@@ -583,14 +583,82 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
 <script>
-  $(".faq-activate").click(function (event) {
+  var ctx = document.getElementById('myChart').getContext('2d');
+
+  var stars = [2, 250, 80, 960, 150, 40]
+  var months = ['۲مرداد', '۴مرداد', '۶مرداد', '۸مرداد', '۱۰ مرداد'];
+
+  var gradient = ctx.createLinearGradient(0, 0, 0, 400);
+  gradient.addColorStop(0, 'rgb(111,66,193)');
+  gradient.addColorStop(1, 'rgba(255,255,255,0.25)');
+
+
+
+  var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: months,
+      datasets: [{
+        data: stars,
+        label: "wow",
+        backgroundColor: gradient,
+        hoverBackgroundColor: gradient,
+        borderColor: 'rgba(66, 47, 138, 0.87)',
+        borderWidth: 4,
+        pointBorderColor: 'rgb(255,255,255)',
+        pointRadius: 10,
+        pointHoverRadius:10,
+
+
+      }]
+    },
+    options: {
+      legend: {
+        display: false,
+        labels: {
+          display: true,
+          fontFamily:''
+        },
+      },
+      tooltips: {
+        backgroundColor:'white',
+        bodyFontSize:22,
+        bodyFontFamily:'irsans',
+        bodyFontColor:'black',
+        bodyAlign:'center',
+        xPadding:10,
+        yPadding:5,
+        rtl:true,
+        Position:'average',
+        callbacks: {
+          label: function(tooltipItem) {
+            return tooltipItem.yLabel;
+          },
+          titleFontColor:'black',
+          labelColor: function(context) {
+            return {
+              borderWidth: 2,
+            };
+          },
+          labelTextColor: function(context) {
+            return '#543453';
+          }
+        }
+      },
+    }
+  })
+
+
+  $(".ng_panel_button").click(function (event) {
     event.preventDefault();
     const id=$(this).attr('href');
     $("a.active").removeClass("active");
     $(this).addClass("active");
-    $(".faq-panel.active").removeClass("active").hide();
+    $(".ng_panel.active").removeClass("active").hide();
     $(id).addClass("active").show();
   });
+
+
 </script>
 </body>
 </html>
