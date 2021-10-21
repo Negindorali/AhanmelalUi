@@ -367,8 +367,8 @@
     </div>
     <br>
     <!--end-product-table-->
-</div>
-<!--end-main-contents-->
+    </div>
+   <!--end-main-contents-->
 
 <!--start-footer-->
 <footer class="mt-5">
@@ -468,6 +468,8 @@
     gradient.addColorStop(0, 'rgb(111,66,193)');
     gradient.addColorStop(1, 'rgba(255,255,255,0.25)');
 
+
+
     var myChart = new Chart(ctx, {
         type: 'line',
         data: {
@@ -478,22 +480,50 @@
                 backgroundColor: gradient,
                 hoverBackgroundColor: gradient,
                 borderColor: 'rgba(66, 47, 138, 0.87)',
-                borderWidth: 4
+                borderWidth: 4,
+                pointBorderColor: 'rgb(255,255,255)',
+                pointRadius: 10,
+                pointHoverRadius:10,
+
+
             }]
         },
         options: {
             legend: {
-                display: false
+                display: false,
+                labels: {
+                    display: true,
+                    fontFamily:''
+                },
             },
             tooltips: {
+                backgroundColor:'white',
+                bodyFontSize:22,
+                bodyFontFamily:'irsans',
+                bodyFontColor:'black',
+                bodyAlign:'center',
+                xPadding:10,
+                yPadding:5,
+                rtl:true,
+                Position:'average',
                 callbacks: {
                     label: function(tooltipItem) {
                         return tooltipItem.yLabel;
+                    },
+                    titleFontColor:'black',
+                    labelColor: function(context) {
+                        return {
+                            borderWidth: 2,
+                        };
+                    },
+                    labelTextColor: function(context) {
+                        return '#543453';
                     }
                 }
-            }
+            },
         }
     })
+
 
     $(".ng_panel_button").click(function (event) {
         event.preventDefault();
