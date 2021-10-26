@@ -317,3 +317,6 @@ a.last-price-changes.active{
     border-bottom: 4px solid #007BFF!important;
     box-sizing: border-box;
 }
+.targets{
+    background-color:rgba(111, 66, 193, 0.17);
+}
