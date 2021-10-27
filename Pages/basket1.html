@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="../font/fontawesome-free-5.15.4-web/css/regular.min.css">
 </head>
 <body dir="rtl" style="background-color: rgba(237, 243, 245, 1)">
+
 <div class="container-fluid">
 
     <!--  start-nav-menu-->
@@ -69,7 +70,7 @@
     <!--  end-nav-menu-->
 
     <!--start-product-menu-->
-    <nav class=" navbar navbar-expand-md" style="font-family: irsans;border-bottom: 2px solid #005887;" >
+    <nav class=" navbar navbar-expand-md" style="font-family: irsans;border-bottom: 2px solid #005887;">
         <ul class="col-md col-md-12 navbar-nav " style="font-family: irsans;">
 
             <li class="col-md nav-item dropdown">
@@ -102,7 +103,7 @@
                 <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">قیمت ورق سیاه</a>
                     <a class="dropdown-item" href="#">قیمت ورق گالوانیزه</a>
-                    <a class="dropdown-item" href="#">قیمت  عرشه فولادی</a>
+                    <a class="dropdown-item" href="#">قیمت عرشه فولادی</a>
                     <a class="dropdown-item" href="#">قیمت ورق رنگی</a>
                     <a class="dropdown-item" href="#">قیمت ورق روغنی</a>
                     <a class="dropdown-item" href="#">قیمت ورق اسیدشویی</a>
@@ -175,103 +176,142 @@
 
     <!--    start-main-content-->
     <div class="row mx-auto mt-3">
-        <div class="bg-white col-md-2 mt-3" style="box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;">
-          <div class="ml-lg-5 pl-lg-5">
-              <img src="../images/shop/Ellipse%2070.png" alt="" class="img-fluid mt-4 mb-3 ">
-          </div>
+        <div class="bg-white col-md-2 mt-3 " style="box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;">
+            <div class="ml-lg-5 pl-lg-5">
+                <img src="../images/shop/Ellipse%2070.png" alt="" class="img-fluid mt-4 mb-3 ">
+            </div>
             <p class="text-center" style="font-size: 22px;font-family: irsans">سامان کیانی</p>
 
             <div class="row pb-3" style="border-bottom:  1px solid #9F9F9F;">
                 <img src="../images/shop/Vector%20(1).svg" alt="" class="mr-4">
                 <img src="../images/shop/Vector.svg" alt="" class="mr-4">
             </div>
-
-            <div class="col-md" style="font-family: irsans;min-height: 50%;">
-                <button class="btn btn-dashboard btn-block mt-3 font-weight-bold "><i class="fa fa-user pl-3" style="color: #005887"></i>تنظیمات حساب کاربری</button>
-                <button class="btn btn-dashboard btn-block mt-3 font-weight-bold "><i class="fas fa-clipboard-list pl-3" style="color: #005887"></i>تاریخچه سفارش ها</button>
+            <div class="col-md position-relative" style="font-family: irsans;">
+                <a class="btn-dashboard mt-4 font-weight-bold d-block text-right " style="color: black;text-decoration: none;font-size: 15pt"><i class="fa fa-user pl-3" style="color: #005887"></i>تنظیمات حساب
+                    کاربری</a>
+                <a class="d-block btn-dashboard mt-4 font-weight-bold text-right " style="color: black;text-decoration: none;font-size: 15pt"><i class="fas fa-clipboard-list pl-3" style="color: #005887"></i>تاریخچه
+                    سفارش ها</a>
             </div>
-
-            <div class="mt-1" style="font-family: irsans">
-                <button class="btn btn-block font-weight-bold py-2" style="border: 3px solid #005887;box-sizing: border-box;border-radius: 8px;font-family: irsans;">درخواست پشتیبانی فوری</button>
+            <div class="mt-1 mb-3" style="font-family: irsans;position:absolute;bottom: 0;">
+                <button class="btn btn-block font-weight-bold py-2 px-5 mx-1" style="border: 3px solid #005887;box-sizing: border-box;border-radius: 8px;font-family: irsans;">درخواست پشتیبانی فوری</button>
             </div>
-
         </div>
         <div class="col-md mr-4">
             <img src="../images/shop/hero.png" alt="" class="col">
             <div class="col-md-12 mt-5">
                 <div class="row mr-2">
-                    <a class="btn shop-btn-category" style="font-family: irsans;font-size: 22px">در انتظار پرداخت</a>
-                    <a class="btn  mr-3" style="font-family: irsans;font-size: 22px">در حال ارسال</a>
-                    <a class="btn  mr-3" style="font-family: irsans;font-size: 22px">تحویل شده</a>
-                    <a class="btn  mr-3" style="font-family: irsans;font-size: 22px">تحویل نشده</a>
+                    <a class="btn shop-btn-category active" style="font-family: irsans;font-size: 22px">در انتظار پرداخت</a>
+                    <a class="btn  mr-3 shop-btn-category" style="font-family: irsans;font-size: 22px">در حال ارسال</a>
+                    <a class="btn  mr-3 shop-btn-category" style="font-family: irsans;font-size: 22px">تحویل شده</a>
+                    <a class="btn  mr-3 shop-btn-category" style="font-family: irsans;font-size: 22px">تحویل نشده</a>
                 </div>
-                <table class="table mt-4 mb-0" style=" border-collapse:separate;border-spacing:0 15px;  ">
-                    <thead class="mt-4 " style="filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.25));">
-                    <tr class="mb-5 text-center bg-white" style="font-family: irsans;clip-path: inset(0% 0% 0 0% round 15px);">
-                        <th scope="col" class="pt-3 pb-3" style="color: rgba(0, 88, 135, 1);font-size: 20px;">شماره سفارش</th>
-                        <th scope="col" class="pt-3 pb-3" style="color: rgba(0, 88, 135, 1);font-size: 20px">نام سفارش</th>
-                        <th scope="col" class="pt-3 pb-3" style="color: rgba(0, 88, 135, 1);font-size: 20px">تاریخ سفارش</th>
-                        <th scope="col" class="pt-3 pb-3" style="color: rgba(0, 88, 135, 1);font-size: 20px">قیمت کل</th>
-                        <th scope="col" class="pt-3 pb-3" style="color: rgba(0, 88, 135, 1);font-size: 20px"></th>
-                        <th scope="col" class="pt-3 pb-3" style="color: rgba(0, 88, 135, 1);font-size: 20px"></th>
-                    </tr>
-                    </thead>
-                    <tbody class="mt-5" style="font-family: irsans;">
-                    <tr class="mt-4 text-center" style="filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.25));">
-                        <td class="bg-white pt-5 pb-5" style="clip-path: inset(0% 0% 0 -49% round 7px);" scope="row">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1" style="border: 1px solid rgba(0, 0, 0, 0.5);box-sizing: border-box;border-radius: 5px;width: 25px;height: 25px">
-                            <label class="form-check-label pr-5" for="exampleCheck1" style="font-size: 19px;">۹۸۷۷۴۴۶۵</label>
-                        </td>
-                        <td class="bg-white pt-5">میلگرد آجدار ذوب آهن</td>
-                        <td class="bg-white pt-5">۱۴۰۰/۴/۷</td>
-                        <td class="bg-white pt-5">۳,۲۸۰,۰۰۰ <span style="font-size: 20px">تومان</span></td>
-                        <td class="bg-white pt-5">
-                            <button class="btn" style="border: 1px solid #9F9F9F;box-sizing: border-box;border-radius: 8px;color: rgba(0, 0, 0, 0.6);">جزییات سفارش</button>
-                        </td>
-                        <td class="bg-white pt-5" style="clip-path: inset(0% -30% 0% 0% round 7px);">
-                            <button class="btn " style="border: 1px solid #9F9F9F;box-sizing: border-box;border-radius: 8px;color: rgba(0, 0, 0, 0.6);" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">حذف
-                            </button>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
+
+                <div class="col-md-12 mt-4 " style="background: #FFFFFF;box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);border-radius: 16px; font-family: irsans">
+                    <ul class="nav nav-justified pb-1 " style="font-size: 16.25pt;color: rgba(255, 0, 0, 0.88);">
+                        <li class="nav-item pt-2 pb-2 text-right" style="color: rgba(0, 88, 135, 1);font-size: 15pt">شماره سفارش</li>
+                        <li class="nav-item pt-2 pb-2 text-right pr-5" style="color: rgba(0, 88, 135, 1);font-size: 15pt">نام سفارش</li>
+                        <li class="nav-item pt-2 pb-2 text-right pr-5" style="color: rgba(0, 88, 135, 1);font-size: 15pt">تاریخ سفارش</li>
+                        <li class="nav-item pt-2 pb-2 text-right pr-5" style="color: rgba(0, 88, 135, 1);font-size: 15pt">قیمت کل</li>
+                        <li class="nav-item pt-2 pb-2 text-right pr-5"></li>
+                        <li class="nav-item pt-2 pb-2 text-right pr-5"></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-12 mx-auto mt-4 pt-3 pb-2 font-weight-bold" style="background: #FFFFFF;box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);border-radius: 16px;font-family: irsans">
+                    <ul class="nav nav-justified pb-2 px-2" >
+                        <li class="nav-item pt-3 pb-3 text-right" style="font-size: 14.25pt">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1" style="border: 1px solid rgba(0, 0, 0, 0.5);box-sizing: border-box;border-radius: 10px!important;width: 20px;height:
+                            20px">
+                            <label class="form-check-label pr-5" for="exampleCheck1" style="font-size: 14.25pt;">۹۸۷۷۴۴۶۵</label>
+                        </li>
+                        <li class="nav-item pt-3 pb-3 text-right" style="font-size: 14.25pt">میلگرد آجدار ذوب آهن</li>
+                        <li class="nav-item pt-3 pb-3 text-right pr-5 mr-4" style="font-size: 14.25pt">۱۴۰۰/۴/۷</li>
+                        <li class="nav-item pt-3 pb-3 text-right" style="font-size: 14.25pt">۳,۲۸۰,۰۰۰ تومان</li>
+                        <li class="nav-item pt-3 pb-3"><button class="btn btn-outline-dark py-2 px-5" style="border-radius: 8px;font-size: 15pt">جزییات سفارش</button></li>
+                        <li class="nav-item pt-3 pb-3"><button class="btn btn-outline-dark py-2 px-3" style="border-radius: 8px;font-size: 15pt">حذف</button></li>
+                    </ul>
+                </div>
+                <div class="col-md-12 mx-auto mt-4 pt-3 pb-2 font-weight-bold" style="background: #FFFFFF;box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);border-radius: 16px;font-family: irsans">
+                    <ul class="nav nav-justified pb-2 px-2" >
+                        <li class="nav-item pt-3 pb-3 text-right" style="font-size: 14.25pt">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1" style="border: 1px solid rgba(0, 0, 0, 0.5);box-sizing: border-box;border-radius: 10px!important;width: 20px;height:
+                            20px">
+                            <label class="form-check-label pr-5" for="exampleCheck1" style="font-size: 14.25pt;">۹۸۷۷۴۴۶۵</label>
+                        </li>
+                        <li class="nav-item pt-3 pb-3 text-right" style="font-size: 14.25pt">میلگرد آجدار ذوب آهن</li>
+                        <li class="nav-item pt-3 pb-3 text-right pr-5 mr-4" style="font-size: 14.25pt">۱۴۰۰/۴/۷</li>
+                        <li class="nav-item pt-3 pb-3 text-right" style="font-size: 14.25pt">۳,۲۸۰,۰۰۰ تومان</li>
+                        <li class="nav-item pt-3 pb-3"><button class="btn btn-outline-dark py-2 px-5" style="border-radius: 8px;font-size: 15pt">جزییات سفارش</button></li>
+                        <li class="nav-item pt-3 pb-3"><button class="btn btn-outline-dark py-2 px-3" style="border-radius: 8px;font-size: 15pt">حذف</button></li>
+                    </ul>
+                </div>
+                <div class="col-md-12 mx-auto mt-4 pt-3 pb-2 font-weight-bold" style="background: #FFFFFF;box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);border-radius: 16px;font-family: irsans">
+                    <ul class="nav nav-justified pb-2 px-2" >
+                        <li class="nav-item pt-3 pb-3 text-right" style="font-size: 14.25pt">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1" style="border: 1px solid rgba(0, 0, 0, 0.5);box-sizing: border-box;border-radius: 10px!important;width: 20px;height:
+                            20px">
+                            <label class="form-check-label pr-5" for="exampleCheck1" style="font-size: 14.25pt;">۹۸۷۷۴۴۶۵</label>
+                        </li>
+                        <li class="nav-item pt-3 pb-3 text-right" style="font-size: 14.25pt">میلگرد آجدار ذوب آهن</li>
+                        <li class="nav-item pt-3 pb-3 text-right pr-5 mr-4" style="font-size: 14.25pt">۱۴۰۰/۴/۷</li>
+                        <li class="nav-item pt-3 pb-3 text-right" style="font-size: 14.25pt">۳,۲۸۰,۰۰۰ تومان</li>
+                        <li class="nav-item pt-3 pb-3"><button class="btn btn-outline-dark py-2 px-5" style="border-radius: 8px;font-size: 15pt">جزییات سفارش</button></li>
+                        <li class="nav-item pt-3 pb-3"><button class="btn btn-outline-dark py-2 px-3" style="border-radius: 8px;font-size: 15pt">حذف</button></li>
+                    </ul>
+                </div>
+                <div class="col-md-12 mx-auto mt-4 pt-3 pb-2 font-weight-bold" style="background: #FFFFFF;box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);border-radius: 16px;font-family: irsans">
+                    <ul class="nav nav-justified pb-2 px-2" >
+                        <li class="nav-item pt-3 pb-3 text-right" style="font-size: 14.25pt">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1" style="border: 1px solid rgba(0, 0, 0, 0.5);box-sizing: border-box;border-radius: 10px!important;width: 20px;height:
+                            20px">
+                            <label class="form-check-label pr-5" for="exampleCheck1" style="font-size: 14.25pt;">۹۸۷۷۴۴۶۵</label>
+                        </li>
+                        <li class="nav-item pt-3 pb-3 text-right" style="font-size: 14.25pt">میلگرد آجدار ذوب آهن</li>
+                        <li class="nav-item pt-3 pb-3 text-right pr-5 mr-4" style="font-size: 14.25pt">۱۴۰۰/۴/۷</li>
+                        <li class="nav-item pt-3 pb-3 text-right" style="font-size: 14.25pt">۳,۲۸۰,۰۰۰ تومان</li>
+                        <li class="nav-item pt-3 pb-3"><button class="btn btn-outline-dark py-2 px-5" style="border-radius: 8px;font-size: 15pt">جزییات سفارش</button></li>
+                        <li class="nav-item pt-3 pb-3"><button class="btn btn-outline-dark py-2 px-3" style="border-radius: 8px;font-size: 15pt">حذف</button></li>
+                    </ul>
+                </div>
             </div>
         </div>
 
     </div>
     <div>
-        <button class="btn px-5 ml-4 mt-3 text-white" style="background: #005887;border-radius: 8px;font-family: irsans;font-size: 20px">تاییداطلاعات و پرداخت</button>
+        <button class="btn px-5 ml-4 mt-4 text-white font-weight-bold" style="background: #005887;border-radius: 8px;font-family: irsans;font-size: 20px">تاییداطلاعات و پرداخت</button>
     </div>
     <!--    end-main-content-->
 
-    <div class="row position-relative mt-5 pb-5 " style="border-bottom: 1px solid #000000;font-family: irsans">
+    <br>
+    <div class="row position-relative mt-5 pb-5 font-weight-bold" style="border-bottom: 1px solid #000000;font-family: irsans">
         <p class="font-weight-bold mr-5 pr-5 mx-auto position-absolute" style="font-size: 18pt;top: -2rem;right: 46%;">پشتیبانی آهن ملل</p>
-        <a href="#" class="position-absolute text-center font-weight-bold text-dark pr-3 pl-3" style="background-color: rgba(237, 243, 245, 1); font-size: 21pt;text-decoration: none;right: 45.5%;bottom:-1.1rem">۳۵۰۲۰ - ۰۳۱ <img
-                src="../images/moneyPage/phone.png"></a>
+        <a href="#" class="position-absolute text-center font-weight-bold text-dark pr-3 pl-3" style="background-color: rgba(237, 243, 245, 1); font-size: 21pt;text-decoration: none;right: 45.5%;bottom:-1.1rem">۳۵۰۲۰
+            - ۰۳۱ <img
+                    src="../images/moneyPage/phone.png"></a>
     </div>
-
+    <br>
 </div>
 
 <!--start-footer-->
 <footer class="mt-5">
-    <div  style="background:linear-gradient(rgba(0, 0, 0, 0.68),rgba(0, 0, 0, 0.68)),url('../images/footer-img.png');background-repeat:no-repeat;background-size: 100% 100%">
+    <div style="background:linear-gradient(rgba(0, 0, 0, 0.68),rgba(0, 0, 0, 0.68)),url('../images/footer-img.png');background-repeat:no-repeat;background-size: 100% 100%">
         <div class=" row text-right mx-auto " style="font-family: irsans;color: white">
             <div class="col-md-3 mt-5 mb-5 pr-5 mx-auto" style="font-size: 20px">
                 <h4>دسترسی سریع</h4>
-                <a href="#" class="d-block "  style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3"  src="../images/Ellipse%2015.svg"> درباره ما</a>
-                <a href="#"  class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img  class="pl-3" src="../images/Ellipse%2015.svg">تماس با ما</a>
-                <a href="#"  class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img  class="pl-3" src="../images/Ellipse%2015.svg">استخدام</a>
-                <a href="#"  class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img  class="pl-3" src="../images/Ellipse%2015.svg">دانشنامه</a>
-                <a href="#"  class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img  class="pl-3" src="../images/Ellipse%2015.svg">اخبار</a>
-                <a href="#"  class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img  class="pl-3" src="../images/Ellipse%2015.svg">سوالات متداول</a>
+                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg"> درباره ما</a>
+                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">تماس با ما</a>
+                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">استخدام</a>
+                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">دانشنامه</a>
+                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">اخبار</a>
+                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">سوالات متداول</a>
             </div>
             <div class="col-md-3 mb-5 mt-5 mx-auto mr-4" style="font-size: 20px">
                 <h4>قیمت ها</h4>
 
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img  class="pl-3" src="../images/Ellipse%2015.svg">قیمت میلگرد</a>
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img  class="pl-3" src="../images/Ellipse%2015.svg">قیمت ورق</a>
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img  class="pl-3" src="../images/Ellipse%2015.svg">قیمت تیرآهن</a>
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img  class="pl-3" src="../images/Ellipse%2015.svg">قیمت لوله</a>
+                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">قیمت میلگرد</a>
+                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">قیمت ورق</a>
+                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">قیمت تیرآهن</a>
+                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">قیمت لوله</a>
             </div>
             <div class="col-md-3 row mt-5 mb-5 mx-auto">
                 <div class="row">
@@ -296,10 +336,10 @@
             </div>
             <div class="row mx-auto mb-4 ">
                 <div class="col-md-1 mx-auto">
-                    <a  href="#"><img src="../images/youtube.png" alt=""></a>
+                    <a href="#"><img src="../images/youtube.png" alt=""></a>
                 </div>
                 <div class="col-md-1 mx-auto">
-                    <a href="#">  <img src="../images/twitter.png" alt=""></a>
+                    <a href="#"> <img src="../images/twitter.png" alt=""></a>
                 </div>
                 <div class="col-md-1 mx-auto">
                     <a href="#"><img src="../images/linkin.png" alt=""></a>
@@ -339,5 +379,15 @@
 <script src="../js/main.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+<script>
+    $(".shop-btn-category").click(function (event) {
+        event.preventDefault();
+        const id = $(this).attr('href');
+        $("a.active").removeClass("active");
+        $(this).addClass("active");
+        $(".ng_panel.active").removeClass("active").hide();
+        $(id).addClass("active").show();
+    });
+</script>
 </body>
 </html>

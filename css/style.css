@@ -83,6 +83,7 @@
     color: black;
     text-decoration: none;
 }
+
 .ng_panel_button.active{
     border-bottom: 4px solid #007BFF;
 }
@@ -141,17 +142,19 @@
     border-radius: 68px;
     color: white;
 }
-.btn-filter-diagram:active{
+.btn-filter-diagram.active{
     background: #F4F7F8;
     border-radius: 8px;
 }
-.shop-btn-category{
+.shop-btn-category.active{
     border-bottom: 3px solid #C83838;
     font-weight: bold;
 }
+
 .btn-dashboard:hover{
     background: rgba(0, 88, 135, 0.39);
     border-radius: 8px;
+    padding: 5px;
 }
 
 .rightPointer::before {
