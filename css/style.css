@@ -161,7 +161,7 @@
     content: "";
     width: 13rem;
     height: 2px;
-    transform: translate(31px,5px) scaleX(1.2);
+    transform: translate(31px,5px) scaleX(1);
     background: #007bff;
     display: inline-block;
 }
