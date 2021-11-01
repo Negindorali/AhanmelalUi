@@ -33,12 +33,13 @@
     pointer-events: none;
     color: #aaa;
 }
+
 .project-tab {
     padding: 10%;
     margin-top: -8%;
 }
 
-.project-tab #tabs h6.section-title{
+.project-tab #tabs h6.section-title {
     color: #eee;
 }
 
@@ -62,35 +63,56 @@
     border: none;
 }
 
-.project-tab a{
+.project-tab a {
     text-decoration: none;
     color: #333;
     font-weight: 600;
     font-family: irsans;
 }
 
-.btn-filter:hover{
+.btn-filter:hover {
     background: #6F42C1;
     color: white;
     width: 140px;
     height: 50px;
 }
-.orders:hover{
+
+.orders:hover {
     background: rgba(111, 66, 193, 0.38);
     border-radius: 65px;
 }
-.ng_panel_button{
+
+.ng_panel_button {
     color: black;
     text-decoration: none;
 }
 
-.ng_panel_button.active{
+.ng_panel_button.active {
     border-bottom: 4px solid #007BFF;
 }
-.ng_panel_button:hover{
+
+.ng_panel_buttons {
+    color: black;
+    text-decoration: none;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.ng_panel_buttons:hover {
     color: black;
     text-decoration: none;
 }
+
+.ng_panel_buttons.active {
+    border-bottom: 4px solid #005887;
+
+}
+
+.ng_panel_button:hover {
+    color: black;
+    text-decoration: none;
+}
+
 .menu-overlay {
     position: absolute;
     top: 0;
@@ -102,6 +124,7 @@
     text-align: center;
     border-radius: 10%;
 }
+
 .menu-overlays {
     position: absolute;
     top: 0;
@@ -125,6 +148,7 @@
     color: #fff;
     text-align: center;
 }
+
 /*.menu-homepage-overlay:hover {*/
 /*    position: absolute;*/
 /*    top: 0;*/
@@ -137,21 +161,23 @@
 
 /*}*/
 
-.btn-filter-factory:hover{
+.btn-filter-factory:hover {
     background: #347BA1;
     border-radius: 68px;
     color: white;
 }
-.btn-filter-diagram.active{
+
+.btn-filter-diagram.active {
     background: #F4F7F8;
     border-radius: 8px;
 }
-.shop-btn-category.active{
+
+.shop-btn-category.active {
     border-bottom: 3px solid #C83838;
     font-weight: bold;
 }
 
-.btn-dashboard:hover{
+.btn-dashboard:hover {
     background: rgba(0, 88, 135, 0.39);
     border-radius: 8px;
     padding: 5px;
@@ -161,7 +187,7 @@
     content: "";
     width: 13rem;
     height: 2px;
-    transform: translate(31px,5px) scaleX(1);
+    transform: translate(31px, 5px) scaleX(1);
     background: #007bff;
     display: inline-block;
 }
@@ -170,49 +196,55 @@
     content: "";
     width: 11rem;
     height: 2px;
-    transform: translate(-13px,5px) scaleX(1.16);
+    transform: translate(-13px, 5px) scaleX(1.16);
     background: #007bff;
     display: inline-block;
     margin-right: 15px;
 }
+
 .rightPointer-title::before {
     content: "";
     width: 52rem;
     height: 1.5px;
-    transform: translate(30px,5px) scaleX(0.95);
+    transform: translate(30px, 5px) scaleX(0.95);
     background: #A82633;
     display: inline-block;
 }
+
 .leftPointer-title::after {
     content: "";
     width: 54rem;
     height: 1.5px;
-    transform: translate(-11px,5px) scaleX(0.94);
+    transform: translate(-11px, 5px) scaleX(0.94);
     background: #A82633;
     display: inline-block;
 }
+
 .leftPointer-phone::after {
     content: "";
     width: 30rem;
-    height:2px;
-    transform: translate(-11px,5px) scaleX(.99);
+    height: 2px;
+    transform: translate(-11px, 5px) scaleX(.99);
     background: #005887;
     display: inline-block;
 }
+
 .rightPointer-phone::before {
     content: "";
     width: 51rem;
     height: 2px;
-    transform: translate(-11px,5px) scaleX(.93);
+    transform: translate(-11px, 5px) scaleX(.93);
     background: #005887;
     display: inline-block;
 }
-.prices:hover{
+
+.prices:hover {
     background: #C7B7E6 !important;
 
 }
-a.faq-activate.active{
-    border-bottom: 4px solid #007BFF!important;
+
+a.faq-activate.active {
+    border-bottom: 4px solid #007BFF !important;
     box-sizing: border-box;
 }
 
@@ -220,11 +252,12 @@ a.faq-activate.active{
     content: "";
     width: 20rem;
     height: 2px;
-    transform: translate(-13px,5px) scaleX(1.16);
+    transform: translate(-13px, 5px) scaleX(1.16);
     background: #007bff;
     display: inline-block;
     margin-right: 15px;
 }
+
 #brightness:hover {
     -webkit-filter: brightness(.2);
     filter: brightness(.15);
@@ -234,22 +267,25 @@ a.faq-activate.active{
     transform: translateY(10%);
 }
 
-.part-section.active{
+.part-section.active {
     border-bottom: 4px solid #BB2717;
     box-sizing: border-box;
 }
-.phone:hover{
+
+.phone:hover {
     border: 2px solid #005887;
     box-sizing: border-box;
     border-radius: 22px;
 }
-.menu-selected{
-   width: fit-content;
+
+.menu-selected {
+    width: fit-content;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
     background-color: white;
     padding: 2px 2px 4px 2px;
 }
+
 input[type='radio']:checked:after {
     width: 22px;
     height: 22px;
@@ -261,12 +297,12 @@ input[type='radio']:checked:after {
     content: '';
     display: inline-block;
     visibility: visible;
-    border: 2px solid white!important;
+    border: 2px solid white !important;
 }
 
-.price-product-filter:hover{
-    background: #C7B7E6!important;
-    border-radius: 23.5px!important;
+.price-product-filter:hover {
+    background: #C7B7E6 !important;
+    border-radius: 23.5px !important;
 }
 
 .slider {
@@ -307,21 +343,23 @@ input[type='radio']:checked:after {
     transform: scale(1.5); /* (150% zoom)*/
 }
 
-.paginate:hover{
+.paginate:hover {
     border: 2px solid #495F9E;
     border-radius: 5px;
 }
 
-.paginate{
+.paginate {
     border: 2px solid white;
     border-radius: 5px;
 }
-a.last-price-changes.active{
-    border-bottom: 4px solid #007BFF!important;
+
+a.last-price-changes.active {
+    border-bottom: 4px solid #007BFF !important;
     box-sizing: border-box;
 }
-.targets{
-    background-color:rgba(111, 66, 193, 0.17);
+
+.targets {
+    background-color: rgba(111, 66, 193, 0.17);
 }
 
 
@@ -332,6 +370,7 @@ a.last-price-changes.active{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)), linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.5) 15.1%, rgba(0, 0, 0, 0.01) 100%);
 
 }
+
 #carousel {
     position: relative;
     height: 500px;
@@ -340,6 +379,7 @@ a.last-price-changes.active{
     overflow: hidden;
 
 }
+
 #carousel div {
     position: absolute;
     transition: transform 1s, left 1s, opacity 1s, z-index 0s;
@@ -353,64 +393,78 @@ a.last-price-changes.active{
     width: 400px;
     transition: width 1s;
 }
+
 #carousel div.hideLeft {
     left: 0%;
     opacity: 0;
     transform: translateY(50%) translateX(-50%);
 }
+
 #carousel div.hideLeft img {
     width: 200px;
 }
+
 #carousel div.hideRight {
     left: 100%;
     opacity: 0;
     transform: translateY(50%) translateX(-50%);
 }
+
 #carousel div.hideRight img {
     width: 200px;
 }
+
 #carousel div.prev {
     z-index: 5;
     left: 30%;
     transform: translateY(50px) translateX(-50%);
 }
+
 #carousel div.prev img {
     width: 300px;
 }
+
 #carousel div.prevLeftSecond {
     z-index: 4;
     left: 15%;
     transform: translateY(50%) translateX(-50%);
     opacity: 0.7;
 }
+
 #carousel div.prevLeftSecond img {
     width: 200px;
 }
+
 #carousel div.selected {
     left: 50%;
     transform: translateY(0px) translateX(-50%);
 }
+
 #carousel div.next {
     z-index: 5;
     left: 70%;
     transform: translateY(50px) translateX(-50%);
 }
+
 #carousel div.next img {
     width: 300px;
 }
+
 #carousel div.nextRightSecond {
     z-index: 4;
     left: 85%;
     transform: translateY(50%) translateX(-50%);
     opacity: 0.7;
 }
+
 #carousel div.nextRightSecond img {
     width: 200px;
 }
+
 .buttons {
     color: #444;
-            cursor: pointer;
-        transition: box-shadow 0.1s, top 0.1s;
+    cursor: pointer;
+    transition: box-shadow 0.1s, top 0.1s;
 }
 
 /*boot5*/
@@ -421,6 +475,7 @@ a.last-price-changes.active{
     border-right: 1px solid rgba(0, 0, 0, .2);
     transform: translateX(-100%)
 }
+
 .offcanvas {
     position: fixed;
     bottom: 0;
@@ -434,6 +489,7 @@ a.last-price-changes.active{
     outline: 0;
     transition: transform .3s ease-in-out
 }
+
 .offcanvas-header {
     display: flex;
     align-items: center;
@@ -497,10 +553,34 @@ a.last-price-changes.active{
 .offcanvas.show {
     transform: none
 }
+
 .offcanvas-end {
     top: 0;
     right: 0;
     width: 340px;
     border-left: 1px solid rgba(0, 0, 0, .2);
     transform: translateX(100%)
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgba(196, 196, 196, 0.4);
+    font-weight: bold;
+}
+
+.footer-style {
+    background: rgba(0, 88, 135, 0.02);
+    border: 1px solid rgba(0, 88, 135, 0.62);
+    box-sizing: border-box;
+    box-shadow: 1px 2px 4px rgba(0, 88, 135, 0.33);
+    border-radius: 4px;
+    width: 65px;
+    height: 45px;
+
+}
+
+p.footer-styles {
+    text-align: center;
+    font-size: 6pt;
+    font-family: irsans;
+    color: rgba(159, 159, 159, 1);
 }
