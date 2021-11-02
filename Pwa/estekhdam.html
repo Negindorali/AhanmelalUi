@@ -209,10 +209,10 @@
     </div>
     <!--  end-info-->
 
-    <!--    form1-->
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel"  data-interval="false">
         <div class="carousel-inner">
-            <div class="carousel-item active ">
+            <!--    form1-->
+            <div class="carousel-item active">
                 <div class="p-3" style="font-family: irsans">
                     <div class="col-12 mx-auto mb-5 pb-3" style="background: #FFFFFF;box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;">
                         <h6 class="text-center pt-3 font-weight-bold">فرم</h6>
@@ -232,10 +232,18 @@
                                 </div>
                             </div>
                             <div class="row text-center mt-5 mx-2">
-                                <button class="btn text-white ml-2" style="background: #005887;box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;font-size:12pt ;width: 103px;height: 45px;">بعدی
-                                </button>
+                                <a class="btn text-white ml-2 d-block"
+                                   data-slide="next"
+                                   href="#carouselExampleSlidesOnly"
+                                   style="background: #005887;box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;font-size:12pt ;width: 103px;height: 45px;">بعدی
+                                </a>
                                 <p class="mx-auto font-weight-bold mt-2" style="font-size: 13pt">۱/۴</p>
-                                <button class="btn mr-auto" style="box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;font-size:12pt ;width: 103px;height: 45px;border: 1px solid #005887;">قبلی</button>
+                                <a href="#carouselExampleSlidesOnly"
+                                   class="btn mr-auto"
+                                   data-slide="prev"
+                                   style="box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;font-size:12pt ;width: 103px;height: 45px;border: 1px solid #005887;">
+                                    قبلی
+                                </a>
                             </div>
                         </form>
                     </div>
@@ -243,7 +251,7 @@
             </div>
             <!--    form1-->
             <!--form2-->
-            <div class="carousel-item" id="form2">
+            <div class="carousel-item">
                 <div class="p-3" style="font-family: irsans">
                     <div class="col-12 mx-auto mb-5 pb-3" style="background: #FFFFFF;box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;">
                         <h6 class="text-center pt-3 font-weight-bold">فرم</h6>
@@ -264,27 +272,36 @@
                                     </label>
                                     <input class="form-check-input mr-2 mt-1" type="radio" style="width: 21px;height: 21px;border: 1px solid #808080;box-sizing: border-box;background-color: #00AF27!important;"
                                            name="exampleRadios"
-                                           id="input35" value="option4" />
+                                           id="input35" value="option4"/>
                                     <label class="form-check-label font-weight-bold mr-3 pr-5 text-left" for="input55">
                                         متاهل
                                     </label>
                                     <input class="form-check-input mr-2 mt-1" type="radio" style="width: 21px;height: 21px;border: 1px solid #808080;box-sizing: border-box;background-color: #00AF27!important;"
                                            name="exampleRadios"
-                                           id="input55" value="option5" />
+                                           id="input55" value="option5"/>
                                 </div>
                             </div>
                             <div class="row text-center mt-5 mx-2">
-                                <button class="btn text-white ml-2" style="background: #005887;box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;font-size:12pt ;width: 103px;height: 45px;">بعدی
-                                </button>
+
+                                <a class="btn text-white ml-2 d-block"
+                                   data-slide="next"
+                                   href="#carouselExampleSlidesOnly"
+                                   style="background: #005887;box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;font-size:12pt ;width: 103px;height: 45px;">بعدی
+                                </a>
                                 <p class="mx-auto font-weight-bold mt-2" style="font-size: 13pt">۲/۴</p>
-                                <a class="btn mr-auto d-block" data-slide="prev" style="box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;font-size:12pt ;width: 103px;height: 45px;border: 1px solid #005887;">قبلی</a>
+                                <a href="#carouselExampleSlidesOnly"
+                                   class="btn mr-auto"
+                                   data-slide="prev"
+                                   style="box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;font-size:12pt ;width: 103px;height: 45px;border: 1px solid #005887;">
+                                    قبلی
+                                </a>
+
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
             <!--form2-->
-
             <!--    form3-->
             <div class="carousel-item" id="form3">
                 <div class="p-3" style="font-family: irsans">
@@ -306,11 +323,20 @@
                                 </div>
                             </div>
                             <div class="row text-center mt-5 mx-2">
-                                <button class="btn text-white ml-2 carousel-control-next"
-                                        style="background: #005887;box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;font-size:12pt ;width: 103px;height: 45px;">بعدی
-                                </button>
+
+                                <a class="btn text-white ml-2 d-block"
+                                   data-slide="next"
+                                   href="#carouselExampleSlidesOnly"
+                                   style="background: #005887;box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;font-size:12pt ;width: 103px;height: 45px;">بعدی
+                                </a>
                                 <p class="mx-auto font-weight-bold mt-2" style="font-size: 13pt">۳/۴</p>
-                                <button class="btn mr-auto" style="box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;font-size:12pt ;width: 103px;height: 45px;border: 1px solid #005887;">قبلی</button>
+                                <a href="#carouselExampleSlidesOnly"
+                                   class="btn mr-auto"
+                                   data-slide="prev"
+                                   style="box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;font-size:12pt ;width: 103px;height: 45px;border: 1px solid #005887;">
+                                    قبلی
+                                </a>
+
                             </div>
                         </form>
                     </div>
@@ -369,11 +395,6 @@
         $(this).find('i').toggleClass('fa-chevron-up');
         $(target).toggle(500).toggleClass("navbar");
     });
-</script>
-<script>
-    $('.carousel').carousel({
-     interval:10000,
-    })
 </script>
 </body>
 </html>
