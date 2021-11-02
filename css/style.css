@@ -334,8 +334,8 @@ input[type='radio']:checked:after {
 .zoom {
 
     transition: transform .2s; /* Animation */
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 85px;
     margin: 0 auto;
 }
 
