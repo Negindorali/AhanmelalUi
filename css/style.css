@@ -13,10 +13,56 @@
     src: url("../font/fonts/irsans-m.woff");
 }
 
+* {
+    font-family: irsans;
+}
+
 body.style {
     background-color: rgba(237, 243, 245, 1);
     direction: rtl;
 }
+
+.moment-news {
+    background: #FFFFFF;
+    box-shadow: 10px 4px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+p.moment-new {
+    font-size: 15pt;
+}
+
+div.navs {
+    background-image: url('../images/logo-ahanmelal.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 102px;
+    width: inherit
+}
+
+nav.navbar {
+    border-bottom: 1px solid #3C99FC;
+}
+
+a.nav-link {
+    color: rgba(0, 0, 0, 0.88);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+button.header-btn {
+    background-color: rgba(237, 243, 245, 1);
+    border: 2px solid #A82633;
+    width: 274px;
+    height: 72px;
+    left: 20px;
+    top: 51px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+button > span.nums{
+    font-size: 30px;
+}
+
 
 .main {
     width: 50%;
