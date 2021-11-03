@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="../css/bootstrap-datepicker.css">
 
     <link rel="stylesheet" href="../css/jquery.timepicker.css">
-    <link rel="stylesheet" href="../font/fonts/IRANSansWeb(FaNum)_Light.woff">
 
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../font/fontawesome-free-5.15.4-web/css/all.min.css">
@@ -32,9 +31,11 @@
 
     <!--  start-nav-menu-->
     <div class="row mx-auto">
+
         <div class="col-md text-danger pt-3">
-            <img src="../images/logo-ahanmelal.png" alt="" class="img-fluid">
+            <img src="../images/logo-ahanmelal.png" alt="" class="img-fluid"> <!-- todo: property haye null remove shan            -->
         </div>
+
         <div class="col-md-9 text-danger pt-3">
             <nav class="navbar navbar-expand-lg navbar-light" style="border-bottom: 1px solid #3C99FC">
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -66,19 +67,18 @@
                 </div>
             </nav>
         </div>
+
         <div class="col-md  pt-4 text-center">
-            <button class="  py-2 mt-3 mr-2 "
-                    style="background-color:rgba(237, 243, 245, 1); border:  2px solid #A82633;width: 274px;height: 72px;left: 20px;top: 51px;box-sizing: border-box;border-radius: 8px;"><span class="pl-2"
-                                                                                                                                                                                                style="font-size:
-                    30px;font-weight: 400;font-family: irsans">
-          ۰۳۱-۳۵۰۲۰</span><img src="../images/factory/Vector%20(8).png">
+            <button class="  py-2 mt-3 mr-2 " style="background-color:rgba(237, 243, 245, 1); border:  2px solid #A82633;width: 274px;height: 72px;left: 20px;top: 51px;box-sizing: border-box;border-radius: 8px;"><!-- todo: injaro ham link kon -->
+                <span class="pl-2" style="font-size: 30px;font-weight: 400;font-family: irsans">۰۳۱-۳۵۰۲۰</span>
+                <img src="../images/factory/Vector%20(8).png">
             </button>
         </div>
     </div>
     <!--  end-nav-menu-->
 
     <!--start-product-menu-->
-    <nav class=" navbar navbar-expand-md " style="font-family: irsans;border-bottom: 2px solid #005887;">
+    <nav class=" navbar navbar-expand-md " style="font-family: irsans;border-bottom: 2px solid #005887;"><!-- todo: drop down not worked!        -->
         <ul class="col-md col-md-12 navbar-nav text-right " style="font-family: irsans;">
 
             <li class="col-md nav-item dropdown ">
@@ -183,50 +183,51 @@
     <!--end-product-menu-->
 
     <!--  start-hero-section-->
-    <div class="row mx-auto position-relative mt-3 pb-5 mb-5" style="border-bottom: 1px solid #939393;font-family: irsans">
-        <a href="#" class="position-absolute text-center text-dark pr-1 pl-2" style="background-color: #E5EDEF; font-size: 21pt;text-decoration: none;right: 46%;bottom:-1.1rem">افتخارات ما، راه شما</a>
-    </div>
-    <div class="col-md-12 pt-5 position-relative" style="background-image: url('../images/About-us/bg.png');background-repeat: no-repeat;background-size: cover;height: 600px">
-        <div id="carousel">
-            <div class="hideLeft p-2">
-                <img src="../images/About-us/2.png">
-            </div>
-            <div class="prevLeftSecond p-2">
-                <img src="../images/About-us/2.png">
-            </div>
-            <div class="prev p-2">
-                <img src="../images/About-us/2.png">
-            </div>
-            <div class="selected p-2">
-                <img src="../images/About-us/2.png">
-            </div>
-            <div class="next p-2">
-                <img src="../images/About-us/2.png">
-            </div>
-            <div class="nextRightSecond p-2">
-                <img src="../images/About-us/2.png">
-            </div>
-            <div class="hideRight p-2">
-                <img src="../images/About-us/2.png">
-            </div>
+    <div class="row mx-auto">
+        <div class="row mx-auto position-relative mt-3 pb-5 mb-5" style="border-bottom: 1px solid #939393;font-family: irsans">
+            <a href="#" class="position-absolute text-center text-dark pr-1 pl-2" style="background-color: #E5EDEF; font-size: 21pt;text-decoration: none;right: 46%;bottom:-1.1rem">افتخارات ما، راه شما</a>
         </div>
-        <div class="buttons  row">
-            <div class="prev mt-5 pt-5 mr-5" id="prev">
-                <i class="fa fa-chevron-left fa-3x position-absolute " style="right: 115rem;top: 20rem"></i>
+        <div class="col-md-12 pt-5 position-relative" style="background-image: url('../images/About-us/bg.png');background-repeat: no-repeat;background-size: cover;height: 600px">
+            <div id="carousel">
+                <div class="hideLeft p-2">
+                    <img src="../images/About-us/2.png">
+                </div>
+                <div class="prevLeftSecond p-2">
+                    <img src="../images/About-us/2.png">
+                </div>
+                <div class="prev p-2">
+                    <img src="../images/About-us/2.png">
+                </div>
+                <div class="selected p-2">
+                    <img src="../images/About-us/2.png">
+                </div>
+                <div class="next p-2">
+                    <img src="../images/About-us/2.png">
+                </div>
+                <div class="nextRightSecond p-2">
+                    <img src="../images/About-us/2.png">
+                </div>
+                <div class="hideRight p-2">
+                    <img src="../images/About-us/2.png">
+                </div>
             </div>
-            <div class="next mt-5 pt-5" id="next">
-                <i class="fa fa-chevron-right position-absolute fa-3x" style="top: 20rem"></i>
+            <div class="buttons  row">
+                <div class="prev mt-5 pt-5 mr-5" id="prev">
+                    <i class="fa fa-chevron-left fa-3x position-absolute " style="right: 115rem;top: 20rem"></i>
+                </div>
+                <div class="next mt-5 pt-5" id="next">
+                    <i class="fa fa-chevron-right position-absolute fa-3x" style="top: 20rem"></i>
+                </div>
             </div>
-        </div>
 
+        </div>
     </div>
-    </div>
+</div><!-- todo: container bad ja baste shode!-->
 <!--  end-hero-section-->
 
 <!--  start-know-more-->
-<div class="row mx-auto position-relative mt-3 pb-5 " style="border-bottom: 1px solid #939393;font-family: irsans">
-    <a href="#" class="position-absolute text-center text-dark pr-3 pl-3 font-weight-bold" style="background-color: #E5EDEF; font-size: 18pt;text-decoration: none;right: 47%;bottom:-1.1rem">مارا
-        بیشتر بشناسید</a>
+<div class="row mx-auto position-relative mt-3 pb-5 " style="border-bottom: 1px solid #939393;font-family: irsans"><!--todo: in va section pain ba ham merge she-->
+    <a href="#" class="position-absolute text-center text-dark pr-3 pl-3 font-weight-bold" style="background-color: #E5EDEF; font-size: 18pt;text-decoration: none;right: 47%;bottom:-1.1rem">مارا بیشتر بشناسید</a><!--todo: nemikhad link inja    -->
 </div>
 <div class="row mx-auto mt-5" style="font-family: irsans">
     <div class="col-md-4 mt-4 mb-5">
@@ -239,6 +240,7 @@
             علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد
         </p>
         <div class="col-md mt-5 mr-auto p-0 position-relative">
+            <!--todo: zaheresh ba figma fargh mikone. -->
             <p class="text-center mt-3 position-absolute font-weight-bold" style="font-size: 15pt;font-family: irsans;left: 35%">آهن ملل پیشرو در فروش و نماینده شما در بازار آهن</p>
             <div class="col-md-4 mt-5 mr-auto p-4" style="border-top: 2px solid #347BA1;"></div>
             <div class="col-md-5 mt-3 ml-auto p-0" style="border-top: 2px solid #347BA1;"></div>
@@ -249,18 +251,13 @@
 
 <!--  start-why-AhanMelal-->
 <div class="row mx-auto pt-5 pb-5 mt-5 mb-5 position-relative" style="background:linear-gradient(rgba(0,123,255,0.14),rgba(52,123,161,0.1)),url('../images/About-us/background.png');font-family: irsans;background-repeat:
-no-repeat;width: inherit;background-size: cover;height: inherit">
+no-repeat;width: inherit;background-size: cover;height: inherit"><!--todo: my,py    -->
     <div class="col-md text-right pl-5 ml-5">
         <h2 class="mr-5 pt-5 mt-4">چرا آهن ملل؟</h2>
-        <p class="mr-5 pr-4 pt-2 text-justify pl-5" style="font-size: 15pt">شرکت آهن ملل اصفهان با سابقه طولانی در زمینه تأمین آهن آلات پروژه های صنعتی و عمرانی در کمترین زمان و به دلیل رابطه مستقیم و بدون واسطه با
-            کارخانه های
-            فولادی ایران،
-            مناسبترین
-            قیمت را به
-            خریداران
-            عزیز عرضه
-            میدارد. آهن ملل دارای جواز کسب فعالیت از وزارت صنعت، معدن و تجارت، صنف آهن فروشی و ثبت شرکت در سازمان ثبت اسناد و املاک ایران می باشد. یکی از موارد با اهمیت برای خریدارانی که تمایل به سفارش غیرحضوری
-            دارند این است که مجموعه مورد نظر دارای مجوزهای لازم در ارتباط با فعالیت خود باشد</p>
+        <p class="mr-5 pr-4 pt-2 text-justify pl-5" style="font-size: 15pt">
+            شرکت آهن ملل اصفهان با سابقه طولانی در زمینه تأمین آهن آلات پروژه های صنعتی و عمرانی در کمترین زمان و به دلیل رابطه مستقیم و بدون واسطه با کارخانه های فولادی ایران، مناسبترین قیمت را به خریداران عزیز عرضه میدارد. آهن ملل دارای جواز کسب فعالیت
+            از وزارت صنعت، معدن و تجارت، صنف آهن فروشی و ثبت شرکت در سازمان ثبت اسناد و املاک ایران می باشد. یکی از موارد با اهمیت برای خریدارانی که تمایل به سفارش غیرحضوری دارند این است که مجموعه مورد نظر دارای مجوزهای لازم در ارتباط با فعالیت خود
+            باشد</p>
     </div>
     <div class="col-md  pl-5">
         <div>
@@ -299,12 +296,12 @@ no-repeat;width: inherit;background-size: cover;height: inherit">
 <!--  end-why-AhanMelal-->
 
 <!--  start-our-projects-->
-<div>
+<div><!-- todo: ba section pain merge she    -->
     <h6 class="text-center font-weight-bold" style="font-family: irsans;font-size: 19.5pt">تعدادی از پروژه های موفق آهن ملل</h6>
 </div>
 <div class="col-md-12 mx-auto ml-5 pl-5">
     <div class="row justify-content-center mb-5 pt-4 pb-3">
-        <div class="row mx-auto" style="font-family: irsans;">
+        <div class="row mx-auto justify-content-center" style="font-family: irsans;">
             <div class="col-md text-center position-relative" style="width: 223px">
                 <img src="../images/About-us/Capture 14.png" alt="">
                 <div style="background: rgba(255, 255, 255, 0.58);border-radius: 4px;top: 1rem;" class="position-absolute col-md">
@@ -335,11 +332,10 @@ no-repeat;width: inherit;background-size: cover;height: inherit">
                     <p class="mt-2" style="font-size: 13pt">آزادراه شمال-تهران</p>
                 </div>
             </div>
-
-
         </div>
     </div>
-    <div style="font-family: irsans" class="mt-5 mb-5">
+
+    <div style="font-family: irsans" class="col-md mt-5 mb-5">
         <h6 style="font-size: 18pt" class="text-right font-weight-bold">آزادراه تهران ـ شمال</h6>
         <p class="text-justify font-weight-bold mt-4" style="line-height: 37.3px">
             یکی از بزرگترین پروژه های راه‌سازی در ایران است که قرار است شهر تهران را به شهر چالوس متصل کند. مسیر آزادراه از تقاطع غیر همسطح با بزرگراه شهید همت و بزرگراه آزادگان شروع و در امتداد دره کن پس از گذشتن
@@ -358,67 +354,67 @@ no-repeat;width: inherit;background-size: cover;height: inherit">
 </div>
 
 <!--start-footer-->
-<footer class="mt-5">
-    <div style="background:linear-gradient(rgba(0, 0, 0, 0.68),rgba(0, 0, 0, 0.68)),url('../images/footer-img.png');background-repeat:no-repeat;background-size: 100% 100%">
-        <div class=" row text-right mx-auto " style="font-family: irsans;color: white">
-            <div class="col-md-3 mt-5 mb-5 pr-5 mx-auto" style="font-size: 20px">
-                <h4>دسترسی سریع</h4>
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg"> درباره ما</a>
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">تماس با ما</a>
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">استخدام</a>
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">دانشنامه</a>
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">اخبار</a>
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">سوالات متداول</a>
-            </div>
-            <div class="col-md-3 mb-5 mt-5 mx-auto mr-4" style="font-size: 20px">
-                <h4>قیمت ها</h4>
+<footer class="mt-5" style="font-family: irsans;color: white;background:linear-gradient(rgba(0, 0, 0, 0.68),rgba(0, 0, 0, 0.68)),url('../images/footer-img.png');background-repeat:no-repeat;background-size: 100% 100%">
+    <div class="row col-md-11 text-right mx-auto">
+        <div class="col-md-3 mt-5 mb-5 pr-5 mx-auto" style="font-size: 20px">
+            <h4>دسترسی سریع</h4>
+            <a href="#" class="d-block" style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg"> درباره ما</a>
+            <a href="#" class="d-block" style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">تماس با ما</a>
+            <a href="#" class="d-block" style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">استخدام</a>
+            <a href="#" class="d-block" style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">دانشنامه</a>
+            <a href="#" class="d-block" style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">اخبار</a>
+            <a href="#" class="d-block" style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">سوالات متداول</a>
+        </div>
+        <div class="col-md-3 mb-5 mt-5 mx-auto mr-4" style="font-size: 20px">
+            <h4>قیمت ها</h4>
 
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">قیمت میلگرد</a>
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">قیمت ورق</a>
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">قیمت تیرآهن</a>
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">قیمت لوله</a>
+            <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">قیمت میلگرد</a>
+            <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">قیمت ورق</a>
+            <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">قیمت تیرآهن</a>
+            <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">قیمت لوله</a>
+        </div>
+        <div class="col-md-3 row mt-5 mb-5 mx-auto">
+            <div class="row">
+                <a href="#" class="font-weight-bold" style="color: #FFFFFF;font-size: 16.5pt;text-decoration: none"><i class="fa fa-phone pl-2"></i>۰۳۱۳۵۰۲۰</a>
             </div>
-            <div class="col-md-3 row mt-5 mb-5 mx-auto">
-                <div class="row">
-                    <a href="#" class="font-weight-bold" style="color: #FFFFFF;font-size: 16.5pt;text-decoration: none"><i class="fa fa-phone pl-2"></i>۰۳۱۳۵۰۲۰</a>
-                </div>
-                <div class="row">
-                    <a href="#" style="line-height: 30.52px;font-size: 18px;color: #FFFFFF;text-decoration: none"> <i class="far fa-clock pl-2"></i>ساعت کاری: شنبه تا چهارشنبه از ساعت ۹:۰۰
-                        تا ۱۷:۰۰ پیج شنبه ها از ۹ تا ۱۳:۳۰
-                    </a>
-                </div>
-                <div class="row">
-                    <a href="#" style="line-height: 30.52px;font-size: 18px;color: #FFFFFF;text-decoration: none"><img src="../images/location.png"></img>
-                        دفتر فروش : اصفهان،حدفاصل پل آذر و پل فلزی،جنب مسجد انقلاب،ساختمان گلدیران،طبقه۲،واحپ۳
-                    </a>
-                </div>
+            <div class="row">
+                <a href="#" style="line-height: 30.52px;font-size: 18px;color: #FFFFFF;text-decoration: none"> <i class="far fa-clock pl-2"></i>ساعت کاری: شنبه تا چهارشنبه از ساعت ۹:۰۰
+                    تا ۱۷:۰۰ پیج شنبه ها از ۹ تا ۱۳:۳۰
+                </a>
             </div>
-            <div class="col-md-2 mt-5 mb-5 mr-2 mx-auto">
-                <a href="#"> <img src="../images/ahanmelal.png" alt="" class="mr-5" style="background: rgba(255, 255, 255, 0.92);border-radius: 16px;padding: 8px"></a>
-                <div class="mt-4 mr-2">
-                    <a href="#"> <img src="../images/e-namad.png" alt="" style="background: rgba(255, 255, 255, 0.92);border-radius: 16px;"></a>
-                </div>
+            <div class="row">
+                <a href="#" style="line-height: 30.52px;font-size: 18px;color: #FFFFFF;text-decoration: none"><img src="../images/location.png"></img>
+                    دفتر فروش : اصفهان،حدفاصل پل آذر و پل فلزی،جنب مسجد انقلاب،ساختمان گلدیران،طبقه۲،واحپ۳
+                </a>
             </div>
-            <div class="row mx-auto mb-4 ">
-                <div class="col-md-1 mx-auto">
-                    <a href="#"><img src="../images/youtube.png" alt=""></a>
-                </div>
-                <div class="col-md-1 mx-auto">
-                    <a href="#"> <img src="../images/twitter.png" alt=""></a>
-                </div>
-                <div class="col-md-1 mx-auto">
-                    <a href="#"><img src="../images/linkin.png" alt=""></a>
-                </div>
-                <div class="col-md-1 mx-auto">
-                    <a href="#"><img src="../images/instagram.png" alt=""></a>
-                </div>
-                <div class="col-md-1 mx-auto">
-                    <a href="#"><img src="../images/telegram.png" alt=""></a>
-                </div>
+        </div>
+        <div class="col-md-2 mt-5 mb-5 mr-2 mx-auto">
+            <a href="#"> <img src="../images/ahanmelal.png" alt="" class="mr-5" style="background: rgba(255, 255, 255, 0.92);border-radius: 16px;padding: 8px"></a>
+            <div class="mt-4 mr-2">
+                <a href="#"> <img src="../images/e-namad.png" alt="" style="background: rgba(255, 255, 255, 0.92);border-radius: 16px;"></a>
             </div>
-            <div class="col-md-12">
-                <p class="text-center" style="font-family: irsans">تمامی حقوق این سایت برای شرکت آهن ملل اصفهان محفوظ می باشد.</p>
+        </div>
+    </div>
+    <div class="row mx-auto">
+        <div class="row mx-auto mb-4 ">
+            <div class="col-md-1 mx-auto">
+                <a href="#"><img src="../images/youtube.png" alt=""></a>
             </div>
+            <div class="col-md-1 mx-auto">
+                <a href="#"> <img src="../images/twitter.png" alt=""></a>
+            </div>
+            <div class="col-md-1 mx-auto">
+                <a href="#"><img src="../images/linkin.png" alt=""></a>
+            </div>
+            <div class="col-md-1 mx-auto">
+                <a href="#"><img src="../images/instagram.png" alt=""></a>
+            </div>
+            <div class="col-md-1 mx-auto">
+                <a href="#"><img src="../images/telegram.png" alt=""></a>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <p class="text-center" style="font-family: irsans">تمامی حقوق این سایت برای شرکت آهن ملل اصفهان محفوظ می باشد.</p>
         </div>
     </div>
 </footer>
