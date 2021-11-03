@@ -12,7 +12,8 @@
     font-family: irsans-m;
     src: url("../font/fonts/irsans-m.woff");
 }
-body.style{
+
+body.style {
     background-color: rgba(237, 243, 245, 1);
     direction: rtl;
 }
@@ -377,24 +378,26 @@ a.last-price-changes.active {
 
 #carousel {
     position: relative;
-    height: 500px;
-    top: 50%;
+    height: 630px;
+    top: -29%;
     transform: translateY(-50%);
     overflow: hidden;
-
+    margin-top: 15rem;
+    padding-top: 4rem;
 }
 
 #carousel div {
     position: absolute;
     transition: transform 1s, left 1s, opacity 1s, z-index 0s;
     opacity: 1;
+    z-index: 21;
     background: #FFFFFF;
     box-shadow: 0px 4px 6px 1px rgba(0, 88, 135, 0.35);
     border-radius: 20px;
 }
 
 #carousel div img {
-    width: 400px;
+    width: 86px;
     transition: width 1s;
 }
 
@@ -405,7 +408,7 @@ a.last-price-changes.active {
 }
 
 #carousel div.hideLeft img {
-    width: 200px;
+    width: 75px;
 }
 
 #carousel div.hideRight {
@@ -415,7 +418,7 @@ a.last-price-changes.active {
 }
 
 #carousel div.hideRight img {
-    width: 200px;
+    width: 75px;
 }
 
 #carousel div.prev {
@@ -425,7 +428,7 @@ a.last-price-changes.active {
 }
 
 #carousel div.prev img {
-    width: 300px;
+    width: 75px;
 }
 
 #carousel div.prevLeftSecond {
@@ -436,7 +439,7 @@ a.last-price-changes.active {
 }
 
 #carousel div.prevLeftSecond img {
-    width: 200px;
+    width: 75px;
 }
 
 #carousel div.selected {
@@ -451,7 +454,7 @@ a.last-price-changes.active {
 }
 
 #carousel div.next img {
-    width: 300px;
+    width: 80px;
 }
 
 #carousel div.nextRightSecond {
@@ -462,7 +465,7 @@ a.last-price-changes.active {
 }
 
 #carousel div.nextRightSecond img {
-    width: 200px;
+    width: 80px;
 }
 
 .buttons {
@@ -587,4 +590,20 @@ p.footer-styles {
     font-size: 6pt;
     font-family: irsans;
     color: rgba(159, 159, 159, 1);
+}
+
+#overlay {
+    padding: 0;
+    position: absolute; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: auto; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53)); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    border-radius: 8px;
 }
