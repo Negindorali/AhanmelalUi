@@ -17,7 +17,7 @@
     font-family: irsans;
 }
 
-body.style {
+body.melal {
     background-color: rgba(237, 243, 245, 1);
     direction: rtl;
 }
@@ -35,8 +35,8 @@ div.navs {
     background-image: url('../images/logo-ahanmelal.png');
     background-size: contain;
     background-repeat: no-repeat;
-    height: 102px;
-    width: inherit
+    height: 6.375rem;
+    width: inherit;
 }
 
 nav.navbar {
@@ -46,23 +46,70 @@ nav.navbar {
 a.nav-link {
     color: rgba(0, 0, 0, 0.88);
     font-weight: 500;
-    font-size: 20px;
+    font-size: 15pt;
 }
 
-button.header-btn {
+a.header-btn {
     background-color: rgba(237, 243, 245, 1);
     border: 2px solid #A82633;
-    width: 274px;
-    height: 72px;
-    left: 20px;
-    top: 51px;
+    width: 17.125rem;
+    height: 4.5rem;
+    left: 1.25rem;
+    top: 3.1875rem;
     box-sizing: border-box;
-    border-radius: 8px;
-}
-button > span.nums{
-    font-size: 30px;
+    border-radius: 0.5rem;
 }
 
+a > span.nums {
+    font-size: 22.5pt;
+}
+
+.products {
+    font-size: 16.25pt;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+div.hero-product {
+    background-repeat: no-repeat !important;
+    width: inherit !important;
+    background-size: cover;
+    height: 27.125rem;
+    border-radius: 1.0625rem;
+}
+
+.titr {
+    font-size: 28.5pt;
+    line-height: 71.72px;
+}
+
+.font-30 {
+    font-size: 22.5pt;
+}
+
+.font-24 {
+    font-size: 18pt;
+}
+
+.font-28 {
+    font-size: 21pt;
+}
+
+.font-22 {
+    font-size: 16.5pt;
+}
+
+.search-product {
+    border-radius: 5px;
+    border: none;
+}
+
+.search-btn {
+    background-color: #007BFF;
+    border-radius: 5px;
+}
 
 .main {
     width: 50%;
@@ -71,6 +118,14 @@ button > span.nums{
 
 .has-search .form-control {
     padding-left: 2.375rem;
+}
+
+.panels {
+    width: 646px;
+    height: 423px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem "
 }
 
 .has-search .form-control-feedback {
@@ -292,6 +347,22 @@ button > span.nums{
 .prices:hover {
     background: #C7B7E6 !important;
 
+}
+
+.prices {
+    background: rgba(240, 244, 245, 0.27);
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.diagrams {
+    background: rgba(240, 244, 245, 0.27);
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
 }
 
 a.faq-activate.active {
