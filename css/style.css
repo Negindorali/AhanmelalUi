@@ -88,6 +88,9 @@ div.hero-product {
 .font-30 {
     font-size: 22.5pt;
 }
+.font-31{
+    font-size: 24pt;
+}
 
 .font-24 {
     font-size: 18pt;
@@ -178,6 +181,15 @@ div.hero-product {
     box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);
     border-radius: 16px;
 }
+.section-divider{
+    background-color: rgba(237, 243, 245, 1);
+    right: 44.5%;
+    bottom:-1.1rem;
+}
+.about{
+    box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);
+    border-radius: 16px;
+}
 
 .posts {
     background-size: cover;
@@ -209,7 +221,42 @@ div.hero-product {
     right: 0rem;
     width: 100%;
 }
-
+.blogs{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 612px;
+    height: 375px;
+    border-radius:1rem!important;
+}
+.blog-title{
+    background: rgba(255, 255, 255, 0.88);
+    border-radius: 8px 0px 0px 8px;
+    top: 2.2rem;
+    right:0rem;
+}
+.blog-explain{
+    background: rgba(0, 0, 0, 0.74);
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    bottom: 0rem;
+    right:0rem;
+    width:100%
+}
+.experts{
+    border: 2px solid #005887;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 13px 16px rgba(0, 53, 81, 0.35);
+    border-radius: 21px;
+}
+.experts-footer{
+    font-size:14pt;
+    color: rgba(0, 88, 135, 1);
+    height: 88px;
+}
+.about-factory{
+    box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);
+    border-radius: 16px;
+}
 .services {
     border: 1px solid #000000;
     box-sizing: border-box;
