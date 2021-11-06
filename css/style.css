@@ -1155,6 +1155,47 @@ a.last-price-changes.active {
     border-radius: 16px;
 }
 
+.blog-hero {
+    background: linear-gradient(0, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.56)), url('../images/Blog/book-library-with-open-textbook 2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 551px;
+    width: auto;
+}
+
+.search-input {
+    width: 758px;
+    height: 60px;
+    border-radius: 64px;
+    border: none;
+}
+
+.search-icon {
+    background: #005887;
+    border-radius: 50%;
+    left: 2rem;
+    top: 0
+}
+
+.filter-blog-btn {
+    border: 2px solid #347BA1;
+    box-sizing: border-box;
+    border-radius: 68px;
+}
+
+.articles-head {
+    background-color: rgba(237, 243, 245, 1);
+    font-size: 18pt;
+    text-decoration: none;
+    right: 46%;
+    bottom: -2.1rem;
+}
+
+.article-box {
+    box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);
+    border-radius: 16px;
+}
+
 .buttons {
     color: #444;
     cursor: pointer;
