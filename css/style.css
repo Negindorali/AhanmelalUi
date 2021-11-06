@@ -88,7 +88,8 @@ div.hero-product {
 .font-30 {
     font-size: 22.5pt;
 }
-.font-31{
+
+.font-31 {
     font-size: 24pt;
 }
 
@@ -181,12 +182,14 @@ div.hero-product {
     box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);
     border-radius: 16px;
 }
-.section-divider{
+
+.section-divider {
     background-color: rgba(237, 243, 245, 1);
     right: 44.5%;
-    bottom:-1.1rem;
+    bottom: -1.1rem;
 }
-.about{
+
+.about {
     box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);
     border-radius: 16px;
 }
@@ -221,42 +224,49 @@ div.hero-product {
     right: 0rem;
     width: 100%;
 }
-.blogs{
+
+.blogs {
     background-size: cover;
     background-repeat: no-repeat;
     width: 612px;
     height: 375px;
-    border-radius:1rem!important;
+    border-radius: 1rem !important;
 }
-.blog-title{
+
+.blog-title {
     background: rgba(255, 255, 255, 0.88);
     border-radius: 8px 0px 0px 8px;
     top: 2.2rem;
-    right:0rem;
+    right: 0rem;
 }
-.blog-explain{
+
+.blog-explain {
     background: rgba(0, 0, 0, 0.74);
     box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
     bottom: 0rem;
-    right:0rem;
-    width:100%
+    right: 0rem;
+    width: 100%
 }
-.experts{
+
+.experts {
     border: 2px solid #005887;
     box-sizing: border-box;
     box-shadow: 0px 0px 13px 16px rgba(0, 53, 81, 0.35);
     border-radius: 21px;
 }
-.experts-footer{
-    font-size:14pt;
+
+.experts-footer {
+    font-size: 14pt;
     color: rgba(0, 88, 135, 1);
     height: 88px;
 }
-.about-factory{
+
+.about-factory {
     box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);
     border-radius: 16px;
 }
+
 .services {
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -428,9 +438,36 @@ div.hero-product {
     height: 48px;
 }
 
+.inputs {
+    border-radius: 10px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+}
+
+.btn-filter-diagram {
+    border: 1px solid #9F9F9F;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 105px;
+    height: 46px;
+}
+
+.diagram-section {
+    background: rgba(240, 244, 245, 0.27);
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
 .ng_panel_button {
     color: black;
     text-decoration: none;
+}
+
+.diagram-box {
+    box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);
+    border-radius: 16px;
 }
 
 .ng_panel_button.active {
@@ -506,6 +543,35 @@ div.hero-product {
 /*    color: #fff;*/
 
 /*}*/
+.btn-filter-factory {
+    border: 2px solid #347BA1;
+    box-sizing: border-box;
+    border-radius: 68px;
+}
+
+.buy-btn {
+    background: #347BA1;
+    border-radius: 8px;
+    width: 214px;
+    height: 52px;
+}
+
+.collapsed-section {
+    background: rgba(255, 255, 255, 0.88);
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 110px;
+    height: 48px
+}
+
+.call-melal {
+    background-color: rgba(237, 243, 245, 1);
+    font-size: 21pt;
+    text-decoration: none;
+    right: 45.5%;
+    bottom: -1.1rem;
+}
 
 .btn-filter-factory:hover {
     background: #347BA1;

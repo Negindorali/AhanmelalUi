@@ -22,7 +22,7 @@
 </head>
 <body class="melal">
 
-<div class="container-fluid p-0">
+<div class="container-fluid">
 
     <!--  start-nav-menu-->
     <div class="row mx-auto">
@@ -174,7 +174,7 @@
 
     <!-- start-about-factory-->
     <div class="mx-auto mt-5">
-            <p class="text-center font-22 my-4"> ذوب آهن اصفهان</p>
+        <p class="text-center font-22 my-4"> ذوب آهن اصفهان</p>
         <div class="row mx-auto mb-5 bg-white about-factory">
             <div class="col-md-3 my-4">
                 <img src="../images/factory/46%201.png" alt="" class="img-fluid">
@@ -201,325 +201,149 @@
     <!-- end-about-factory-->
 
     <!--start-price-diagram-->
-    <div class="col-md-12" style="background: #FFFFFF;box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;">
+    <div class="col-md-12 bg-white diagram-box">
         <div class="row pt-3 ">
-            <div class=" text-right mr-4">
-                <a style="font-size: 20px;font-family: irsans">سایر محصولات :</a>
-            </div>
+            <p class="font-20 text-right mx-5 px-4">سایر محصولات :</p>
             <div class="col-md-3 text-right">
-                <select class="form-control  pl-2" style="border-radius: 10px;border: 1px solid #C4C4C4;box-sizing: border-box;">
+                <select class="form-control pl-2 inputs">
                     <option>میلگرد آجدار سایز ۲۸</option>
                 </select>
             </div>
         </div>
         <div class="row mt-2 mb-3 ml-2 mx-auto">
-            <div class="col-md-1 mt-5 mx-auto" style="font-family: irsans">
-                <button type="button" class="btn btn-filter-diagram btn-block m-2 mt-5" style="border: 1px solid #9F9F9F;box-sizing: border-box;border-radius: 8px;width: 105px;height: 46px">۳۰ روز</button>
-                <button type="button" class="btn btn-filter-diagram btn-block m-2 mt-4" style="border: 1px solid #9F9F9F;box-sizing: border-box;border-radius: 8px;width: 105px;height: 46px"> ۳ ماه</button>
-                <button type="button" class="btn btn-filter-diagram btn-block m-2 mt-4" style="border: 1px solid #9F9F9F;box-sizing: border-box;border-radius: 8px;width: 105px;height: 46px">۶ ماه</button>
-                <button type="button" class="btn btn-filter-diagram btn-block m-2 mt-4 mb-3" style="border: 1px solid #9F9F9F;box-sizing: border-box;border-radius: 8px;width: 105px;height: 46px"> ۱ سال</button>
+            <div class="col-md-1 mt-5 mx-auto">
+                <button type="button" class="btn btn-filter-diagram btn-block m-2 mt-5">۳۰ روز</button>
+                <button type="button" class="btn btn-filter-diagram btn-block m-2 mt-4"> ۳ ماه</button>
+                <button type="button" class="btn btn-filter-diagram btn-block m-2 mt-4">۶ ماه</button>
+                <button type="button" class="btn btn-filter-diagram btn-block m-2 mt-4 mb-3"> ۱ سال</button>
             </div>
-            <div class="col-md-11 mx-auto mt-3 pt-3 mb-4" style="background: rgba(240, 244, 245, 0.27);border: 1px solid #C4C4C4;box-sizing: border-box;box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);border-radius:
-            8px;">
-                <canvas id="myChart" width="900" height="320"></canvas>
+            <div class="col-md-10 mx-auto mt-3 mb-4">
+                <canvas id="myChart" width="900" height="320" class="diagram-section"></canvas>
             </div>
         </div>
     </div>
     <!--end-price-diagram-->
 
     <!--start-product-filters-->
-    <p class="text-center mt-5" style="font-size: 24px; font-family: irsans">سایر محصولات کارخانه</p>
-    <div class="row  mx-auto mr-5 mb-5 mt-4" style="font-weight: 400; font-size: 22px">
-        <button type="button" class="col-md btn btn-filter-factory mx-3" style="border: 2px solid #347BA1;box-sizing: border-box;border-radius: 68px;">میلگرد</button>
-        <button type="button" class="col-md btn btn-filter-factory mx-3" style="border: 2px solid #347BA1;box-sizing: border-box;border-radius: 68px;">تیرآهن</button>
-        <button type="button" class="col-md btn btn-filter-factory mx-3" style="border: 2px solid #347BA1;box-sizing: border-box;border-radius: 68px;">ورق</button>
-        <button type="button" class="col-md btn btn-filter-factory mx-3" style="border: 2px solid #347BA1;box-sizing: border-box;border-radius: 68px;">لوله</button>
-        <button type="button" class="col-md btn btn-filter-factory mx-3" style="border: 2px solid #347BA1;box-sizing: border-box;border-radius: 68px;">پروفیل</button>
-        <button type="button" class="col-md btn btn-filter-factory mx-3" style="border: 2px solid #347BA1;box-sizing: border-box;border-radius: 68px;">ناودانی</button>
-        <button type="button" class="col-md btn btn-filter-factory mx-3" style="border: 2px solid #347BA1;box-sizing: border-box;border-radius: 68px;">مفتولی</button>
-        <button type="button" class="col-md btn btn-filter-factory mx-3" style="border: 2px solid #347BA1;box-sizing: border-box;border-radius: 68px;">شمش فولادی</button>
+    <p class="text-center mt-5 font-24">سایر محصولات کارخانه</p>
+    <div class="row  mx-auto mr-5 my-5 font-22">
+        <button type="button" class="col-md btn btn-filter-factory mx-3">میلگرد</button>
+        <button type="button" class="col-md btn btn-filter-factory mx-3">تیرآهن</button>
+        <button type="button" class="col-md btn btn-filter-factory mx-3">ورق</button>
+        <button type="button" class="col-md btn btn-filter-factory mx-3">لوله</button>
+        <button type="button" class="col-md btn btn-filter-factory mx-3">پروفیل</button>
+        <button type="button" class="col-md btn btn-filter-factory mx-3">ناودانی</button>
+        <button type="button" class="col-md btn btn-filter-factory mx-3">مفتولی</button>
+        <button type="button" class="col-md btn btn-filter-factory mx-3">شمش فولادی</button>
     </div>
     <!--end-product-filters-->
 
     <!--start-tab-filter-->
     <div class="col-md-12 mt-5 pt-5">
         <div class="row justify-content-center">
-            <a class="btn  ng_panel_button active d-block" style="font-size: 22px">ارزان ترین</a>
-            <a class="btn ng_panel_button mr-5 d-block" style="font-size: 22px">پرفروش ترین</a>
-            <a class="btn ng_panel_button mr-5 d-block" style="font-size: 22px">بروزترین</a>
+            <a class="btn  ng_panel_button active d-block font-22">ارزان ترین</a>
+            <a class="btn ng_panel_button mr-5 d-block font-22">پرفروش ترین</a>
+            <a class="btn ng_panel_button mr-5 d-block font-22">بروزترین</a>
         </div>
     </div>
     <!--end-tab-filter-->
 
     <!--start-product-table-->
-    <div class="mt-5">
-        <h3 class="text-right font-weight-bold" style="font-size: 15pt">کارخانه ذوب آهن اصفهان</h3>
-    </div>
-    <div class="col-md-12 mx-auto mt-2 pb-4" style="background: #FFFFFF;box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;font-family: irsans">
-        <div class=" col-md-12 mt-3 pt-4 " style="border-bottom: 2px solid #347BA1;">
-            <ul class="nav nav-justified pb-2" style="font-size: 16.25pt;color: rgba(255, 0, 0, 0.88);border-bottom: 2px solid #347BA1;">
-                <li class="nav-item">نام محصول</li>
-                <li class="nav-item">سایز</li>
-                <li class="nav-item">وزن</li>
-                <li class="nav-item">آنالیز</li>
-                <li class="nav-item">قیمت</li>
+    <h3 class="text-right font-weight-bold mt-5 font-20">کارخانه ذوب آهن اصفهان</h3>
+    <div class="col-md-12 mx-auto pb-4 bg-white table-style">
+        <div class="mt-5 pt-4" style="border-bottom: 2px solid #347BA1;">
+            <ul class="nav nav-justified pb-2 font-22 table-header">
+                <li class="nav-item text-right">نام محصول</li>
+                <li class="mx-5">سایز</li>
+                <li class="mx-5">وزن</li>
+                <li class="mx-5">آنالیز</li>
+                <li class="mx-5">قیمت</li>
                 <li class="nav-item"></li>
                 <li class="nav-item"></li>
             </ul>
-            <ul class="nav nav-justified pb-4 pt-4 counting" style="font-size: 16.25pt;color: rgba(0, 0, 0, 0.88);border-bottom: 1px solid #9F9F9F;">
-                <li class="nav-item">میلگرد آجدار ذوب آهن</li>
-                <li class="nav-item">۱۴</li>
-                <li class="nav-item">۲۹.۵</li>
-                <li class="nav-item">A۳</li>
-                <li class="nav-item">۱۶,۴۰۰</li>
-                <li class="nav-item">
-                    <button class="btn text-white mb-2" style="background: #347BA1;border-radius: 8px;width: 214px;height: 52px;font-size: 16pt">افزودن به سبد خرید</button>
+            <ul class="nav nav-justified py-4 counting font-22" style="color: rgba(0, 0, 0, 0.88);border-bottom: 1px solid #9F9F9F;">
+                <li class="nav-item text-right">میلگرد آجدار ذوب آهن</li>
+                <li class="mx-5">۱۴</li>
+                <li class="mx-5">۲۹.۵</li>
+                <li class="mx-5">A۳</li>
+                <li class="mx-5">۱۶,۴۰۰</li>
+                <li class="nav-item text-left">
+                    <button class="btn text-white mb-2 font-22 buy-btn">افزودن به سبد خرید</button>
                 </li>
-                <li class="nav-item">
-                    <a class="btn btn-block count" data-target="#multiCollapse1" style="font-size: 16.5pt;" aria-expanded="false" aria-controls="multiCollapseExample2">
+                <li class="nav-item text-left">
+                    <a class="btn btn-block count font-22" data-target="#multiCollapse1" aria-expanded="false" aria-controls="multiCollapseExample2">
                         محاسبه قیمت<i class="fas fa-chevron-down pr-2 icon"></i></a>
                 </li>
-                <div class="collapse col-md-12 " id="multiCollapse1" style="font-size: 15px">
-                    <div class="col-md-12 mx-auto pt-4" style="font-family: irsans">
-                        <div class="row ">
+                <div class="collapse col-md-12 font-20" id="multiCollapse1">
+                    <div class="col-md-12 mx-auto pt-4">
+                        <div class="row">
                             <div class="col-md-4 row mx-auto">
-                                <p class="pt-2" style="font-size: 20px">وزن موردنیاز:</p>
-                                <input class="mr-3" type="text" style="background: rgba(255, 255, 255, 0.88);border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px;width: 110px;height: 48px"> <span
-                                    class="pt-2 pr-2" style="font-size: 20px">کیلوگرم</span>
+                                <p class="pt-2 font-20">وزن موردنیاز:</p>
+                                <input class="mr-3 input-style" type="text"> <span
+                                    class="pt-2 pr-2 font-20">کیلوگرم</span>
                             </div>
-                            <div class="col-md-4 row mx-auto ">
-                                <p style="font-size: 15pt">تعداد تقریبی شاخه:</p>
-                                <p style="font-size: 20px">۱۴ عدد</p>
+                            <div class="col-md-4 row mx-auto pt-2">
+                                <p class="font-20">تعداد تقریبی شاخه:</p>
+                                <p class="font-20">۱۴ عدد</p>
                             </div>
-                            <div class="col-md-4 row mx-auto">
-                                <p style="font-size: 22px;">قیمت قبل از حمل:</p>
-                                <p style="color: rgba(13, 140, 2, 1);font-size: 24px">۲,۵۰۰,۰۰۰ تومان</p>
+                            <div class="col-md-4 row mx-auto pt-2">
+                                <p class="font-22">قیمت قبل از حمل:</p>
+                                <p class="font-24" style="color: rgba(13, 140, 2, 1);">۲,۵۰۰,۰۰۰ تومان</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </ul>
-            <ul class="nav nav-justified pb-2 pt-4 counting" style="font-size: 16.25pt;color: rgba(0, 0, 0, 0.88);border-bottom: 1px solid #9F9F9F;">
-                <li class="nav-item">میلگرد آجدار ذوب آهن</li>
-                <li class="nav-item">۱۴</li>
-                <li class="nav-item">۲۹.۵</li>
-                <li class="nav-item">A۳</li>
-                <li class="nav-item">۱۶,۴۰۰</li>
-                <li class="nav-item">
-                    <button class="btn text-white mb-2" style="background: #347BA1;border-radius: 8px;width: 214px;height: 52px;font-size: 16pt">افزودن به سبد خرید</button>
+            <ul class="nav nav-justified pb-2 pt-4 counting font-22" style="color: rgba(0, 0, 0, 0.88);border-bottom: 1px solid #9F9F9F;">
+                <li class="nav-item text-right">میلگرد آجدار ذوب آهن</li>
+                <li class="mx-5">۱۴</li>
+                <li class="mx-5">۲۹.۵</li>
+                <li class="mx-5">A۳</li>
+                <li class="mx-5">۱۶,۴۰۰</li>
+                <li class="nav-item text-left">
+                    <button class="btn text-white mb-2 buy-btn">افزودن به سبد خرید</button>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-block count" data-target="#multiCollapse2" style="font-size: 16.5pt;" aria-expanded="false" aria-controls="multiCollapseExample2">
+                    <a class="btn btn-block count font-22" data-target="#multiCollapse2" aria-expanded="false" aria-controls="multiCollapseExample2">
                         محاسبه قیمت<i class="fas fa-chevron-down pr-2"></i></a>
                 </li>
-                <div class="collapse col-md-12" id="multiCollapse2" style="font-size: 15px">
-                    <div class="col-md-12 mx-auto pt-4" style="font-family: irsans">
-                        <div class="row ">
-                            <div class="col-md-4 row mx-auto">
-                                <p class="pt-2" style="font-size: 20px">وزن موردنیاز:</p>
-                                <input class="mr-3" type="text" style="background: rgba(255, 255, 255, 0.88);border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px;width: 110px;height: 48px"> <span
-                                    class="pt-2 pr-2" style="font-size: 20px">کیلوگرم</span>
-                            </div>
-                            <div class="col-md-4 row mx-auto ">
-                                <p style="font-size: 15pt">تعداد تقریبی شاخه:</p>
-                                <p style="font-size: 20px">۱۴ عدد</p>
-                            </div>
-                            <div class="col-md-4 row mx-auto">
-                                <p style="font-size: 22px;">قیمت قبل از حمل:</p>
-                                <p style="color: rgba(13, 140, 2, 1);font-size: 24px">۲,۵۰۰,۰۰۰ تومان</p>
-                            </div>
+                <div class="collapse col-md-12 font-20" id="multiCollapse2">
+                    <div class="row mx-auto pt-5">
+                        <div class="col-md-4 row mx-auto">
+                            <p class="pt-2 font-20">وزن موردنیاز:</p>
+                            <input class="mr-3 collapsed-section" type="text"> <span
+                                class="pt-2 pr-2 font-20">کیلوگرم</span>
+                        </div>
+                        <div class="col-md-4 row mx-auto font-20 pt-2">
+                            <p>تعداد تقریبی شاخه:</p>
+                            <p>۱۴ عدد</p>
+                        </div>
+                        <div class="col-md-4 row mx-auto pt-2">
+                            <p class="font-22">قیمت قبل از حمل:</p>
+                            <p style="color: rgba(13, 140, 2, 1);" class="font-24">۲,۵۰۰,۰۰۰ تومان</p>
                         </div>
                     </div>
                 </div>
             </ul>
-            <ul class="nav nav-justified pb-2 pt-4 counting" style="font-size: 16.25pt;color: rgba(0, 0, 0, 0.88);border-bottom: 1px solid #9F9F9F;">
-                <li class="nav-item">میلگرد آجدار ذوب آهن</li>
-                <li class="nav-item">۱۴</li>
-                <li class="nav-item">۲۹.۵</li>
-                <li class="nav-item">A۳</li>
-                <li class="nav-item">۱۶,۴۰۰</li>
-                <li class="nav-item">
-                    <button class="btn text-white mb-2" style="background: #347BA1;border-radius: 8px;width: 214px;height: 52px;font-size: 16pt">افزودن به سبد خرید</button>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn-block count" data-target="#multiCollapse2" style="font-size: 16.5pt;" aria-expanded="false" aria-controls="multiCollapseExample2">
-                        محاسبه قیمت<i class="fas fa-chevron-down pr-2"></i></a>
-                </li>
-                <div class="collapse col-md-12" id="multiCollapse2" style="font-size: 15px">
-                    <div class="col-md-12 mx-auto pt-4" style="font-family: irsans">
-                        <div class="row ">
-                            <div class="col-md-4 row mx-auto">
-                                <p class="pt-2" style="font-size: 20px">وزن موردنیاز:</p>
-                                <input class="mr-3" type="text" style="background: rgba(255, 255, 255, 0.88);border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px;width: 110px;height: 48px"> <span
-                                    class="pt-2 pr-2" style="font-size: 20px">کیلوگرم</span>
-                            </div>
-                            <div class="col-md-4 row mx-auto ">
-                                <p style="font-size: 15pt">تعداد تقریبی شاخه:</p>
-                                <p style="font-size: 20px">۱۴ عدد</p>
-                            </div>
-                            <div class="col-md-4 row mx-auto">
-                                <p style="font-size: 22px;">قیمت قبل از حمل:</p>
-                                <p style="color: rgba(13, 140, 2, 1);font-size: 24px">۲,۵۰۰,۰۰۰ تومان</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </ul>
-            <ul class="nav nav-justified pb-2 pt-4 counting" style="font-size: 16.25pt;color: rgba(0, 0, 0, 0.88);border-bottom: 1px solid #9F9F9F;">
-                <li class="nav-item">میلگرد آجدار ذوب آهن</li>
-                <li class="nav-item">۱۴</li>
-                <li class="nav-item">۲۹.۵</li>
-                <li class="nav-item">A۳</li>
-                <li class="nav-item">۱۶,۴۰۰</li>
-                <li class="nav-item">
-                    <button class="btn text-white mb-2" style="background: #347BA1;border-radius: 8px;width: 214px;height: 52px;font-size: 16pt">افزودن به سبد خرید</button>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn-block count" data-target="#multiCollapse2" style="font-size: 16.5pt;" aria-expanded="false" aria-controls="multiCollapseExample2">
-                        محاسبه قیمت<i class="fas fa-chevron-down pr-2"></i></a>
-                </li>
-                <div class="collapse col-md-12" id="multiCollapse2" style="font-size: 15px">
-                    <div class="col-md-12 mx-auto pt-4" style="font-family: irsans">
-                        <div class="row ">
-                            <div class="col-md-4 row mx-auto">
-                                <p class="pt-2" style="font-size: 20px">وزن موردنیاز:</p>
-                                <input class="mr-3" type="text" style="background: rgba(255, 255, 255, 0.88);border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px;width: 110px;height: 48px"> <span
-                                    class="pt-2 pr-2" style="font-size: 20px">کیلوگرم</span>
-                            </div>
-                            <div class="col-md-4 row mx-auto ">
-                                <p style="font-size: 15pt">تعداد تقریبی شاخه:</p>
-                                <p style="font-size: 20px">۱۴ عدد</p>
-                            </div>
-                            <div class="col-md-4 row mx-auto">
-                                <p style="font-size: 22px;">قیمت قبل از حمل:</p>
-                                <p style="color: rgba(13, 140, 2, 1);font-size: 24px">۲,۵۰۰,۰۰۰ تومان</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </ul>
-            <ul class="nav nav-justified pb-2 pt-4 counting" style="font-size: 16.25pt;color: rgba(0, 0, 0, 0.88);border-bottom: 1px solid #9F9F9F;">
-                <li class="nav-item">میلگرد آجدار ذوب آهن</li>
-                <li class="nav-item">۱۴</li>
-                <li class="nav-item">۲۹.۵</li>
-                <li class="nav-item">A۳</li>
-                <li class="nav-item">۱۶,۴۰۰</li>
-                <li class="nav-item">
-                    <button class="btn text-white mb-2" style="background: #347BA1;border-radius: 8px;width: 214px;height: 52px;font-size: 16pt">افزودن به سبد خرید</button>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn-block count" data-target="#multiCollapse2" style="font-size: 16.5pt;" aria-expanded="false" aria-controls="multiCollapseExample2">
-                        محاسبه قیمت<i class="fas fa-chevron-down pr-2"></i></a>
-                </li>
-                <div class="collapse col-md-12" id="multiCollapse2" style="font-size: 15px">
-                    <div class="col-md-12 mx-auto pt-4" style="font-family: irsans">
-                        <div class="row ">
-                            <div class="col-md-4 row mx-auto">
-                                <p class="pt-2" style="font-size: 20px">وزن موردنیاز:</p>
-                                <input class="mr-3" type="text" style="background: rgba(255, 255, 255, 0.88);border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px;width: 110px;height: 48px"> <span
-                                    class="pt-2 pr-2" style="font-size: 20px">کیلوگرم</span>
-                            </div>
-                            <div class="col-md-4 row mx-auto ">
-                                <p style="font-size: 15pt">تعداد تقریبی شاخه:</p>
-                                <p style="font-size: 20px">۱۴ عدد</p>
-                            </div>
-                            <div class="col-md-4 row mx-auto">
-                                <p style="font-size: 22px;">قیمت قبل از حمل:</p>
-                                <p style="color: rgba(13, 140, 2, 1);font-size: 24px">۲,۵۰۰,۰۰۰ تومان</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </ul>
-            <ul class="nav nav-justified pb-2 pt-4 counting" style="font-size: 16.25pt;color: rgba(0, 0, 0, 0.88);border-bottom: 1px solid #9F9F9F;">
-                <li class="nav-item">میلگرد آجدار ذوب آهن</li>
-                <li class="nav-item">۱۴</li>
-                <li class="nav-item">۲۹.۵</li>
-                <li class="nav-item">A۳</li>
-                <li class="nav-item">۱۶,۴۰۰</li>
-                <li class="nav-item">
-                    <button class="btn text-white mb-2" style="background: #347BA1;border-radius: 8px;width: 214px;height: 52px;font-size: 16pt">افزودن به سبد خرید</button>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn-block count" data-target="#multiCollapse2" style="font-size: 16.5pt;" aria-expanded="false" aria-controls="multiCollapseExample2">
-                        محاسبه قیمت<i class="fas fa-chevron-down pr-2"></i></a>
-                </li>
-                <div class="collapse col-md-12" id="multiCollapse2" style="font-size: 15px">
-                    <div class="col-md-12 mx-auto pt-4" style="font-family: irsans">
-                        <div class="row ">
-                            <div class="col-md-4 row mx-auto">
-                                <p class="pt-2" style="font-size: 20px">وزن موردنیاز:</p>
-                                <input class="mr-3" type="text" style="background: rgba(255, 255, 255, 0.88);border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px;width: 110px;height: 48px"> <span
-                                    class="pt-2 pr-2" style="font-size: 20px">کیلوگرم</span>
-                            </div>
-                            <div class="col-md-4 row mx-auto ">
-                                <p style="font-size: 15pt">تعداد تقریبی شاخه:</p>
-                                <p style="font-size: 20px">۱۴ عدد</p>
-                            </div>
-                            <div class="col-md-4 row mx-auto">
-                                <p style="font-size: 22px;">قیمت قبل از حمل:</p>
-                                <p style="color: rgba(13, 140, 2, 1);font-size: 24px">۲,۵۰۰,۰۰۰ تومان</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </ul>
-            <ul class="nav nav-justified pb-2 pt-4 counting" style="font-size: 16.25pt;color: rgba(0, 0, 0, 0.88);border-bottom: 1px solid #9F9F9F;">
-                <li class="nav-item">میلگرد آجدار ذوب آهن</li>
-                <li class="nav-item">۱۴</li>
-                <li class="nav-item">۲۹.۵</li>
-                <li class="nav-item">A۳</li>
-                <li class="nav-item">۱۶,۴۰۰</li>
-                <li class="nav-item">
-                    <button class="btn text-white mb-2" style="background: #347BA1;border-radius: 8px;width: 214px;height: 52px;font-size: 16pt">افزودن به سبد خرید</button>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn-block count" data-target="#multiCollapse2" style="font-size: 16.5pt;" aria-expanded="false" aria-controls="multiCollapseExample2">
-                        محاسبه قیمت<i class="fas fa-chevron-down pr-2"></i></a>
-                </li>
-                <div class="collapse col-md-12" id="multiCollapse2" style="font-size: 15px">
-                    <div class="col-md-12 mx-auto pt-4" style="font-family: irsans">
-                        <div class="row ">
-                            <div class="col-md-4 row mx-auto">
-                                <p class="pt-2" style="font-size: 20px">وزن موردنیاز:</p>
-                                <input class="mr-3" type="text" style="background: rgba(255, 255, 255, 0.88);border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px;width: 110px;height: 48px"> <span
-                                    class="pt-2 pr-2" style="font-size: 20px">کیلوگرم</span>
-                            </div>
-                            <div class="col-md-4 row mx-auto ">
-                                <p style="font-size: 15pt">تعداد تقریبی شاخه:</p>
-                                <p style="font-size: 20px">۱۴ عدد</p>
-                            </div>
-                            <div class="col-md-4 row mx-auto">
-                                <p style="font-size: 22px;">قیمت قبل از حمل:</p>
-                                <p style="color: rgba(13, 140, 2, 1);font-size: 24px">۲,۵۰۰,۰۰۰ تومان</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </ul>
-
         </div>
     </div>
     <div class=" row mx-auto mt-4">
         <div class="col-md-5 pt-2 text-right">
-            <p style="color: #C11400;font-size: 22px;font-family: irsans">قیمت های محاسبه شده تخمینی می باشند.</p>
+            <p class="font-22" style="color: #C11400;">قیمت های محاسبه شده تخمینی می باشند.</p>
         </div>
-        <div class="col-md-6 row mr-auto" style="font-family: irsans">
-            <div class="mr-auto ">
-                <p class="pt-3 pl-2  font-weight-bold" style="font-size: 15pt">
+        <div class="col-md-6 row mr-auto">
+            <div class="mr-auto">
+                <p class="pt-3 pl-2 font-weight-bold font-20">
                     ۳ محصول به سبد خرید شما افزوده شد.
                 </p>
             </div>
-            <div class="pt-2">
-                <button class="btn px-4 text-white" style="background: #E42E2E;border-radius: 8px;">ثبت سفارش ها</button>
-            </div>
+            <button class="mt-2 btn px-4 text-white" style="background: #E42E2E;border-radius: 8px;">ثبت سفارش ها</button>
         </div>
     </div>
     <!--end-product-table-->
 
-    <br>
-    <div class="row position-relative mt-5 pb-5" style="border-bottom: 2px solid #005887;font-family: irsans">
-        <a href="#" class="position-absolute text-center font-weight-bold text-dark pr-3 pl-3" style="background-color: rgba(237, 243, 245, 1); font-size: 21pt;text-decoration: none;right: 45.5%;bottom:-1.1rem">۳۵۰۲۰
+    <div class="row position-relative mt-5 pb-5" style="border-bottom: 2px solid #005887">
+        <a href="#" class="position-absolute text-center font-weight-bold text-dark pr-3 pl-3 call-melal">۳۵۰۲۰
             - ۰۳۱ <img src="../images/moneyPage/phone.png"></a>
     </div>
 </div>
@@ -527,47 +351,50 @@
 <!--end-main-contents-->
 
 <!--start-footer-->
-<footer class="mt-5">
-    <div style="background:linear-gradient(rgba(0, 0, 0, 0.68),rgba(0, 0, 0, 0.68)),url('../images/footer-img.png');background-repeat:no-repeat;background-size: 100% 100%">
-        <div class=" row text-right mx-auto " style="color: white">
-            <div class="col-md-3 mt-5 mb-5 pr-5 mx-auto" style="font-size: 20px">
+<footer class="footer-style-desktop">
+    <div class="col-md-11 mx-auto mt-5">
+        <div class="row text-right mx-auto text-white">
+            <div class="col-md-3 my-5 px-5 mx-auto font-20">
                 <h4>دسترسی سریع</h4>
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg"> درباره ما</a>
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">تماس با ما</a>
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">استخدام</a>
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">دانشنامه</a>
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">اخبار</a>
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">سوالات متداول</a>
+                <a href="#" class="d-block text-white text-decoration-none py-2"><img class="pl-3" src="../images/Ellipse%2015.svg"> درباره ما</a>
+                <a href="#" class="d-block text-white text-decoration-none py-2"><img class="pl-3" src="../images/Ellipse%2015.svg">تماس با ما</a>
+                <a href="#" class="d-block text-white text-decoration-none py-2"><img class="pl-3" src="../images/Ellipse%2015.svg">استخدام</a>
+                <a href="#" class="d-block text-white text-decoration-none py-2"><img class="pl-3" src="../images/Ellipse%2015.svg">دانشنامه</a>
+                <a href="#" class="d-block text-white text-decoration-none py-2"><img class="pl-3" src="../images/Ellipse%2015.svg">اخبار</a>
+                <a href="#" class="d-block text-white text-decoration-none py-2"><img class="pl-3" src="../images/Ellipse%2015.svg">سوالات متداول</a>
             </div>
-            <div class="col-md-3 mb-5 mt-5 mx-auto mr-4" style="font-size: 20px">
+            <div class="col-md-3 my-5 mx-auto mr-4" style="font-size: 20px">
                 <h4>قیمت ها</h4>
-
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">قیمت میلگرد</a>
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">قیمت ورق</a>
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">قیمت تیرآهن</a>
-                <a href="#" class="d-block " style="color: #FFFFFF;text-decoration: none;line-height: 37.3px"><img class="pl-3" src="../images/Ellipse%2015.svg">قیمت لوله</a>
+                <a href="#" class="d-block text-white text-decoration-none py-2"><img class="pl-3" src="../images/Ellipse%2015.svg">قیمت میلگرد</a>
+                <a href="#" class="d-block text-white text-decoration-none py-2"><img class="pl-3" src="../images/Ellipse%2015.svg">قیمت ورق</a>
+                <a href="#" class="d-block text-white text-decoration-none py-2"><img class="pl-3" src="../images/Ellipse%2015.svg">قیمت تیرآهن</a>
+                <a href="#" class="d-block text-white text-decoration-none py-2"><img class="pl-3" src="../images/Ellipse%2015.svg">قیمت لوله</a>
             </div>
-            <div class="col-md-3 row mt-5 mb-5 mx-auto">
+            <div class="col-md-3 row my-5 mx-auto">
                 <div class="row">
-                    <a href="#" class="font-weight-bold" style="color: #FFFFFF;font-size: 16.5pt;text-decoration: none"><i class="fa fa-phone pl-2"></i>۰۳۱۳۵۰۲۰</a>
+                    <a href="#" class="font-weight-bold text-white text-decoration-none font-22"><i class="fa fa-phone pl-2"></i>۰۳۱۳۵۰۲۰</a>
                 </div>
                 <div class="row">
-                    <a href="#" style="line-height: 30.52px;font-size: 18px;color: #FFFFFF;text-decoration: none"> <i class="far fa-clock pl-2"></i>ساعت کاری: شنبه تا چهارشنبه از ساعت ۹:۰۰
+                    <a href="#" class="font-18 text-decoration-none text-white"> <i class="far fa-clock pl-2"></i>ساعت کاری: شنبه تا چهارشنبه از ساعت ۹:۰۰
                         تا ۱۷:۰۰ پیج شنبه ها از ۹ تا ۱۳:۳۰
                     </a>
                 </div>
                 <div class="row">
-                    <a href="#" style="line-height: 30.52px;font-size: 18px;color: #FFFFFF;text-decoration: none"><img src="../images/location.png"></img>
-                        دفتر فروش : اصفهان،حدفاصل پل آذر و پل فلزی،جنب مسجد انقلاب،ساختمان گلدیران،طبقه۲،واحپ۳
+                    <a href="#" class="font-18 text-decoration-none text-white"><img src="../images/location.png"/>
+                        دفتر فروش : اصفهان،حدفاصل پل آذر و پل فلزی،جنب مسجد انقلاب،ساختمان گلدیران،طبقه۲،واحد۳
                     </a>
                 </div>
             </div>
-            <div class="col-md-2 mt-5 mb-5 mr-2 mx-auto">
-                <a href="#"> <img src="../images/ahanmelal.png" alt="" class="mr-5" style="background: rgba(255, 255, 255, 0.92);border-radius: 16px;padding: 8px"></a>
+            <!--            e-namad-->
+            <div class="col-md-2 my-5 mr-2 mx-auto">
+                <a href="#"> <img src="../images/ahanmelal.png" alt="" class="mr-5 bg-white p-2" style="border-radius: 16px;"></a>
                 <div class="mt-4 mr-2">
-                    <a href="#"> <img src="../images/e-namad.png" alt="" style="background: rgba(255, 255, 255, 0.92);border-radius: 16px;"></a>
+                    <a href="#"> <img src="../images/e-namad.png" alt="" style="border-radius: 16px;" class="p-2 bg-white"></a>
                 </div>
             </div>
+            <!--            e-namad-->
+
+            <!--        social-media-melal-->
             <div class="row mx-auto mb-4 ">
                 <div class="col-md-1 mx-auto">
                     <a href="#"><img src="../images/youtube.png" alt=""></a>
@@ -585,8 +412,9 @@
                     <a href="#"><img src="../images/telegram.png" alt=""></a>
                 </div>
             </div>
-            <div class="col-md-12">
-                <p class="text-center" style="font-family: irsans">تمامی حقوق این سایت برای شرکت آهن ملل اصفهان محفوظ می باشد.</p>
+            <!--        social-media-melal-->
+            <div class="col-md-12 text-center">
+                <p>تمامی حقوق این سایت برای شرکت آهن ملل اصفهان محفوظ می باشد.</p>
             </div>
         </div>
     </div>
