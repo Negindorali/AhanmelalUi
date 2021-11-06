@@ -1213,6 +1213,68 @@ a.last-price-changes.active {
     border-radius: 16px;
 }
 
+.news-hero {
+    background: linear-gradient(0, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.56)), url('../images/news/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 551px;
+    width: auto;
+}
+
+.news-email-input {
+    width: 469px;
+    height: 43px;
+    border: 1px solid #495F9E;
+    box-sizing: border-box;
+    border-radius: 13px;
+}
+
+.register-btn {
+    background: #005887;
+    border: 2px solid #005887;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.news-head {
+    background-color: rgba(237, 243, 245, 1);
+    right: 0;
+    bottom: -2.1rem;
+}
+
+.news-box {
+    box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);
+    border-radius: 16px;
+}
+
+.news1 {
+    background: linear-gradient(0, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.38)), url('../images/news/Mask Group.png') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 634px !important;
+    height: 535px !important;
+    border-radius: 1rem !important;
+
+}
+
+.news2 {
+    background: linear-gradient(0, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.38)), url('../images/news/foolad-mobarake.png') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 622px !important;
+    height: 205px !important;
+    border-radius: 1rem !important;
+}
+
+.news3 {
+    background: linear-gradient(0, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.38)), url('../images/news/Manufacturing_-Featured.png')!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    width: 346px!important;
+    height: 306px!important;
+    border-radius: 1rem!important;
+}
+
 .buttons {
     color: #444;
     cursor: pointer;
