@@ -32,7 +32,7 @@ p.moment-new {
 }
 
 
-.nav-border-bottpm {
+.nav-border-bottom {
     border-bottom: 1px solid #3C99FC;
 }
 
@@ -69,7 +69,7 @@ div.hero-product {
     background-repeat: no-repeat !important;
     width: inherit !important;
     background-size: cover !important;
-    height: 30rem;
+    height: 35.125rem;
     border-radius: 1.0625rem;
 }
 
@@ -974,6 +974,38 @@ a.last-price-changes.active {
     height: 201px;
     top: 30%;
     right: 35%
+}
+
+.news-border-box {
+    border-bottom: 1px solid #000000;
+}
+
+.news-border-top {
+    border-bottom: 2px solid #005887;
+}
+
+.news4 {
+    background: linear-gradient(0, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.38)), url('../images/news/IMG-20150528-WA0002_1.png') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    wwidth: 268px !important;
+    height: 306px !important;
+    border-radius: 1rem !important;
+}
+
+.news5 {
+    background-image: url('../images/news/photo-1518253042715-a2534e1b0a7b 2.png') !important;
+    border-radius: 10px !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.report-divider {
+    background-color: rgba(237, 243, 245, 1);
+    font-size: 20pt;
+    text-decoration: none;
+    right: 0;
+    bottom: -2.1rem;
 }
 
 #carousel {
