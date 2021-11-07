@@ -3,7 +3,7 @@
 }
 
 a {
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
 
 @font-face {
@@ -1599,6 +1599,8 @@ p.footer-styles {
 
 #milgerd:hover a {
     transform: translateY(14.5rem);
+    color: white;
+
 }
 
 #varagh {
@@ -1611,6 +1613,8 @@ p.footer-styles {
 
 #varagh:hover a {
     transform: translateY(14.5rem);
+    color: white;
+
 }
 
 #pipe {
@@ -1623,6 +1627,8 @@ p.footer-styles {
 
 #pipe:hover a {
     transform: translateY(14.5rem);
+    color: white;
+
 }
 
 #profile {
@@ -1636,47 +1642,63 @@ p.footer-styles {
 
 #profile:hover a {
     transform: translateY(14.5rem);
+    color: white;
+
 
 }
-#nabshi{
+
+#nabshi {
     background: url('../images/3.png');
 }
 
-#nabshi:hover{
+#nabshi:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/3.png');
 }
-#nabshi:hover a{
+
+#nabshi:hover a {
     transform: translateY(14.5rem);
+    color: white;
+
 }
 
-#maftool{
+#maftool {
     background: url('../images/2.png');
 }
-#maftool:hover{
+
+#maftool:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/2.png');
 
 }
-#maftool:hover a{
-transform: translateY(14.5rem);
+
+#maftool:hover a {
+    transform: translateY(14.5rem);
 }
-#shemsh{
+
+#shemsh {
     background: url('../images/8.png');
 }
-#shemsh:hover{
+
+#shemsh:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/8.png');
 
 }
-#shemsh:hover a{
+
+#shemsh:hover a {
     transform: translateY(14.5rem);
+    color: white;
+
 }
 
-#tir-ahan{
+#tir-ahan {
     background: url('../images/6.png');
 }
-#tir-ahan:hover{
+
+#tir-ahan:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/6.png');
 
 }
-#tir-ahan:hover a{
+
+#tir-ahan:hover a {
     transform: translateY(14.5rem);
+    color: white;
 }
