@@ -31,15 +31,8 @@ p.moment-new {
     font-size: 15pt;
 }
 
-div.navs {
-    background-image: url('../images/logo-ahanmelal.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 6.375rem;
-    width: inherit;
-}
 
-nav.navbar {
+.nav-border-bottpm {
     border-bottom: 1px solid #3C99FC;
 }
 
@@ -75,9 +68,13 @@ a > span.nums {
 div.hero-product {
     background-repeat: no-repeat !important;
     width: inherit !important;
-    background-size: cover;
-    height: 27.125rem;
+    background-size: cover !important;
+    height: 30rem;
     border-radius: 1.0625rem;
+}
+
+.nav-border-bottom {
+    border-bottom: 2px solid #005887;
 }
 
 .titr {
@@ -147,6 +144,10 @@ div.hero-product {
 
 .font-48 {
     font-size: 36pt;
+}
+
+.font-15 {
+    font-size: 11pt;
 }
 
 .price {
@@ -642,7 +643,7 @@ div.hero-product {
     content: "";
     width: 13rem;
     height: 2px;
-    transform: translate(31px, 5px) scaleX(1);
+    transform: translate(31px, 5px) scaleX(1.1);
     background: #007bff;
     display: inline-block;
 }
@@ -824,6 +825,16 @@ a.faq-activate.active {
 .know-us-bg {
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.articles-cat-border {
+    border-bottom: 1px solid #000000;
+}
+
+.the-new {
+    background-color: rgba(237, 243, 245, 1);
+    right: 46%;
+    bottom: -2.1rem
 }
 
 input[type='radio']:checked:after {
