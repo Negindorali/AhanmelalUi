@@ -1,3 +1,11 @@
+* {
+    transition: all 1s;
+}
+
+a {
+    text-decoration: none!important;
+}
+
 @font-face {
     font-family: irsans;
     src: url("../font/fonts/IRANSansWeb(FaNum)_Light.woff");
@@ -1579,4 +1587,96 @@ p.footer-styles {
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
     border-radius: 8px;
+}
+
+#milgerd {
+    background: url('../images/7.png');
+}
+
+#milgerd:hover {
+    background: linear-gradient(#131313e3, #131313e3), url('../images/7.png');
+}
+
+#milgerd:hover a {
+    transform: translateY(14.5rem);
+}
+
+#varagh {
+    background: url('../images/5.png');
+}
+
+#varagh:hover {
+    background: linear-gradient(#131313e3, #131313e3), url('../images/5.png');
+}
+
+#varagh:hover a {
+    transform: translateY(14.5rem);
+}
+
+#pipe {
+    background: url('../images/1.png');
+}
+
+#pipe:hover {
+    background: linear-gradient(#131313e3, #131313e3), url('../images/1.png');
+}
+
+#pipe:hover a {
+    transform: translateY(14.5rem);
+}
+
+#profile {
+    background: url('../images/4.png');
+}
+
+#profile:hover {
+    background: linear-gradient(#131313e3, #131313e3), url('../images/4.png');
+
+}
+
+#profile:hover a {
+    transform: translateY(14.5rem);
+
+}
+#nabshi{
+    background: url('../images/3.png');
+}
+
+#nabshi:hover{
+    background: linear-gradient(#131313e3, #131313e3), url('../images/3.png');
+}
+#nabshi:hover a{
+    transform: translateY(14.5rem);
+}
+
+#maftool{
+    background: url('../images/2.png');
+}
+#maftool:hover{
+    background: linear-gradient(#131313e3, #131313e3), url('../images/2.png');
+
+}
+#maftool:hover a{
+transform: translateY(14.5rem);
+}
+#shemsh{
+    background: url('../images/8.png');
+}
+#shemsh:hover{
+    background: linear-gradient(#131313e3, #131313e3), url('../images/8.png');
+
+}
+#shemsh:hover a{
+    transform: translateY(14.5rem);
+}
+
+#tir-ahan{
+    background: url('../images/6.png');
+}
+#tir-ahan:hover{
+    background: linear-gradient(#131313e3, #131313e3), url('../images/6.png');
+
+}
+#tir-ahan:hover a{
+    transform: translateY(14.5rem);
 }
