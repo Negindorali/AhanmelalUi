@@ -743,7 +743,7 @@ a.faq-activate.active {
     box-sizing: border-box;
 }
 
-.phone:hover {
+.experts-card:hover .phone {
     border: 2px solid #005887;
     box-sizing: border-box;
     border-radius: 21px;
@@ -763,6 +763,67 @@ a.faq-activate.active {
     border-radius: 16px;
     background-color: white;
     padding: 2px 2px 4px 2px;
+}
+
+.social-box {
+    background-color: rgba(237, 243, 245, 1);
+    right: 44%;
+    top: -2.2rem
+}
+
+.phones {
+    color: rgba(0, 88, 135, 1);
+    height: 88px
+}
+
+.order-num {
+    border: 1px solid #9F9F9F;
+    box-sizing: border-box;
+    border-radius: 33px;
+}
+
+.order-sent {
+    background: #005887;
+    border-radius: 32px;
+    width: 246px;
+}
+
+.order-divider {
+    background-color: rgba(237, 243, 245, 1);
+    top: -2.5rem;
+    left: -11rem;
+}
+
+.border-divider {
+    border-top: 1.5px solid #005887;
+}
+
+.divider-num {
+    background-color: rgba(237, 243, 245, 1);
+    top: -1.6rem;
+    right: 0;
+}
+
+.divider-border {
+    border-bottom: 2px solid #005887;
+    top: 2.3rem
+}
+
+.divider-border-bottom {
+    border-bottom: 2px solid #005887;
+    bottom: 4.3rem;
+    left: 0
+}
+
+.know-us-text {
+    background: #CEDFE7;
+    box-shadow: -2px 4px 11px rgba(0, 88, 135, 0.4);
+    border-radius: 16px;
+}
+
+.know-us-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 input[type='radio']:checked:after {
@@ -808,6 +869,18 @@ input[type='radio']:checked:after {
 
 .slick-slide img {
     width: 45%;
+}
+
+.zoom-desktop {
+
+    transition: transform .2s; /* Animation */
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.zoom-desktop:hover {
+    transform: scale(1.5); /* (150% zoom)*/
 }
 
 .zoom {
@@ -856,6 +929,31 @@ a.last-price-changes.active {
     background-size: cover;
     height: 382px;
     width: auto;
+}
+
+.estekhdam-box {
+    box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35) !important;
+    border-radius: 16px !important;
+}
+
+.form-box {
+    box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);
+    border-radius: 16px;
+}
+
+.estekhdam-input {
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 60px;
+}
+
+.radio-input {
+    width: 26px;
+    height: 26px;
+    border: 1px solid #808080;
+    box-sizing: border-box;
+    background-color: #00AF27 !important;
 }
 
 .know-melal {
