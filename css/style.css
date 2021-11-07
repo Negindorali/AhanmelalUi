@@ -749,6 +749,14 @@ a.faq-activate.active {
     border-radius: 21px;
 }
 
+.product-nav {
+    width: 160px !important;
+    background-size: cover !important;
+    border-radius: 16px !important;
+    height: 180px !important;
+    background-repeat: no-repeat !important;
+}
+
 .menu-selected {
     width: fit-content;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -840,6 +848,23 @@ a.last-price-changes.active {
     width: 100%;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)), linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.5) 15.1%, rgba(0, 0, 0, 0.01) 100%);
 
+}
+
+.hero-estekhdam {
+    background-image: url('../images/estekhdam/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 382px;
+    width: auto;
+}
+
+.know-melal {
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 0px 14px 7px rgba(0, 0, 0, 0.37);
+    border-radius: 16px;
+    height: 201px;
+    top: 30%;
+    right: 35%
 }
 
 #carousel {
@@ -1267,12 +1292,12 @@ a.last-price-changes.active {
 }
 
 .news3 {
-    background: linear-gradient(0, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.38)), url('../images/news/Manufacturing_-Featured.png')!important;
-    background-size: cover!important;
-    background-repeat: no-repeat!important;
-    width: 346px!important;
-    height: 306px!important;
-    border-radius: 1rem!important;
+    background: linear-gradient(0, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.38)), url('../images/news/Manufacturing_-Featured.png') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 346px !important;
+    height: 306px !important;
+    border-radius: 1rem !important;
 }
 
 .buttons {
