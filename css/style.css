@@ -1595,6 +1595,7 @@ p.footer-styles {
 
 #milgerd:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/7.png');
+    cursor: pointer;
 }
 
 #milgerd:hover a {
@@ -1609,6 +1610,7 @@ p.footer-styles {
 
 #varagh:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/5.png');
+     cursor: pointer;
 }
 
 #varagh:hover a {
@@ -1623,6 +1625,7 @@ p.footer-styles {
 
 #pipe:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/1.png');
+     cursor: pointer;
 }
 
 #pipe:hover a {
@@ -1637,6 +1640,7 @@ p.footer-styles {
 
 #profile:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/4.png');
+     cursor: pointer;
 
 }
 
@@ -1653,6 +1657,7 @@ p.footer-styles {
 
 #nabshi:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/3.png');
+     cursor: pointer;
 }
 
 #nabshi:hover a {
@@ -1667,6 +1672,7 @@ p.footer-styles {
 
 #maftool:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/2.png');
+     cursor: pointer;
 
 }
 
@@ -1680,6 +1686,7 @@ p.footer-styles {
 
 #shemsh:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/8.png');
+     cursor: pointer;
 
 }
 
@@ -1695,6 +1702,7 @@ p.footer-styles {
 
 #tir-ahan:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/6.png');
+     cursor: pointer;
 
 }
 

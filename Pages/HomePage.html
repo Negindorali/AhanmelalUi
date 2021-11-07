@@ -66,28 +66,28 @@
     <div class="row mx-auto mb-5 p-0">
         <div class="col-md-8 d-flex p-0" style="z-index: 10">
             <div class="col-md my-5 mr-4 hero-product" id="milgerd">
-                <a href="#" class="mt-4 d-block products">میلگرد</a>
+                <a href="https://google.com/" class="mt-4 d-block products">میلگرد</a>
             </div>
             <div class="col-md my-4 mr-4 hero-product" id="varagh">
-                <a href="#" class="mt-4 d-block products">ورق</a>
+                <a href="https://ahanmelal.com/" class="mt-4 d-block products">ورق</a>
             </div>
             <div class="col-md mt-2 mb-5 mr-4 hero-product" id="pipe">
-                <a href="#" class="mt-4 d-block products">لوله</a>
+                <a href="https://google.com/" class="mt-4 d-block products">لوله</a>
             </div>
             <div class="col-md mt-2 mb-5 mr-4 hero-product" id="profile">
-                <a href="#" class="mt-4 d-block products">پروفیل</a>
+                <a href="https://google.com/" class="mt-4 d-block products">پروفیل</a>
             </div>
             <div class="col-md mt-4 mb-5 mr-4 hero-product" id="nabshi">
-                <a href="#" class="mt-4 d-block products">نبشی</a>
+                <a href="https://google.com/" class="mt-4 d-block products">نبشی</a>
             </div>
             <div class="col-md my-5 mr-4 hero-product" id="maftool">
-                <a href="#" class="mt-4 d-block products">مفتول</a>
+                <a href="https://google.com/" class="mt-4 d-block products">مفتول</a>
             </div>
             <div class="col-md my-5 mr-4 hero-product" id="shemsh">
-                <a href="#" class="mt-4 d-block products">شمش آهن</a>
+                <a href="https://google.com/" class="mt-4 d-block products">شمش آهن</a>
             </div>
             <div class="col-md mt-2 mb-5 mr-4 hero-product ml-2" id="tir-ahan">
-                <a href="#" class="mt-4 d-block products">تیرآهن</a>
+                <a href="https://google.com/" class="mt-4 d-block products">تیرآهن</a>
             </div>
         </div>
         <div class="col-md pt-5">
@@ -688,6 +688,12 @@
     });
 
 
+</script>
+<script>
+    $(".hero-product").click(function() {
+        window.location = $(this).find("a").attr("href");
+        return false;
+    });
 </script>
 </body>
 </html>
