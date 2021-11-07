@@ -31,15 +31,8 @@ p.moment-new {
     font-size: 15pt;
 }
 
-div.navs {
-    background-image: url('../images/logo-ahanmelal.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 6.375rem;
-    width: inherit;
-}
 
-nav.navbar {
+.nav-border-bottom {
     border-bottom: 1px solid #3C99FC;
 }
 
@@ -75,9 +68,13 @@ a > span.nums {
 div.hero-product {
     background-repeat: no-repeat !important;
     width: inherit !important;
-    background-size: cover;
-    height: 27.125rem;
+    background-size: cover !important;
+    height: 35.125rem;
     border-radius: 1.0625rem;
+}
+
+.nav-border-bottom {
+    border-bottom: 2px solid #005887;
 }
 
 .titr {
@@ -147,6 +144,10 @@ div.hero-product {
 
 .font-48 {
     font-size: 36pt;
+}
+
+.font-15 {
+    font-size: 11pt;
 }
 
 .price {
@@ -642,7 +643,7 @@ div.hero-product {
     content: "";
     width: 13rem;
     height: 2px;
-    transform: translate(31px, 5px) scaleX(1);
+    transform: translate(31px, 5px) scaleX(1.1);
     background: #007bff;
     display: inline-block;
 }
@@ -826,6 +827,16 @@ a.faq-activate.active {
     background-size: cover;
 }
 
+.articles-cat-border {
+    border-bottom: 1px solid #000000;
+}
+
+.the-new {
+    background-color: rgba(237, 243, 245, 1);
+    right: 46%;
+    bottom: -2.1rem
+}
+
 input[type='radio']:checked:after {
     width: 22px;
     height: 22px;
@@ -963,6 +974,38 @@ a.last-price-changes.active {
     height: 201px;
     top: 30%;
     right: 35%
+}
+
+.news-border-box {
+    border-bottom: 1px solid #000000;
+}
+
+.news-border-top {
+    border-bottom: 2px solid #005887;
+}
+
+.news4 {
+    background: linear-gradient(0, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.38)), url('../images/news/IMG-20150528-WA0002_1.png') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    wwidth: 268px !important;
+    height: 306px !important;
+    border-radius: 1rem !important;
+}
+
+.news5 {
+    background-image: url('../images/news/photo-1518253042715-a2534e1b0a7b 2.png') !important;
+    border-radius: 10px !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.report-divider {
+    background-color: rgba(237, 243, 245, 1);
+    font-size: 20pt;
+    text-decoration: none;
+    right: 0;
+    bottom: -2.1rem;
 }
 
 #carousel {
