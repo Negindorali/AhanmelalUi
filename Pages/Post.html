@@ -189,9 +189,9 @@
                 </p>
             </div>
             <div class="row position-absolute p-2" style="background-color: rgba(237, 243, 245, 1);font-size: 15pt;left:10%;bottom:-1.1rem;">
-                <img src="../images/Blog/SingleBlog/twitter.png" alt="" class="img-fluid mr-5">
-                <img src="../images/Blog/SingleBlog/linkdin.png" alt="" class="img-fluid mr-5">
-                <img src="../images/Blog/SingleBlog/telegram.png" alt="" class="img-fluid mr-5 ml-4">
+                <a href="#"> <img src="../images/Blog/SingleBlog/twitter.png" alt="" class="img-fluid mr-5"></a>
+                <a href="#"><img src="../images/Blog/SingleBlog/linkdin.png" alt="" class="img-fluid mr-5"></a>
+                <a href="#"> <img src="../images/Blog/SingleBlog/telegram.png" alt="" class="img-fluid mr-5 ml-4"></a>
             </div>
         </div>
     </div>
@@ -243,9 +243,7 @@
 <!--end-blog-section-->
 
 <!--start-related-blogs-->
-<div class="mb-4 mt-5">
-    <h4 class="font-weight-bold text-center mt-5 pt-5" style="">مقالات مرتبط</h4>
-</div>
+<h4 class="font-weight-bold text-center my-5 pt-5" style="">مقالات مرتبط</h4>
 <div class="col-md-12 mx-auto justify-content-center ">
     <div class="row mx-auto py-2 bg-white new-article">
         <div class="col-md mx-2 my-3 text-right">
@@ -292,23 +290,23 @@
 <!--start-newest-blogs-->
 <div class="mx-3">
     <h4 class="font-weight-bold text-center my-5 pt-5">مقالات مرتبط</h4>
-    <div class="row mx-auto justify-content-center pb-5">
+    <div class="row mx-auto justify-content-center pb-5 related-blogs">
         <div class="col-md text-right mx-3 position-relative text-center related-post-box"
              style="background-image: url('../images/post/city.png');">
             <div class="col-md related-post">
-                <h5 class="p-3">چرا فلزات پس از برش داغ می شوند</h5>
+                <a href="#" class="p-3 d-block font-22 text-dark">چرا فلزات پس از برش داغ می شوند</a>
             </div>
         </div>
         <div class="col-md text-right mx-3 position-relative text-center related-post-box"
              style="background-image: url('../images/post/boshghab-ghalamzani3 (1).png');">
             <div class="col-md related-post">
-                <h5 class="p-3">طلا فلزی با خواص عجیب</h5>
+                <a href="#" class="p-3 d-block font-22 text-dark">طلا فلزی با خواص عجیب</a>
             </div>
         </div>
         <div class="col-md text-right mx-3 position-relative text-center related-post-box"
              style="background-image: url('../images/post/33.png');">
             <div class="col-md related-post">
-                <h5 class="p-3">چرا فلزات پس از برش داغ می شوند</h5>
+                <a href="#" class="p-3 d-block font-22 text-dark">چرا فلزات پس از برش داغ می شوند</a>
             </div>
         </div>
     </div>
@@ -406,5 +404,15 @@
 <script src="../js/main.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+<script>
+    $('.new-article').click(function (){
+        window.location=$(this).find('a').attr('href');
+        return false;
+    })
+    $('.related-blogs').click(function (){
+        window.location=$(this).find('a').attr('href');
+        return false;
+    })
+</script>
 </body>
 </html>
