@@ -355,6 +355,7 @@ div.hero-product {
     background-size: cover !important;
     border-radius: 16px !important;
     height: 180px !important;
+    cursor: pointer;
 }
 
 .footer-style-desktop {
