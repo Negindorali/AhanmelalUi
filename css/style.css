@@ -99,7 +99,7 @@ div.hero-product {
 }
 
 .font-32 {
-    font-size: 24pt;
+    font-size: 22pt;
 }
 
 .font-24 {
@@ -182,10 +182,11 @@ div.hero-product {
 }
 
 .weight-section {
-    background-image: url('../images/weight-bg.png');
+    background-image: url('../images/Mask Group (10).png') !important;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 350px;
+    cursor: pointer;
 }
 
 .panel-card {
@@ -331,6 +332,7 @@ div.hero-product {
     background-image: url('../images/support.png');
     background-repeat: no-repeat;
     background-size: 100% 108%;
+    cursor: pointer;
 }
 
 .has-search .form-control {
@@ -500,10 +502,11 @@ div.hero-product {
     height: 46px;
     padding-top: .7rem;
 }
-.btn-filter-diagram.active{
-    background: #F4F7F8!important;
-    border-radius: 8px!important;
-    border: none!important;
+
+.btn-filter-diagram.active {
+    background: #F4F7F8 !important;
+    border-radius: 8px !important;
+    border: none !important;
 }
 
 .diagram-section {
@@ -783,7 +786,7 @@ a.faq-activate.active {
 
 .social-box {
     background-color: rgba(237, 243, 245, 1);
-    right: 44%;
+    right: 39%;
     top: -2.2rem
 }
 
@@ -864,6 +867,10 @@ input[type='radio']:checked:after {
     display: inline-block;
     visibility: visible;
     border: 2px solid white !important;
+}
+
+.price-product-filter {
+    border-radius: 23.5px;
 }
 
 .price-product-filter:hover {
@@ -1122,7 +1129,7 @@ a.last-price-changes.active {
     transform: translateY(-50%);
     overflow: hidden;
     margin-top: 15rem;
-    padding-top: 4rem;
+    padding-top: 1rem;
 }
 
 #carousel-desktop div {
@@ -1136,7 +1143,7 @@ a.last-price-changes.active {
 }
 
 #carousel-desktop div img {
-    width: 200px;
+    width: 25rem;
     transition: width 1s;
 }
 
@@ -1147,7 +1154,7 @@ a.last-price-changes.active {
 }
 
 #carousel-desktop div.hideLeft img {
-    width: 100px;
+    width: 17rem;
 }
 
 #carousel-desktop div.hideRight {
@@ -1157,17 +1164,17 @@ a.last-price-changes.active {
 }
 
 #carousel-desktop div.hideRight img {
-    width: 200px;
+    width: 100px;
 }
 
 #carousel-desktop div.prev {
     z-index: 5;
-    left: 30%;
+    left: 25%;
     transform: translateY(50px) translateX(-50%);
 }
 
 #carousel-desktop div.prev img {
-    width: 100px;
+    width: 17rem;
 }
 
 #carousel-desktop div.prevLeftSecond {
@@ -1178,7 +1185,7 @@ a.last-price-changes.active {
 }
 
 #carousel-desktop div.prevLeftSecond img {
-    width: 100px;
+    width: 12rem;
 }
 
 #carousel-desktop div.selected {
@@ -1188,12 +1195,12 @@ a.last-price-changes.active {
 
 #carousel-desktop div.next {
     z-index: 5;
-    left: 70%;
+    left: 75%;
     transform: translateY(50px) translateX(-50%);
 }
 
 #carousel-desktop div.next img {
-    width: 100px;
+    width: 17rem;
 }
 
 #carousel-desktop div.nextRightSecond {
@@ -1204,7 +1211,7 @@ a.last-price-changes.active {
 }
 
 #carousel-desktop div.nextRightSecond img {
-    width: 100px;
+    width: 12rem;
 }
 
 .hero-dividers {
@@ -1273,6 +1280,7 @@ a.last-price-changes.active {
     border-radius: 16px;
     height: 283px;
     right: 37%;
+    cursor: pointer;
 }
 
 .call-center3 {
@@ -1317,7 +1325,7 @@ a.last-price-changes.active {
     filter: drop-shadow(0px 0px 8px #005887);
     border-radius: 16px;
     background-size: cover;
-    height: 632px
+    height: 34rem;
 }
 
 .location-melal {
@@ -1617,7 +1625,7 @@ p.footer-styles {
 
 #varagh:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/5.png');
-     cursor: pointer;
+    cursor: pointer;
 }
 
 #varagh:hover a {
@@ -1632,7 +1640,7 @@ p.footer-styles {
 
 #pipe:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/1.png');
-     cursor: pointer;
+    cursor: pointer;
 }
 
 #pipe:hover a {
@@ -1647,7 +1655,7 @@ p.footer-styles {
 
 #profile:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/4.png');
-     cursor: pointer;
+    cursor: pointer;
 
 }
 
@@ -1664,7 +1672,7 @@ p.footer-styles {
 
 #nabshi:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/3.png');
-     cursor: pointer;
+    cursor: pointer;
 }
 
 #nabshi:hover a {
@@ -1679,7 +1687,7 @@ p.footer-styles {
 
 #maftool:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/2.png');
-     cursor: pointer;
+    cursor: pointer;
 
 }
 
@@ -1693,7 +1701,7 @@ p.footer-styles {
 
 #shemsh:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/8.png');
-     cursor: pointer;
+    cursor: pointer;
 
 }
 
@@ -1709,7 +1717,7 @@ p.footer-styles {
 
 #tir-ahan:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/6.png');
-     cursor: pointer;
+    cursor: pointer;
 
 }
 
@@ -1717,6 +1725,89 @@ p.footer-styles {
     transform: translateY(14.5rem);
     color: white;
 }
-.factory-img{
-    height: 17rem!important;
+
+.factory-img {
+    height: 17rem !important;
+}
+
+.faq-hero {
+    background: linear-gradient(0, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.56)), url('../images/FAQ/APIA_Blog_Ask_PRoperty_Manager 1 (1).png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 551px !important;
+    width: auto !important;
+}
+
+.search-box {
+    height: 60px;
+    border-radius: 64px;
+    border: none
+}
+
+.search-box-btn {
+    background: #005887;
+    border-radius: 50%;
+    left: 0;
+    top: 0
+}
+
+.call-centers {
+    cursor: pointer;
+}
+
+.news {
+    cursor: pointer;
+}
+
+.internal-news {
+    cursor: pointer;
+}
+
+.international-news {
+    cursor: pointer;
+}
+
+.news-cats {
+    cursor: pointer;
+}
+
+.reports {
+    cursor: pointer;
+}
+
+.special-reports {
+    box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);
+    border-radius: 16px;
+}
+
+.product-filters {
+    cursor: pointer;
+}
+
+.table-moment-news {
+    box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);
+    border-radius: 16px;
+}
+
+.post-hero {
+    background: linear-gradient(0, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.56)), url('../images/Blog/SingleBlog/hero.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 382px !important;
+    width: 100% !important;
+}
+
+.related-post {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.related-post-box {
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    height: 24rem!important;
+    width: inherit!important;
 }

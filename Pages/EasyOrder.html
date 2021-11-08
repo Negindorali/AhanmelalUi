@@ -61,10 +61,10 @@
     <!--  end-nav-menu-->
 
     <!--start-product-menu-->
-    <nav class="navbar navbar-expand-md mx-4 text-right" style="border-bottom: 2px solid #005887;">
-        <ul class="col-md-12 navbar-nav">
+    <nav class="navbar navbar-expand-md  text-right">
+        <ul class="col-md-12 navbar-nav px-0" style="border-bottom: 2px solid #005887;">
             <li class="col-md nav-item dropdown">
-                <a class="nav-link dropdown-toggle font-20 text-dark" href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link font-weight-bold dropdown-toggle font-20 text-dark" href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     قیمت میلگرد
                 </a>
                 <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
@@ -75,7 +75,7 @@
             </li>
 
             <li class="col-md nav-item dropdown ">
-                <a class="nav-link dropdown-toggle font-20 text-dark" href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link font-weight-bold dropdown-toggle font-20 text-dark" href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     قیمت تیرآهن
                 </a>
                 <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
@@ -87,7 +87,7 @@
             </li>
 
             <li class="col-md nav-item dropdown ">
-                <a class="nav-link dropdown-toggle text-dark font-20" href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link font-weight-bold dropdown-toggle text-dark font-20" href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     قیمت ورق
                 </a>
                 <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
@@ -101,7 +101,7 @@
             </li>
 
             <li class="col-md nav-item dropdown ">
-                <a class="nav-link dropdown-toggle text-dark font-20" href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link font-weight-bold dropdown-toggle text-dark font-20" href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     قیمت لوله
                 </a>
                 <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
@@ -117,7 +117,7 @@
             </li>
 
             <li class="col-md nav-item dropdown ">
-                <a class="nav-link dropdown-toggle text-dark font-20" href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link font-weight-bold dropdown-toggle text-dark font-20" href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     پروفیل
                 </a>
                 <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
@@ -129,7 +129,7 @@
             </li>
 
             <li class="col-md nav-item dropdown ">
-                <a class="nav-link dropdown-toggle text-dark font-20" href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link font-weight-bold dropdown-toggle text-dark font-20" href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     نبشی ناودانی
                 </a>
                 <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
@@ -140,7 +140,7 @@
             </li>
 
             <li class="col-md nav-item dropdown ">
-                <a class="nav-link dropdown-toggle text-dark font-20" href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link font-weight-bold dropdown-toggle text-dark font-20" href="#" id="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     محصولات مفتولی
                 </a>
                 <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
@@ -154,9 +154,10 @@
             </li>
 
             <li class="col-md nav-item text-left">
-                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link font-weight-bold " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     شمش فولادی
                 </a>
+
             </li>
 
         </ul>
@@ -166,7 +167,7 @@
     <!--  start-category-->
     <h5 class="text-center mt-5 font-weight-bold font-24">سامانه سفارش آسان آهن ملل </h5>
     <p class="text-center mt-5 font-weight-bold font-20">مشترک گرامی، محصول یا محصولات موردنظر خود را از اینجا انتخاب کنید و با کارشناسان مربوط به آن ها تماس بگیرید.</p>
-    <div class="row mx-auto my-5">
+    <div class="row mx-auto my-5 product-filters">
 
         <div class="col-md m-2 mr-3 product-nav" style="background: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.01)),url('../images/moneyPage/rebar.png');">
             <a href="" class="text-center mt-3 text-white d-block font font-22 text-decoration-none">میلگرد</a>
@@ -370,6 +371,10 @@
         $(".faq-panel.active").removeClass("active").hide();
         $(id).addClass("active").show();
     });
+    $('.product-filters').click(function (){
+        window.location=$(this).find('a').attr('href');
+        return false;
+    })
 </script>
 </body>
 </html>
