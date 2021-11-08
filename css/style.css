@@ -498,6 +498,12 @@ div.hero-product {
     border-radius: 8px;
     width: 105px;
     height: 46px;
+    padding-top: .7rem;
+}
+.btn-filter-diagram.active{
+    background: #F4F7F8!important;
+    border-radius: 8px!important;
+    border: none!important;
 }
 
 .diagram-section {
@@ -1710,4 +1716,7 @@ p.footer-styles {
 #tir-ahan:hover a {
     transform: translateY(14.5rem);
     color: white;
+}
+.factory-img{
+    height: 17rem!important;
 }
