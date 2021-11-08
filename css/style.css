@@ -1811,3 +1811,9 @@ p.footer-styles {
     height: 24rem!important;
     width: inherit!important;
 }
+.new-article{
+    cursor: pointer;
+}
+.related-blogs{
+    cursor: pointer;
+}
