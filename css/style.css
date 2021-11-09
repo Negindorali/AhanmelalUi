@@ -500,10 +500,11 @@ div.hero-product {
     height: 46px;
     padding-top: .7rem;
 }
-.btn-filter-diagram.active{
-    background: #F4F7F8!important;
-    border-radius: 8px!important;
-    border: none!important;
+
+.btn-filter-diagram.active {
+    background: #F4F7F8 !important;
+    border-radius: 8px !important;
+    border: none !important;
 }
 
 .diagram-section {
@@ -759,18 +760,32 @@ a.faq-activate.active {
     box-sizing: border-box;
 }
 
+.phone {
+    border-radius:16px;
+}
+
 .experts-card:hover .phone {
-    border: 2px solid #005887;
-    box-sizing: border-box;
-    border-radius: 21px;
+    border: 1px solid #005887;
+    user-select: none;
+    text-align: center;
+    border-radius: 16px;
+    border-top: 2px solid #005887;
 }
 
 .product-nav {
-    width: 160px !important;
+    min-width: 12rem;
+    max-width: 12rem;
+    min-height: 12rem;
+    max-height: 12rem;
+    padding: 0;
+    border: 10px solid #edf3f5;
+    margin: 3px;
     background-size: cover !important;
     border-radius: 16px !important;
-    height: 180px !important;
     background-repeat: no-repeat !important;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
 }
 
 .menu-selected {
@@ -789,7 +804,6 @@ a.faq-activate.active {
 
 .phones {
     color: rgba(0, 88, 135, 1);
-    height: 88px
 }
 
 .order-num {
@@ -1287,7 +1301,7 @@ a.last-price-changes.active {
 .experts-card {
     border: 2px solid #005887;
     box-sizing: border-box;
-    box-shadow: 0px 0px 13px 16px rgba(0, 53, 81, 0.35);
+    box-shadow: 0px 0px 8px 2px rgba(0, 88, 135, 0.35);
     border-radius: 21px;
 }
 
@@ -1617,7 +1631,7 @@ p.footer-styles {
 
 #varagh:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/5.png');
-     cursor: pointer;
+    cursor: pointer;
 }
 
 #varagh:hover a {
@@ -1632,7 +1646,7 @@ p.footer-styles {
 
 #pipe:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/1.png');
-     cursor: pointer;
+    cursor: pointer;
 }
 
 #pipe:hover a {
@@ -1647,7 +1661,7 @@ p.footer-styles {
 
 #profile:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/4.png');
-     cursor: pointer;
+    cursor: pointer;
 
 }
 
@@ -1664,7 +1678,7 @@ p.footer-styles {
 
 #nabshi:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/3.png');
-     cursor: pointer;
+    cursor: pointer;
 }
 
 #nabshi:hover a {
@@ -1679,7 +1693,7 @@ p.footer-styles {
 
 #maftool:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/2.png');
-     cursor: pointer;
+    cursor: pointer;
 
 }
 
@@ -1693,7 +1707,7 @@ p.footer-styles {
 
 #shemsh:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/8.png');
-     cursor: pointer;
+    cursor: pointer;
 
 }
 
@@ -1709,7 +1723,7 @@ p.footer-styles {
 
 #tir-ahan:hover {
     background: linear-gradient(#131313e3, #131313e3), url('../images/6.png');
-     cursor: pointer;
+    cursor: pointer;
 
 }
 
@@ -1717,6 +1731,32 @@ p.footer-styles {
     transform: translateY(14.5rem);
     color: white;
 }
-.factory-img{
-    height: 17rem!important;
+
+.factory-img {
+    height: 17rem !important;
+}
+
+.product-nav:hover {
+    border: 10px solid white;
+}
+
+.expertOrde {
+    border: 10px solid white;
+}
+
+.expertOrde::after {
+    content: "\f00c     انتخاب شد";
+    text-align: center;
+    padding: 9.9px;
+    color: #00B050;
+    font-size: 12pt;
+    font-weight: 900;
+    background: white;
+    position: absolute;
+    bottom: -2.7rem;
+    left: -10px;
+    right: -10px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
