@@ -343,3 +343,244 @@ body.melal {
     background: #F4F4F4;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
 }
+
+.call-btn {
+    background-color: rgba(237, 243, 245, 1) !important;
+    border: 2px solid #A82633 !important;
+    width: 121px !important;
+    height: 34px !important;
+    left: 20px !important;
+    box-sizing: border-box !important;
+    border-radius: 8px !important;
+}
+
+.logo-melal {
+    background-image: url('../images/logo-ahanmelal.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px
+}
+
+.cats-btn {
+    border: 2px solid #6F42C1 !important;
+    box-sizing: border-box !important;
+    border-radius: 68px !important;
+    font-size: 11pt !important;
+}
+
+.cats-btn:hover {
+    background: #6F42C1;
+    color: white;
+
+}
+
+.cats-filter {
+    border-radius: 65px !important;
+}
+
+.cats-filter:hover {
+    background: rgba(111, 66, 193, 0.38) !important;
+    border-radius: 65px !important;
+}
+
+.tabels {
+    box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);
+    border-radius: 16px;
+}
+
+.tabels-header {
+    font-size: 7.25pt;
+    color: #005887;
+    border-bottom: 2px solid #347BA1;
+}
+
+.tabels-row {
+    font-size: 8pt;
+    color: rgba(0, 0, 0, 0.88);
+    border-bottom: 1px solid #9F9F9F;
+}
+
+.modal-input {
+    background: rgba(255, 255, 255, 0.88);
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px
+}
+
+.modal-price {
+    color: rgba(13, 140, 2, 1);
+    font-size: 11pt
+}
+
+.blog-sections {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: inherit;
+    height: 213px
+}
+
+.blog-title-box {
+    background: white;
+    border-radius: 8px 0px 0px 8px;
+    top: 2.5rem;
+    right: 0rem;
+
+}
+
+.blog-footer {
+    background: rgba(0, 0, 0, 0.74) !important;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 16px !important;
+    bottom: 0rem !important;
+    right: 0rem !important;
+    width: 100 !important;
+%
+}
+
+.experts-box {
+    border: 2px solid #005887;
+    box-sizing: border-box;
+    border-radius: 21px;
+}
+
+.about-factories {
+    box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);
+    border-radius: 16px;
+}
+
+.diagrams-box {
+    background: rgba(255, 255, 255, 0.7);;
+    box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);
+    border-radius: 16px;
+}
+
+.diagram-input {
+    border-radius: 10px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+}
+
+.diagrams-border {
+    border: none;
+    box-sizing: border-box;
+}
+
+.time-btn {
+    border: 1px solid #9F9F9F;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 75px;
+    height: 33px;
+}
+
+.btn-filter-factories {
+    border: 2px solid #347BA1;
+    box-sizing: border-box;
+    border-radius: 68px;
+
+}
+
+#carousel {
+    position: relative;
+    height: 630px;
+    top: -29%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    margin-top: 15rem;
+    padding-top: 4rem;
+}
+
+#carousel div {
+    position: absolute;
+    transition: transform 1s, left 1s, opacity 1s, z-index 0s;
+    opacity: 1;
+    z-index: 21;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px 1px rgba(0, 88, 135, 0.35);
+    border-radius: 20px;
+}
+
+#carousel div img {
+    width: 7rem;
+    transition: width 1s;
+}
+
+#carousel div.hideLeft {
+    left: 0%;
+    opacity: 0;
+    transform: translateY(50%) translateX(-50%);
+}
+
+#carousel div.hideLeft img {
+    width: 75px;
+}
+
+#carousel div.hideRight {
+    left: 100%;
+    opacity: 0;
+    transform: translateY(50%) translateX(-50%);
+}
+
+#carousel div.hideRight img {
+    width: 75px;
+}
+
+#carousel div.prev {
+    z-index: 5;
+    left: 33%;
+    transform: translateY(50px) translateX(-50%);
+    top: 3rem;
+}
+
+#carousel div.prev img {
+    width: 5rem;
+}
+
+#carousel div.prevLeftSecond {
+    z-index: 4;
+    left: 20%;
+    transform: translateY(50%) translateX(-50%);
+    opacity: 0.7;
+}
+
+#carousel div.prevLeftSecond img {
+    width: 4rem;
+}
+
+#carousel div.selected {
+    left: 50%;
+    transform: translateY(0px) translateX(-50%);
+}
+
+#carousel div.next {
+    z-index: 5;
+    left: 68%;
+    top: 3rem;
+    transform: translateY(50px) translateX(-50%);
+}
+
+#carousel div.next img {
+    width: 5rem;
+}
+
+#carousel div.nextRightSecond {
+    z-index: 4;
+    left: 81%;
+    transform: translateY(50%) translateX(-50%);
+    opacity: 0.7;
+}
+
+#carousel div.nextRightSecond img {
+    width: 4rem;
+}
+
+.carousel-bg {
+    background-image: url('../images/PwaAssets/kisspng-black-and-white-pattern-hexagonal-base-map-of-science-and-technology-5a695c5938e0d1 5.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 106px;
+    background-position: center center
+}

@@ -15,11 +15,12 @@
 
     <link rel="stylesheet" href="../font/fonts/IRANSansWeb(FaNum)_Light.woff">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mobile-styles.css">
     <link rel="stylesheet" href="../font/fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="stylesheet" href="../font/fontawesome-free-5.15.4-web/css/regular.min.css">
 
 </head>
-<body dir="rtl" style="background-color: rgba(237, 243, 245, 1)">
+<body class="melal">
 
 <div class="container-fluid p-0">
     <!--  start-nav-menu-->
@@ -28,278 +29,238 @@
             <a class="btn btn-block pr-0" data-bs-toggle="offcanvas" data-bs-target="#demo">
                 <img src="../images/PwaAssets/bars.svg" alt="">
             </a>
-            <div class="offcanvas offcanvas-end" id="demo" style="font-family: irsans">
+            <div class="offcanvas offcanvas-end" id="demo">
                 <div class="offcanvas-header ">
                     <img src="../images/PwaAssets/menu-logo.png" alt="" class="img-fluid mx-auto">
                     <button type="button" class="btn btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa fa-times text-muted"></i></button>
                 </div>
-                <div class="offcanvas-body p-0" style="font-size: 12pt">
+                <div class="offcanvas-body p-0">
                     <ul class="nav flex-column p-0">
-                        <li class="pr-4 border-bottom mt-2 pb-3"><a href="#" style="text-decoration: none;" class="text-danger d-block">قیمت لحظه ای</a></li>
+                        <li class="pr-4 border-bottom mt-2 pb-3"><a href="#" class="text-danger d-block">قیمت لحظه ای</a></li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link">خرید آسان</a>
+                            <a href="#" class="nav-link text-dark font-15">خرید آسان</a>
                         </li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link menu" data-target="#rebar-price">قیمت میلگرد
-                                <i class="fa fa-chevron-down float-left fa-2x"></i>
+                            <a href="#" class="nav-link menu text-dark font-15" data-target="#rebar-price">قیمت میلگرد
+                                <i class="fa fa-chevron-down float-left "></i>
                             </a>
-                            <div class="col-12 collapse mx-auto pt-3" style="font-family: irsans;font-size: 12pt" id="rebar-price">
+                            <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="rebar-price">
                                 <ul class="nav flex-column p-0">
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link menu" data-target="#tirAhan-price">
-                                قیمت تیرآهن<i class="fa fa-chevron-down float-left fa-2x menu">
+                            <a href="#" class="nav-link menu text-dark font-15" data-target="#tirAhan-price">
+                                قیمت تیرآهن<i class="fa fa-chevron-down float-left  menu">
                             </i>
                             </a>
-                            <div class="col-12 collapse mx-auto pt-3" style="font-family: irsans;font-size: 12pt" id="tirAhan-price">
+                            <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="tirAhan-price">
                                 <ul class="nav flex-column p-0">
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link menu" data-target="#varaq-price">قیمت ورق<i class="fa fa-chevron-down float-left fa-2x menu"></i></a>
-                            <div class="col-12 collapse mx-auto pt-3" style="font-family: irsans;font-size: 12pt" id="varaq-price">
+                            <a href="#" class="font-15 text-dark nav-link menu" data-target="#varaq-price">قیمت ورق<i class="fa fa-chevron-down float-left  menu"></i></a>
+                            <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="varaq-price">
                                 <ul class="nav flex-column p-0">
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link menu" data-target="#pipe-price">قیمت لوله<i class="fa fa-chevron-down float-left fa-2x menu"></i></a>
-                            <div class="col-12 collapse mx-auto pt-3" style="font-family: irsans;font-size: 12pt" id="pipe-price">
+                            <a href="#" class="font-15 text-dark nav-link menu" data-target="#pipe-price">قیمت لوله<i class="fa fa-chevron-down float-left  menu"></i></a>
+                            <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="pipe-price">
                                 <ul class="nav flex-column p-0">
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link menu" data-target="#profile-price">قیمت پروفیل<i class="fa fa-chevron-down float-left fa-2x menu"></i></a>
-                            <div class="col-12 collapse mx-auto pt-3" style="font-family: irsans;font-size: 12pt" id="profile-price">
+                            <a href="#" class="font-15 text-dark nav-link menu" data-target="#profile-price">قیمت پروفیل<i class="fa fa-chevron-down float-left menu"></i></a>
+                            <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="profile-price">
                                 <ul class="nav flex-column p-0">
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link menu" data-target="#nabshi-price">قیمت نبشی<i class="fa fa-chevron-down float-left fa-2x menu"></i></a>
-                            <div class="col-12 collapse mx-auto pt-3" style="font-family: irsans;font-size: 12pt" id="nabshi-price">
+                            <a href="#" class="font-15 text-dark nav-link menu" data-target="#nabshi-price">قیمت نبشی<i class="fa fa-chevron-down float-left  menu"></i></a>
+                            <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="nabshi-price">
                                 <ul class="nav flex-column p-0">
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link menu" data-target="#maftool-price">قیمت مفتول<i class="fa fa-chevron-down float-left fa-2x menu"></i></a>
-                            <div class="col-12 collapse mx-auto pt-3" style="font-family: irsans;font-size: 12pt" id="maftool-price">
+                            <a href="#" class="font-15 text-dark nav-link menu" data-target="#maftool-price">قیمت مفتول<i class="fa fa-chevron-down float-left  menu"></i></a>
+                            <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="maftool-price">
                                 <ul class="nav flex-column p-0">
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link menu" data-target="#shemsh-price">قیمت شمش آهنی<i class="fa fa-chevron-down float-left fa-2x menu"></i></a>
-                            <div class="col-12 collapse mx-auto pt-3" style="font-family: irsans;font-size: 12pt" id="shemsh-price">
+                            <a href="#" class="font-15 text-dark nav-link menu" data-target="#shemsh-price">قیمت شمش آهنی<i class="fa fa-chevron-down float-left  menu"></i></a>
+                            <div class="col-12 collapse mx-auto pt-3" style=";font-size: 12pt" id="shemsh-price">
                                 <ul class="nav flex-column p-0">
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark"  style="text-decoration: none">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link">دانشنامه</a>
+                            <a href="#" class="text-dark font-15 nav-link">دانشنامه</a>
                         </li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link">محاسبه وزن</a>
+                            <a href="#" class="text-dark font-15 nav-link">محاسبه وزن</a>
 
                         </li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link">تماس با ما</a>
+                            <a href="#" class="text-dark font-15 nav-link">تماس با ما</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-
-        <div class="col text-center">
-            <button style="background-color:rgba(237, 243, 245, 1); border:  2px solid #A82633;width: 121px;height: 34px;left: 20px;box-sizing: border-box;border-radius: 8px;"><span
-                    class="pl-2" style="font-size:
-                    16px;font-weight: 400;font-family: irsans">
-          ۰۳۱-۳۵۰۲۰</span><img src="../images/PwaAssets/Vector.svg" class="position-absolute mr-1 p-1" style="background-color:rgba(237, 243, 245, 1);top: 0.2rem;">
+        <div class="col text-center my-auto">
+            <button class="call-btn">
+                <span class="pl-2 font-22 font-weight-bold">۰۳۱-۳۵۰۲۰</span>
+                <img src="../images/PwaAssets/Vector.svg" class="position-absolute mr-1 p-1" style="background-color:rgba(237, 243, 245, 1);top: 0.2rem;left: 0">
             </button>
         </div>
-        <div class="col text-danger ml-3" style="background-image: url('../images/logo-ahanmelal.png');background-size: contain;background-repeat: no-repeat;height: 50px;width:50px ">
+        <div class="col text-danger ml-3 logo-melal">
         </div>
     </div>
     <!--  end-nav-menu-->
 
     <!--start-product-table-->
-    <div class="row mx-auto pt-4">
-        <p class="text-right mr-2" style="font-size: 12pt; font-family: irsans">نوع میلگرد:</p>
-        <div class=" btn-group " style="font-family: irsans;">
-            <button type="button" class="btn btn-filter  pb-2 mr-2" style="border: 2px solid #6F42C1;box-sizing: border-box;border-radius: 68px;width: 60px;height: 29px;font-size: 11.5pt">کلاف</button>
-            <button type="button" class="btn btn-filter  pb-2 mr-2" style="border: 2px solid #6F42C1;box-sizing: border-box;border-radius: 68px;width: 60px;height: 29px;font-size: 11.5pt">آجدار</button>
-            <button type="button" class="btn btn-filter  pb-2 mr-2" style="border: 2px solid #6F42C1;box-sizing: border-box;border-radius: 68px;width: 60px;height: 29px;font-size: 11.5pt">ساده</button>
+    <div class="row mx-auto pt-4 px-2">
+        <p class="text-right mr-2 font-weight-bold font-16">نوع میلگرد:</p>
+        <div class="btn-group">
+            <button type="button" class="btn cats-btn mr-2 px-4">کلاف</button>
+            <button type="button" class="btn cats-btn mr-1 px-4">آجدار</button>
+            <button type="button" class="btn cats-btn mr-1 px-4">ساده</button>
         </div>
     </div>
-    <div class="row mx-auto pt-3">
-        <p class="text-right mr-2 pt-2" style="font-size: 12pt; font-family: irsans">خرید از:</p>
-        <div class=" btn-group " style="font-family: irsans;">
-            <button type="button" class="btn btn-filter mr-3 " style="border: 2px solid #6F42C1;box-sizing: border-box;border-radius: 68px;width: 130px;height: 35px;font-size: 11.5pt">کارخانه</button>
-            <button type="button" class="btn btn-filter mr-3 " style="border: 2px solid #6F42C1;box-sizing: border-box;border-radius: 68px;width: 100px;height: 35px;font-size: 11.5pt">انبار</button>
+    <div class="row mx-auto pt-3 px-2">
+        <p class="text-right mr-2 pt-2 font-16 font-weight-bold">خرید از:</p>
+        <div class="btn-group">
+            <button type="button" class="btn cats-btn px-5 mr-2 ">کارخانه</button>
+            <button type="button" class="btn cats-btn px-4 mr-2 ">انبار</button>
         </div>
     </div>
     <!--start-product-table-->
 
     <!--search-section-->
-    <div class="">
-        <div class="input-group mx-auto  justify-content-center mt-2" style="font-family: irsans">
-            <input type="text" class="pr-3 py-4 form-control mr-3 " style="background: rgba(255, 255, 255, 0.82);border-radius: 8px;" placeholder="دنبال چه محصولی می گردید؟"/>
-            <div class="input-group-append">
-                <button class="btn ml-4" type="button" style="background-color:#007BFF;border-radius: 5px">
+    <div class="row my-3 px-2 mx-2">
+        <div class="input-group" dir="ltr">
+            <div class="input-group-prepend">
+                <button class="btn btn-outline-primary search-btn" type="button">
                     <img src="../images/search.svg" alt="">
                 </button>
             </div>
+            <input type="text" class="pr-3 py-4 form-control search-product text-right" placeholder="دنبال چه محصولی می گردید؟">
         </div>
     </div>
     <!--search-section-->
 
     <!--  product-table-->
     <div class="row mx-auto pt-4">
-        <p class="text-right mr-2" style="font-size: 12pt; font-family: irsans">مرتب سازی براساس :</p>
-        <div class="btn-group mx-auto" style="font-family: irsans;">
-            <button type="button" class="btn btn-filter  pb-2 orders " style="box-sizing: border-box;border-radius: 68px;width: 100px;height: 29px;font-size: 11.5pt">به صرفه</button>
-            <button type="button" class="btn btn-filter  pb-2 orders " style="box-sizing: border-box;border-radius: 68px;width: 60px;height: 29px;font-size: 11.5pt">پرفروش</button>
-            <button type="button" class="btn btn-filter  pb-2 orders mr-3" style="box-sizing: border-box;border-radius: 68px;width: 60px;height: 29px;font-size: 11.5pt">برند</button>
+        <p class="text-right mr-2 font-16 font-weight-bold">مرتب سازی براساس :</p>
+        <div class="btn-group mx-auto">
+            <button type="button" class="btn cats-filter mr-2 px-3">به صرفه</button>
+            <button type="button" class="btn cats-filter mr-2 px-3">پرفروش</button>
+            <button type="button" class="btn cats-filter mr-2 px-4">برند</button>
         </div>
     </div>
-    <div class="col  mt-2 pb-4  " style="background: #FFFFFF;box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;font-family: irsans">
+    <div class="col mt-2 pb-4 bg-white tabels">
         <div class="col mt-5 pt-3 pr-1 pl-1" style="border-bottom: 2px solid #347BA1;">
-            <ul class="nav nav-justified pb-2 pr-0" style="font-size: 7.5pt;color: rgba(255, 0, 0, 0.88);border-bottom: 2px solid #347BA1;">
-                <li class="nav-item pr-1">نام محصول</li>
-                <li class="nav-item mr-5">سایز</li>
-                <li class="nav-item ">آنالیز</li>
-                <li class="nav-item ">نوسان</li>
-                <li class="nav-item ">قیمت</li>
-                <li class="nav-item "></li>
+            <ul class="nav nav-justified font-weight-bold pb-2 pr-0 tabels-header">
+                <li class="nav-item pr-1 text-right">نام محصول</li>
+                <li class="nav-item mr-5 text-left">سایز</li>
+                <li class="nav-item text-left">آنالیز</li>
+                <li class="nav-item text-left">نوسان</li>
+                <li class="nav-item text-left">قیمت</li>
+                <li class="nav-item text-left"></li>
             </ul>
-            <ul class="nav nav-justified pb-4 pt-4  pr-0" style="font-size: 7.5pt;color: rgba(0, 0, 0, 0.88);border-bottom: 1px solid #9F9F9F;">
-                <li class=" pr-1">میلگرد آجدار ذوب آهن</li>
-                <li class="nav-item ">۱۴</li>
-                <li class="nav-item">A۳</li>
-                <li class="nav-item">۵٪</li>
-                <li class="nav-item">۱۶,۴۰۰</li>
-                <li class="nav-item">
+            <ul class="nav nav-justified pt-3 pb-2 pr-0 font-weight-bold tabels-row">
+                <li class="pr-1 text-right">میلگرد آجدار ذوب آهن</li>
+                <li class="nav-item text-left ">۱۴</li>
+                <li class="nav-item text-left">A۳</li>
+                <li class="nav-item text-left text-success">۵٪<i class="fas fa-caret-up  pr-1 text-success"></i></li>
+                <li class="nav-item text-left">۱۶,۴۰۰</li>
+                <li class="nav-item text-left">
                     <div class="row mr-2">
-                        <a href="" class="" style="text-decoration: none;color:rgba(0, 88, 135, 1) "><i class="fa fa-shopping-cart fa-2x"></i></a>
+                        <a href="#" style="color:rgba(0, 88, 135, 1) "><i class="fa fa-shopping-cart fa-2x"></i></a>
                         <a href="#" class="pr-2 diagramModal" style="color:rgba(0, 0, 0, 0.55)"><i class="fas fa-ellipsis-v pr-2 icon fa-2x"></i></a>
-                      <div class="modal fade " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-md" role="document"  >
-                          <div class="p-3" style="background-color:#FFFFFF;border-radius:16px;">
-                            <div class="col mx-auto pt-4" style="font-family: irsans">
-                                <div class="col row mx-auto">
-                                  <p class="pt-2" style="font-size: 10pt">وزن موردنیاز:</p>
-                                  <input class="mr-3" type="text" style="background: rgba(255, 255, 255, 0.88);border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px;width: 100px;height: 40px"><span
-                                        class="pt-2 pr-2" style="font-size: 10pt">کیلوگرم</span>
-                                </div>
-                              <div class="col row mx-auto mt-3">
-                                <p style="font-size: 11pt;">قیمت قبل از حمل:</p>
-                                <p style="color: rgba(13, 140, 2, 1);font-size: 11pt">۲,۵۰۰,۰۰۰ تومان</p>
-                              </div>
-                                <div class="col row mx-auto ">
-                                  <p style="font-size: 10pt">تعداد تقریبی شاخه:</p>
-                                  <p style="font-size: 10pt">۱۴ عدد</p>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-md" role="document">
+                                <div class="p-3 bg-white" style="border-radius:16px;">
+                                    <div class="col mx-auto pt-4">
+                                        <div class="col row mx-auto">
+                                            <p class="pt-2 font-12">وزن موردنیاز:</p>
+                                            <input class="mr-3 modal-input" type="text"><span
+                                                class="pt-2 pr-2 font-12">کیلوگرم</span>
+                                        </div>
+                                        <div class="col row mx-auto mt-3">
+                                            <p class="font-12">قیمت قبل از حمل:</p>
+                                            <p class="modal-price">۲,۵۰۰,۰۰۰ تومان</p>
+                                        </div>
+                                        <div class="col row mx-auto ">
+                                            <p class="font-12">تعداد تقریبی شاخه:</p>
+                                            <p class="font-12">۱۴ عدد</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-
-                          </div>
                         </div>
-                      </div>
                     </div>
                 </li>
-
             </ul>
         </div>
     </div>
-    <div class="col  mx-auto mt-3">
-        <div class=" pt-2 text-right">
-            <p style="color: #C11400;font-size: 11pt;font-family: irsans">قیمت های محاسبه شده تخمینی می باشند.</p>
-        </div>
-        <div class="col row " style="font-family: irsans">
-            <div class=" ">
-                <p class="pt-2 pl-2  font-weight-bold" style="font-size: 8.5pt">
-                    ۳ محصول به سبد خرید شما افزوده شد.
-                </p>
-            </div>
-            <div class="pt-2">
-                <button class="btn px-4 text-white" style="background: #E42E2E;border-radius: 8px;font-size: 9pt">ثبت سفارش ها</button>
-            </div>
+    <div class="col mx-auto mt-2">
+        <p class="font-12 font-weight-bold pt-2 text-right" style="color: #C11400;">قیمت های محاسبه شده تخمینی می باشند.</p>
+        <div class="col row">
+            <p class="pt-2 pl-2 font-weight-bold font-10">
+                ۳ محصول به سبد خرید شما افزوده شد</p>
+            <button class="btn  font-weight-bold text-white font-12" style="background: #E42E2E;border-radius: 8px;">ثبت سفارش ها</button>
         </div>
     </div>
     <!--  product-table-->
 
     <!--  blog-->
-    <div class="col mt-5 mb-5" style="font-family: irsans">
-        <p class="text-center font-weight-bold pb-2 pt-4" style="font-size: 12pt">دانشنامه</p>
+    <div class="col mt-3 mb-5">
+        <p class="text-center font-weight-bold pb-2 pt-4 font-16">دانشنامه</p>
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active w-100 text-center  " style="background-image: url('../images/PwaAssets/blog.png');background-repeat: no-repeat;background-size: cover;width: inherit;height: 213px">
-                    <div class="col-sm-3 pt-1 position-absolute" style="background: #EDF3F5;border-radius: 8px 0px 0px 8px;top: 2.5rem;right:0rem;width: 130px;height: 30px;">
-                        <a class="text-center font-weight-bold" href="#" style="font-family: irsans;font-size: 12px;color:rgba(0, 0, 0, 1);text-decoration: none">محصولات مفتولی</a>
+                <div class="carousel-item active w-100 text-center blog-sections" style="background-image: url('../images/PwaAssets/blog.png');">
+                    <div class="px-3 py-2 position-absolute blog-title-box">
+                        <a class="text-center font-weight-bold font-12 text-dark font-weight-bold" href="#">محصولات مفتولی</a>
                     </div>
-                    <div class="row position-absolute mx-auto pt-2 pb-2 pl-1"
-                         style="background: rgba(0, 0, 0, 0.74);box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25);border-radius: 16px;bottom: 0rem;right:0rem;width:100%">
+                    <div class="row position-absolute mx-auto py-2 pl-1 blog-footer">
                         <div class="col text-right">
-                            <a href="#" class="text-right font-weight-bold" style="font-size: 9pt;color: white;text-decoration: none">تفاوت فنس با توری، چرا از فنس استفاده کنیم؟</a>
+                            <a href="#" class="text-right font-weight-bold font-12 text-white">تفاوت فنس با توری، چرا از فنس استفاده کنیم؟</a>
                         </div>
-                        <div class=" text-left mr-4 ml-1">
-                            <i class="far fa-eye text-white" style="font-size:10pt"><span class="font-weight-bold pl-1" style="font-size: 10pt;font-family: irsans">۳۰</span></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item  w-100 text-center  " style="background-image: url('../images/PwaAssets/blog.png');background-repeat: no-repeat;background-size: cover;width: inherit;height: 213px">
-                    <div class="col-sm-3 pt-1 position-absolute" style="background: #EDF3F5;border-radius: 8px 0px 0px 8px;top: 2.5rem;right:0rem;width: 130px;height: 30px;">
-                        <a class="text-center font-weight-bold" href="#" style="font-family: irsans;font-size: 12px;color:rgba(0, 0, 0, 1);text-decoration: none">محصولات مفتولی</a>
-                    </div>
-                    <div class="row position-absolute mx-auto pt-2 pb-2 pl-1"
-                         style="background: rgba(0, 0, 0, 0.74);box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25);border-radius: 16px;bottom: 0rem;right:0rem;width:100%">
-                        <div class="col text-right">
-                            <a href="#" class="text-right font-weight-bold" style="font-size: 9pt;color: white;text-decoration: none">تفاوت فنس با توری، چرا از فنس استفاده کنیم؟</a>
-                        </div>
-                        <div class=" text-left mr-4 ml-1">
-                            <i class="far fa-eye text-white" style="font-size:10pt"><span class="font-weight-bold pl-1" style="font-size: 10pt;font-family: irsans">۳۰</span></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item  w-100 text-center  " style="background-image: url('../images/PwaAssets/blog.png');background-repeat: no-repeat;background-size: cover;width: inherit;height: 213px">
-                    <div class="col-sm-3 pt-1 position-absolute" style="background: #EDF3F5;border-radius: 8px 0px 0px 8px;top: 2.5rem;right:0rem;width: 130px;height: 30px;">
-                        <a class="text-center font-weight-bold" href="#" style="font-family: irsans;font-size: 12px;color:rgba(0, 0, 0, 1);text-decoration: none">محصولات مفتولی</a>
-                    </div>
-                    <div class="row position-absolute mx-auto pt-2 pb-2 pl-1"
-                         style="background: rgba(0, 0, 0, 0.74);box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25);border-radius: 16px;bottom: 0rem;right:0rem;width:100%">
-                        <div class="col text-right">
-                            <a href="#" class="text-right font-weight-bold" style="font-size: 9pt;color: white;text-decoration: none">تفاوت فنس با توری، چرا از فنس استفاده کنیم؟</a>
-                        </div>
-                        <div class=" text-left mr-4 ml-1">
-                            <i class="far fa-eye text-white" style="font-size:10pt"><span class="font-weight-bold pl-1" style="font-size: 10pt;font-family: irsans">۳۰</span></i>
+                        <div class="text-left mr-5">
+                            <i class="far fa-eye text-white font-10"><span class="font-weight-bold pl-1 font-12">۳۰</span></i>
                         </div>
                     </div>
                 </div>
@@ -315,41 +276,41 @@
             <span class="sr-only">Next</span>
         </a>
         <div class="row justify-content-center mt-3">
-            <a href="#" class="text-center d-block" style="font-size: 13.5pt;font-family: irsans;text-decoration: none;color: black">
+            <a href="#" class="text-center d-block text-dark font-15">
                 مقالات بیشتر
-            </a><i class="fas fa-angle-left pr-4 pt-2"></i>
+            </a><i class="fas fa-angle-left pr-3 pt-1"></i>
         </div>
     </div>
     <!--  blog-->
 
     <!--  FAQ-->
-    <div style="font-family: irsans" class="mt-5 pb-4">
-        <p class="text-center font-weight-bold">سوالات شما</p>
-        <div class="col pt-3 mx-auto text-right ">
-            <p class="font-weight-bold " style="font-size:9pt;font-family: irsans;line-height: 28px"><img src="../images/moneyPage/Ellipse%2032.svg" class="pl-2" alt="">قیمت میلگرد چقدر است و در چه ساعتی از روز مشخص
+    <div class="mt-5 pb-4">
+        <p class="text-center font-weight-bold font-16">سوالات شما</p>
+        <div class="col pt-3 mx-auto text-right">
+            <p class="font-weight-bold font-12" ><img src="../images/moneyPage/Ellipse%2032.svg" class="pl-2" alt="">قیمت میلگرد چقدر است و در چه ساعتی از روز مشخص
                 می شود؟</p>
-            <p style="font-size: 9pt;font-family: irsans" class="pt-0">
+            <p class="pt-0 pr-4 font-10">
+                روزانه و در حدود ساعت یک مشخص می شود.
+            </p>
+        </div>
+        <div class="col pt-3 mx-auto text-right">
+            <p class="font-weight-bold " style="font-size:9pt;;line-height: 28px"><img src="../images/moneyPage/Ellipse%2032.svg" class="pl-2" alt="">قیمت میلگرد چقدر است و در چه ساعتی از روز مشخص
+                می شود؟</p>
+             <p class="pt-0 pr-4 font-10">
                 روزانه و در حدود ساعت یک مشخص می شود.
             </p>
         </div>
         <div class="col pt-3 mx-auto text-right ">
-            <p class="font-weight-bold " style="font-size:9pt;font-family: irsans;line-height: 28px"><img src="../images/moneyPage/Ellipse%2032.svg" class="pl-2" alt="">قیمت میلگرد چقدر است و در چه ساعتی از روز مشخص
+            <p class="font-weight-bold " style="font-size:9pt;;line-height: 28px"><img src="../images/moneyPage/Ellipse%2032.svg" class="pl-2" alt="">قیمت میلگرد چقدر است و در چه ساعتی از روز مشخص
                 می شود؟</p>
-            <p style="font-size: 9pt;font-family: irsans" class="pt-0">
+             <p class="pt-0 pr-4 font-10">
                 روزانه و در حدود ساعت یک مشخص می شود.
             </p>
         </div>
         <div class="col pt-3 mx-auto text-right ">
-            <p class="font-weight-bold " style="font-size:9pt;font-family: irsans;line-height: 28px"><img src="../images/moneyPage/Ellipse%2032.svg" class="pl-2" alt="">قیمت میلگرد چقدر است و در چه ساعتی از روز مشخص
+            <p class="font-weight-bold " style="font-size:9pt;;line-height: 28px"><img src="../images/moneyPage/Ellipse%2032.svg" class="pl-2" alt="">قیمت میلگرد چقدر است و در چه ساعتی از روز مشخص
                 می شود؟</p>
-            <p style="font-size: 9pt;font-family: irsans" class="pt-0">
-                روزانه و در حدود ساعت یک مشخص می شود.
-            </p>
-        </div>
-        <div class="col pt-3 mx-auto text-right ">
-            <p class="font-weight-bold " style="font-size:9pt;font-family: irsans;line-height: 28px"><img src="../images/moneyPage/Ellipse%2032.svg" class="pl-2" alt="">قیمت میلگرد چقدر است و در چه ساعتی از روز مشخص
-                می شود؟</p>
-            <p style="font-size: 9pt;font-family: irsans" class="pt-0">
+             <p class="pt-0 pr-4 font-10">
                 روزانه و در حدود ساعت یک مشخص می شود.
             </p>
         </div>
@@ -357,40 +318,66 @@
     <!--  FAQ-->
 
     <!--  experts-->
-    <div style="font-family: irsans" class="mt-5 pb-4">
+    <div class="my-5 pb-4">
         <p class="text-center font-weight-bold">کارشناسان فروش بخش میلگرد</p>
         <div class="row mx-auto">
-            <div class="col m-2" style="background: #FFFFFF;border: 2px solid #005887;box-sizing: border-box;border-radius: 21px;">
+            <div class="col m-2 bg-white experts-box">
                 <img src="../images/PwaAssets/expert.png" alt="" class="img-fluid p-3" style="border-radius: 50%">
-                <p class="text-center" style="font-size: 10.5pt">مهندس سیادت</p>
-                <p class="text-center" style="font-size: 10.5pt">مشاور فروش</p>
-                <p class="text-center" style="font-size: 10.5pt">تلفن: ۳-۴۸۲۳۰۵۵۹۰ </p>
+                <p class="text-center font-12">مهندس سیادت</p>
+                <p class="text-center font-12">مشاور فروش</p>
+                <p class="text-center font-12">تلفن: ۳-۴۸۲۳۰۵۵۹۰ </p>
             </div>
-            <div class="col m-2" style="background: #FFFFFF;border: 2px solid #005887;box-sizing: border-box;border-radius: 21px;">
+            <div class="col m-2 bg-white experts-box">
                 <img src="../images/PwaAssets/expert.png" alt="" class="img-fluid p-3" style="border-radius: 50%">
-                <p class="text-center" style="font-size: 10.5pt">مهندس سیادت</p>
-                <p class="text-center" style="font-size: 10.5pt">مشاور فروش</p>
-                <p class="text-center" style="font-size: 10.5pt">تلفن: ۳-۴۸۲۳۰۵۵۹۰ </p>
+                <p class="text-center font-12">مهندس سیادت</p>
+                <p class="text-center font-12">مشاور فروش</p>
+                <p class="text-center font-12">تلفن: ۳-۴۸۲۳۰۵۵۹۰ </p>
             </div>
         </div>
-      <div class="row mx-auto mt-2">
-        <div class="col m-2" style="background: #FFFFFF;border: 2px solid #005887;box-sizing: border-box;border-radius: 21px;">
-          <img src="../images/PwaAssets/expert.png" alt="" class="img-fluid p-3" style="border-radius: 50%">
-          <p class="text-center" style="font-size: 10.5pt">مهندس سیادت</p>
-          <p class="text-center" style="font-size: 10.5pt">مشاور فروش</p>
-          <p class="text-center" style="font-size: 10.5pt">تلفن: ۳-۴۸۲۳۰۵۵۹۰ </p>
+        <div class="row mx-auto mt-2">
+            <div class="col m-2 bg-white experts-box">
+                <img src="../images/PwaAssets/expert.png" alt="" class="img-fluid p-3" style="border-radius: 50%">
+                <p class="text-center font-12">مهندس سیادت</p>
+                <p class="text-center font-12">مشاور فروش</p>
+                <p class="text-center font-12">تلفن: ۳-۴۸۲۳۰۵۵۹۰ </p>
+            </div>
+            <div class="col m-2 bg-white experts-box">
+                <img src="../images/PwaAssets/expert.png" alt="" class="img-fluid p-3" style="border-radius: 50%">
+                <p class="text-center font-12">مهندس سیادت</p>
+                <p class="text-center font-12">مشاور فروش</p>
+                <p class="text-center font-12">تلفن: ۳-۴۸۲۳۰۵۵۹۰ </p>
+            </div>
         </div>
-        <div class="col m-2" style="background: #FFFFFF;border: 2px solid #005887;box-sizing: border-box;border-radius: 21px;">
-          <img src="../images/PwaAssets/expert.png" alt="" class="img-fluid p-3" style="border-radius: 50%">
-          <p class="text-center" style="font-size: 10.5pt">مهندس سیادت</p>
-          <p class="text-center" style="font-size: 10.5pt">مشاور فروش</p>
-          <p class="text-center" style="font-size: 10.5pt">تلفن: ۳-۴۸۲۳۰۵۵۹۰ </p>
-        </div>
-      </div>
         <!--  experts-->
     </div>
     <!--  experts-->
-
+    <!--footer-->
+    <footer>
+        <div class="fixed-bottom p-2 bg-white" style="box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.13);">
+            <div class="row mx-auto justify-content-around">
+                <button class="footer-style btn">
+                    <i class="fa fa-home " style="color:#9F9F9F;"></i>
+                    <p class="footer-styles">خانه</p>
+                </button>
+                <button class="footer-style btn">
+                    <i class="fa fa-square " style="color:#9F9F9F;"></i>
+                    <p class="footer-styles">محصولات</p>
+                </button>
+                <button class="footer-style btn" id="wtf">
+                    <i class="fa fa-phone-volume " id="phone" style="transform: rotate(-50deg)"></i>
+                </button>
+                <button class="footer-style btn">
+                    <i class="fa fa-user " style="color:#9F9F9F;"></i>
+                    <p class="footer-styles">داشبورد</p>
+                </button>
+                <button class="footer-style btn ">
+                    <i class="fa fa-shopping-cart " style="color:#9F9F9F;"></i>
+                    <p class="footer-styles">سبد خرید</p>
+                </button>
+            </div>
+        </div>
+    </footer>
+    <!--footer-->
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/jquery.min.js"></script>
@@ -412,14 +399,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
-
     <script>
-    $('.diagramModal').click(function (e){
-      e.preventDefault();
-      $('#exampleModal').modal();
+        $('.diagramModal').click(function (e) {
+            e.preventDefault();
+            $('#exampleModal').modal();
 
-    })
-  </script>
+        })
+    </script>
     <script>
         $('.menu').click(function () {
             const target = $(this).data('target');
