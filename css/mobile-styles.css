@@ -1,0 +1,345 @@
+* {
+    transition: all 1s;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+@font-face {
+    font-family: irsans;
+    src: url("../font/fonts/IRANSansWeb(FaNum)_Light.woff");
+}
+
+@font-face {
+    font-family: irsans-b;
+    src: url("../font/fonts/irsans-b.woff");
+}
+
+@font-face {
+    font-family: irsans-m;
+    src: url("../font/fonts/irsans-m.woff");
+}
+
+* {
+    font-family: irsans;
+}
+
+body.melal {
+    background-color: rgba(237, 243, 245, 1);
+    direction: rtl;
+}
+
+#wtf {
+    transform: scale3d(1.5, 1.5, 1);
+    box-shadow: 0 0 3px #5f95b3;
+    margin: -0.5rem 0.8rem;
+    background: white;
+    border: 1px solid #5f95b3;
+}
+
+#phone {
+    animation: shake 1s infinite;
+    color: #39a839;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(-50deg);
+    }
+
+    50% {
+        transform: rotate(-38deg);
+    }
+
+    100% {
+        transform: rotate(-50deg);
+    }
+}
+
+@keyframes shade {
+    0% {
+        text-shadow: 0 0 3px orangered;
+    }
+    50% {
+        text-shadow: 0 0 12px orangered;
+    }
+
+    100% {
+        text-shadow: 0 0 3px orangered;
+    }
+}
+
+.font-10 {
+    font-size: 7.5pt;
+}
+
+.font-12 {
+    font-size: 9pt !important;
+}
+
+.font-30 {
+    font-size: 22.5pt;
+}
+
+.font-31 {
+    font-size: 24pt;
+}
+
+.font-32 {
+    font-size: 22pt;
+}
+
+.font-24 {
+    font-size: 18pt;
+}
+
+.font-28 {
+    font-size: 21pt;
+}
+
+.font-22 {
+    font-size: 16.5pt;
+}
+
+.font-16 {
+    font-size: 12pt;
+}
+
+.font-18 {
+    font-size: 13.5pt;
+}
+
+.font-19 {
+    font-size: 14.25pt;
+}
+
+.font-20 {
+    font-size: 15pt;
+}
+
+.font-21 {
+    font-size: 15.75pt;
+}
+
+.font-26 {
+    font-size: 19.5pt;
+}
+
+.font-36 {
+    font-size: 27pt;
+}
+
+.font-28 {
+    font-size: 21pt;
+}
+
+.font-38 {
+    font-size: 28.5pt;
+}
+
+.font-48 {
+    font-size: 36pt;
+}
+
+.font-15 {
+    font-size: 11pt;
+}
+
+/*boot5*/
+.offcanvas-start {
+    top: 0;
+    left: 0;
+    width: 400px;
+    border-right: 1px solid rgba(0, 0, 0, .2);
+    transform: translateX(-100%)
+}
+
+.offcanvas {
+    position: fixed;
+    bottom: 0;
+    z-index: 1045;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    visibility: hidden;
+    background-color: #fff;
+    background-clip: padding-box;
+    outline: 0;
+    transition: transform .3s ease-in-out
+}
+
+.offcanvas-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem
+}
+
+.offcanvas-header .btn-close {
+    padding: .5rem .5rem;
+    margin-top: -.5rem;
+    margin-right: -.5rem;
+    margin-bottom: -.5rem
+}
+
+.offcanvas-title {
+    margin-bottom: 0;
+    line-height: 1.5
+}
+
+.offcanvas-body {
+    flex-grow: 1;
+    padding: 1rem 1rem;
+    overflow-y: auto
+}
+
+.offcanvas-start {
+    top: 0;
+    left: 0;
+    width: 400px;
+    border-right: 1px solid rgba(0, 0, 0, .2);
+    transform: translateX(-100%)
+}
+
+.offcanvas-end {
+    top: 0;
+    right: 0;
+    width: 400px;
+    border-left: 1px solid rgba(0, 0, 0, .2);
+    transform: translateX(100%)
+}
+
+.offcanvas-top {
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 30vh;
+    max-height: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    transform: translateY(-100%)
+}
+
+.offcanvas-bottom {
+    right: 0;
+    left: 0;
+    height: 30vh;
+    max-height: 100%;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    transform: translateY(100%)
+}
+
+.offcanvas.show {
+    transform: none
+}
+
+.offcanvas-end {
+    top: 0;
+    right: 0;
+    width: 340px;
+    border-left: 1px solid rgba(0, 0, 0, .2);
+    transform: translateX(100%)
+}
+
+.search-btn {
+    background-color: #007BFF;
+    border-radius: 8px !important;
+}
+
+.search-product {
+    border-radius: 8px !important;
+    border: none;
+    font-size: 7.5pt;
+}
+
+.price-diagram-box {
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 6px 1px rgba(0, 88, 135, 0.35);
+    border-radius: 8px;
+}
+
+.diagram-border {
+    border-bottom: 1px solid #28749C;
+}
+
+.homePage-baner {
+    background-image: url('../images/PwaAssets/Mask Group.png');
+    background-size: contain;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
+.blog {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: inherit;
+    height: 282px;
+    border-radius: 1rem
+}
+
+.blogs-title {
+    background: #EDF3F5;
+    border-radius: 8px 0px 0px 8px;
+    top: 2.5rem;
+    right: 0rem;
+    width: 130px;
+    height: 30px;
+}
+
+.blogs-footer {
+    background: rgba(0, 0, 0, 0.74);
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    bottom: 0rem;
+    right: 0rem;
+    width: 100%
+}
+
+.news-section {
+    box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);
+    border-radius: 16px;
+}
+
+.social-medias {
+    border-top: 1px solid rgba(139, 139, 139, .51);
+    border-bottom: 1px solid rgba(139, 139, 139, .51);
+}
+
+.product-btn.active {
+    border-bottom: 4px solid #007BFF;
+}
+
+.product-box {
+    box-shadow: 0px 2px 6px 1px rgba(0, 88, 135, 0.35);
+    border-radius: 16px;
+
+}
+
+.product-style {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: inherit;
+    height: 188px
+
+}
+
+.product-off {
+    background-color: rgba(236, 35, 55, 1);
+    border-radius: 9px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.price-style {
+    text-decoration-line: line-through;
+    color: #00000080;
+
+}
+
+.jumper {
+    background: #F4F4F4;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+}

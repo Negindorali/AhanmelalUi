@@ -329,9 +329,6 @@
     <div class="col-md-12 mt-5 weight-section">
         <div class="col-md mb-5 position-relative text-white">
             <div class="col-md text-right">
-                <p class="mx-5 mt-5 px-5 pt-4 font-36 my-4">جدول محاسبه وزنی</p>
-                <p class="font-22 mr-5 pt-4 mt-4 pr-5">با کمک جدول و ابزارهای مورد استفاده در صنعت آهن آلات </p>
-                <p class="font-22 mr-5 pr-5">به محاسبه ی دقیقی از خرید خود برسید.</p>
                 <a href="#" class="btn py-2 position-absolute d-block jadval-btn text-decoration-none font-22">مشاهده ی جداول و
                     محاسبه
                 </a>
@@ -382,16 +379,15 @@
 
                     <div class="col-md position-relative mr-3 posts"
                          style="background-image: url('../images/Capture 4.png');width: 268px!important;height: 306px!important;">
-
                         <div class="col-md-6 pt-1 position-absolute text-center p-2 post-titles">
-                            <a class="font-weight-bold text-decoration-none text-dark font-18" href="#">محصولات مفتولی</a>
+                            <a class="font-weight-bold text-decoration-none text-dark font-16" href="#">محصولات مفتولی</a>
                         </div>
                         <div class="row position-absolute mx-auto pt-3 post-explains">
                             <div class="col-md text-right">
-                                <a href="#" class="font-weight-bold text-decoration-none font-18 text-white">توری جوشی چیست؟</a>
+                                <a href="#" class="font-weight-bold text-decoration-none font-16 text-white">توری جوشی چیست؟</a>
                             </div>
-                            <div class="col-md-3 text-left mr-5 ">
-                                <i class="far fa-eye text-white font-22"><span class="font-weight-bold pl-2">۳۰</span></i>=
+                            <div class="col-md-3 text-left ml-3">
+                                <i class="far fa-eye text-white font-20"><span class="font-weight-bold pl-2">۳۰</span></i>=
                             </div>
                         </div>
                     </div>
@@ -697,6 +693,12 @@
         window.location = $(this).find("a").attr("href");
         return false;
     });
+</script>
+<script>
+    $('.weight-section').click(function (){
+        window.location=$(this).find('a').attr('href');
+        return false;
+    })
 </script>
 </body>
 </html>
