@@ -69,7 +69,8 @@ body.melal {
         text-shadow: 0 0 3px orangered;
     }
 }
-.font-10{
+
+.font-10 {
     font-size: 7.5pt;
 }
 
@@ -299,4 +300,46 @@ body.melal {
 .news-section {
     box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);
     border-radius: 16px;
+}
+
+.social-medias {
+    border-top: 1px solid rgba(139, 139, 139, .51);
+    border-bottom: 1px solid rgba(139, 139, 139, .51);
+}
+
+.product-btn.active {
+    border-bottom: 4px solid #007BFF;
+}
+
+.product-box {
+    box-shadow: 0px 2px 6px 1px rgba(0, 88, 135, 0.35);
+    border-radius: 16px;
+
+}
+
+.product-style {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: inherit;
+    height: 188px
+
+}
+
+.product-off {
+    background-color: rgba(236, 35, 55, 1);
+    border-radius: 9px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.price-style {
+    text-decoration-line: line-through;
+    color: #00000080;
+
+}
+
+.jumper {
+    background: #F4F4F4;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
 }
