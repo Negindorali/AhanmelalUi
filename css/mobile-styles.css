@@ -1,0 +1,31 @@
+* {
+    transition: all 1s;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+@font-face {
+    font-family: irsans;
+    src: url("../font/fonts/IRANSansWeb(FaNum)_Light.woff");
+}
+
+@font-face {
+    font-family: irsans-b;
+    src: url("../font/fonts/irsans-b.woff");
+}
+
+@font-face {
+    font-family: irsans-m;
+    src: url("../font/fonts/irsans-m.woff");
+}
+
+* {
+    font-family: irsans;
+}
+
+body.melal {
+    background-color: rgba(237, 243, 245, 1);
+    direction: rtl;
+}
