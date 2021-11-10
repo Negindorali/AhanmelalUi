@@ -603,7 +603,6 @@ div.hero-product {
 /*}*/
 .btn-filter-factory {
     border: 2px solid #347BA1;
-    box-sizing: border-box;
     border-radius: 68px;
 }
 
@@ -1413,7 +1412,6 @@ a.last-price-changes.active {
 p.footer-styles {
     text-align: center;
     font-size: 6pt;
-    font-family: irsans;
     color: rgba(159, 159, 159, 1);
 }
 
@@ -1475,7 +1473,6 @@ p.footer-styles {
 #pipe:hover a {
     transform: translateY(14.5rem);
     color: white;
-
 }
 
 #profile {
