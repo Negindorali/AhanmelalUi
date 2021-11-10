@@ -300,6 +300,7 @@ body.melal {
 .news-section {
     box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);
     border-radius: 16px;
+
 }
 
 .social-medias {
@@ -578,9 +579,219 @@ body.melal {
 }
 
 .carousel-bg {
-    background-image: url('../images/PwaAssets/kisspng-black-and-white-pattern-hexagonal-base-map-of-science-and-technology-5a695c5938e0d1 5.png');
+    background-image: url('../images/PwaAssets/kisspng-black-and-white-pattern-hexagonal-base-map-of-science-and-technology-5a695c5938e0d1 5.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    height: 106px !important;
+    background-position: center center !important;
+}
+
+.know-melal-bg {
+    background-image: url('../images/PwaAssets/asl 1 (1).png') !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    height: 185px !important;
+    background-position: right !important;
+}
+
+.know-us-texts {
+    line-height: 1.6rem;
+}
+
+.why-ahanmelal {
+    background-image: url('../images/PwaAssets/Mask Group (8).png');
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 106px;
-    background-position: center center
+    background-size: cover;
+    height: 235px;
+}
+
+.projects-melal {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 9rem;
+    border-radius: 10px;
+}
+
+#project1:active {
+    background: linear-gradient(#131313e3, #131313e3), url('../images/PwaAssets/images.jpeg') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+}
+
+.blog-hero {
+    background: linear-gradient(0, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.56)), url('../images/PwaAssets/hero-blog.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: inherit !important;
+    width: content-box !important;
+    background-position: top !important;
+}
+
+.wtf {
+    scrollbar-width: none; /* for Firefox */
+}
+
+*::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.factory-btn-filters {
+    border: 2px solid #347BA1;
+    border-radius: 68px;
+    font-size: 10pt;
+    width: 4.5rem !important;
+    height: 2.25rem !important;
+
+}
+
+.factory-btn-filters:active {
+    background: #347BA1;
+    border-radius: 68px;
+    color: white;
+    font-size: 10pt;
+
+}
+
+.daneshname {
+    scrollbar-width: none;
+}
+
+.news-phone {
+    scrollbar-width: none; /* for Firefox */
+}
+
+.articles-box {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px 1px rgba(0, 88, 135, 0.35);
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.news-hero-section {
+    background: linear-gradient(0, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.56)), url('../images/PwaAssets/hero-news.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: inherit;
+    width: content-box;
+    background-position: center;
+}
+
+.regiser-news-input {
+    border: 1px solid #495F9E;
+    box-sizing: border-box;
+    border-radius: 5pt;
+}
+
+.regiser-news-btn {
+    background: #005887;
+    border: 2px solid #005887;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.khabarkhan {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px 1px rgba(0, 88, 135, 0.35);
+    border-radius: 16px;
+}
+
+.new-sections {
+    scrollbar-width: none; /* for Firefox */
+    scrollbar-width: none;
+
+}
+
+.international-phone-news {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px 1px rgba(0, 88, 135, 0.35);
+    border-radius: 16px;
+}
+
+.international-phones-news {
+    scrollbar-width: none;
+    scrollbar-width: none;
+}
+
+.internal-phone-news {
+    rollbar-width: none;
+    scrollbar-width: none;
+}
+
+.special-report {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);
+    border-radius: 16px;
+}
+
+.vizhe {
+    rollbar-width: none;
+    scrollbar-width: none;
+}
+
+.card-img-box {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 12.3rem;
+    width: inherit
+
+}
+
+.linke-divs {
+    cursor: pointer;
+
+}
+
+.contact-us-hero {
+    background: linear-gradient(0, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.56)), url('../images/PwaAssets/contact-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: inherit;
+    width: content-box;
+}
+
+.tamas-input {
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 40px
+}
+
+.call-form {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);
+    border-radius: 16px;
+}
+
+.form-message {
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.form-btn {
+    background: #005887;
+    border-radius: 8px;
+}
+
+.address-card {
+    background: rgba(111, 66, 193, 0.12);
+    border: 2px solid #005887;
+    box-sizing: border-box;
+    border-radius: 16px;
+
+}
+
+.social-btn {
+    border: 1px solid #005887;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 8px rgba(0, 88, 135, 0.73));
+    border-radius: 10px;
+}
+.social-btn >img{
+    width:3rem;
+    height:3rem;
+}
+.overflow-auto{
+    rollbar-width: none;
+    scrollbar-width: none;
 }
