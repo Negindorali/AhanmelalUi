@@ -857,3 +857,45 @@ ul:nth-child(even) {
 .zoom:active {
     transform: scale(1.5); /* (150% zoom)*/
 }
+
+.FAQ-hero {
+    background: linear-gradient(0, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.56)), url('../images/PwaAssets/FAQ-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: inherit;
+    width: content-box;
+    background-position: bottom;
+}
+
+.faq-categories {
+    border-bottom: 1px solid #C4C4C4
+}
+
+.menu-pics {
+    background-size: cover;
+    height: 76px;
+    border-radius: 16px;
+}
+
+.experts-cards {
+    background: #FFFFFF;
+    border: 2px solid #005887;
+    box-sizing: border-box;
+    border-radius: 21px;
+}
+
+.experts-cards > img {
+    border-radius: 50%;
+}
+
+.input-nums {
+    border: 1px solid #9F9F9F;
+    box-sizing: border-box;
+    border-radius: 33px;
+}
+
+.btn-sent {
+    background: #005887;
+    border: 2px solid #005887;
+    border-radius: 32px;
+}
