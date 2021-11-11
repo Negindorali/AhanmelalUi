@@ -530,6 +530,7 @@ div.hero-product {
 
 .ng_panel_button.active {
     border-bottom: 4px solid #007BFF;
+    border-radius: 5px!important;
 }
 
 .ng_panel_buttons {

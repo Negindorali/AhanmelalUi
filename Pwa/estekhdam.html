@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" href="../font/fonts/IRANSansWeb(FaNum)_Light.woff">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mobile-styles.css">
     <link rel="stylesheet" href="../font/fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="stylesheet" href="../font/fontawesome-free-5.15.4-web/css/regular.min.css">
 
@@ -26,147 +27,143 @@
     <div class="row mx-auto pt-3 pb-2" style="border-bottom: 0.5px solid #005887;">
         <div class="col text-justify">
             <a class="btn btn-block pr-0" data-bs-toggle="offcanvas" data-bs-target="#demo">
-                <img src="../images/PwaAssets/bars.svg" alt="">
+                <img src="../images/PwaAssets/bars.svg" alt="" class="pt-2">
             </a>
-            <div class="offcanvas offcanvas-end" id="demo" style="font-family: irsans">
-                <div class="offcanvas-header ">
+            <div class="offcanvas offcanvas-end" id="demo">
+                <div class="offcanvas-header">
                     <img src="../images/PwaAssets/menu-logo.png" alt="" class="img-fluid mx-auto">
                     <button type="button" class="btn btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa fa-times text-muted"></i></button>
                 </div>
-                <div class="offcanvas-body p-0" style="font-size: 12pt">
+                <div class="offcanvas-body p-0">
                     <ul class="nav flex-column p-0">
-                        <li class="pr-4 border-bottom mt-2 pb-3"><a href="#" style="text-decoration: none;" class="text-danger d-block">قیمت لحظه ای</a></li>
+                        <li class="pr-4 border-bottom mt-2 pb-3"><a href="#" class="text-danger d-block">قیمت لحظه ای</a></li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link">خرید آسان</a>
+                            <a href="#" class="nav-link text-dark font-15">خرید آسان</a>
                         </li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link menu" data-target="#rebar-price">قیمت میلگرد
-                                <i class="fa fa-chevron-down float-left fa-2x"></i>
+                            <a href="#" class="nav-link menu text-dark font-15" data-target="#rebar-price">قیمت میلگرد
+                                <i class="fa fa-chevron-down float-left "></i>
                             </a>
-                            <div class="col-12 collapse mx-auto pt-3" style="font-family: irsans;font-size: 12pt" id="rebar-price">
+                            <div class="col-12 collapse mx-auto pt-3" style="font-size: 12pt" id="rebar-price">
                                 <ul class="nav flex-column p-0">
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link menu" data-target="#tirAhan-price">
-                                قیمت تیرآهن<i class="fa fa-chevron-down float-left fa-2x menu">
+                            <a href="#" class="nav-link menu text-dark font-15" data-target="#tirAhan-price">
+                                قیمت تیرآهن<i class="fa fa-chevron-down float-left  menu">
                             </i>
                             </a>
-                            <div class="col-12 collapse mx-auto pt-3" style="font-family: irsans;font-size: 12pt" id="tirAhan-price">
+                            <div class="col-12 collapse mx-auto pt-3" style="font-size: 12pt" id="tirAhan-price">
                                 <ul class="nav flex-column p-0">
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link menu" data-target="#varaq-price">قیمت ورق<i class="fa fa-chevron-down float-left fa-2x menu"></i></a>
-                            <div class="col-12 collapse mx-auto pt-3" style="font-family: irsans;font-size: 12pt" id="varaq-price">
+                            <a href="#" class="font-15 text-dark nav-link menu" data-target="#varaq-price">قیمت ورق<i class="fa fa-chevron-down float-left  menu"></i></a>
+                            <div class="col-12 collapse mx-auto pt-3" style="font-size: 12pt" id="varaq-price">
                                 <ul class="nav flex-column p-0">
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link menu" data-target="#pipe-price">قیمت لوله<i class="fa fa-chevron-down float-left fa-2x menu"></i></a>
-                            <div class="col-12 collapse mx-auto pt-3" style="font-family: irsans;font-size: 12pt" id="pipe-price">
+                            <a href="#" class="font-15 text-dark nav-link menu" data-target="#pipe-price">قیمت لوله<i class="fa fa-chevron-down float-left  menu"></i></a>
+                            <div class="col-12 collapse mx-auto pt-3" style="font-size: 12pt" id="pipe-price">
                                 <ul class="nav flex-column p-0">
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link menu" data-target="#profile-price">قیمت پروفیل<i class="fa fa-chevron-down float-left fa-2x menu"></i></a>
-                            <div class="col-12 collapse mx-auto pt-3" style="font-family: irsans;font-size: 12pt" id="profile-price">
+                            <a href="#" class="font-15 text-dark nav-link menu" data-target="#profile-price">قیمت پروفیل<i class="fa fa-chevron-down float-left menu"></i></a>
+                            <div class="col-12 collapse mx-auto pt-3" style="font-size: 12pt" id="profile-price">
                                 <ul class="nav flex-column p-0">
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link menu" data-target="#nabshi-price">قیمت نبشی<i class="fa fa-chevron-down float-left fa-2x menu"></i></a>
-                            <div class="col-12 collapse mx-auto pt-3" style="font-family: irsans;font-size: 12pt" id="nabshi-price">
+                            <a href="#" class="font-15 text-dark nav-link menu" data-target="#nabshi-price">قیمت نبشی<i class="fa fa-chevron-down float-left  menu"></i></a>
+                            <div class="col-12 collapse mx-auto pt-3" style="font-size: 12pt" id="nabshi-price">
                                 <ul class="nav flex-column p-0">
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link menu" data-target="#maftool-price">قیمت مفتول<i class="fa fa-chevron-down float-left fa-2x menu"></i></a>
-                            <div class="col-12 collapse mx-auto pt-3" style="font-family: irsans;font-size: 12pt" id="maftool-price">
+                            <a href="#" class="font-15 text-dark nav-link menu" data-target="#maftool-price">قیمت مفتول<i class="fa fa-chevron-down float-left  menu"></i></a>
+                            <div class="col-12 collapse mx-auto pt-3" style="font-size: 12pt" id="maftool-price">
                                 <ul class="nav flex-column p-0">
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link menu" data-target="#shemsh-price">قیمت شمش آهنی<i class="fa fa-chevron-down float-left fa-2x menu"></i></a>
-                            <div class="col-12 collapse mx-auto pt-3" style="font-family: irsans;font-size: 12pt" id="shemsh-price">
+                            <a href="#" class="font-15 text-dark nav-link menu" data-target="#shemsh-price">قیمت شمش آهنی<i class="fa fa-chevron-down float-left  menu"></i></a>
+                            <div class="col-12 collapse mx-auto pt-3" style="font-size: 12pt" id="shemsh-price">
                                 <ul class="nav flex-column p-0">
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
-                                    <li class="nav-item"><a href="" class="nav-link text-dark" style="text-decoration: none">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link text-dark">آجدار</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link">دانشنامه</a>
+                            <a href="#" class="text-dark font-15 nav-link">دانشنامه</a>
                         </li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link">محاسبه وزن</a>
+                            <a href="#" class="text-dark font-15 nav-link">محاسبه وزن</a>
 
                         </li>
                         <li class="nav-item border-bottom pr-4 pb-3 mt-3">
-                            <a href="#" style="text-decoration: none;color: black" class="nav-link">تماس با ما</a>
+                            <a href="#" class="text-dark font-15 nav-link">تماس با ما</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-
-        <div class="col text-center">
-            <button style="background-color:rgba(237, 243, 245, 1); border:  2px solid #A82633;width: 121px;height: 34px;left: 20px;box-sizing: border-box;border-radius: 8px;"><span
-                    class="pl-2" style="font-size:
-                    16px;font-weight: 400;font-family: irsans">
-          ۰۳۱-۳۵۰۲۰</span><img src="../images/PwaAssets/Vector.svg" class="position-absolute mr-1 p-1" style="background-color:rgba(237, 243, 245, 1);top: 0.2rem;">
+        <div class="col text-center my-auto">
+            <button class="call-btn">
+                <span class="pl-2 font-22 font-weight-bold">۰۳۱-۳۵۰۲۰</span>
+                <img src="../images/PwaAssets/Vector.svg" class="position-absolute mr-1 p-1" style="background-color:rgba(237, 243, 245, 1);top: 0.2rem;left: 0">
             </button>
         </div>
-        <div class="col text-danger ml-3" style="background-image: url('../images/logo-ahanmelal.png');background-size: contain;background-repeat: no-repeat;height: 50px;width:50px ">
+        <div class="col text-danger ml-3 logo-melal">
         </div>
     </div>
     <!--  end-nav-menu-->
 
     <!--  start-hero-section-->
-    <div class="mt-2 pt-3 pb-5"
-         style="background:linear-gradient(0,rgba(0,0,0,0.0),rgba(0,0,0,0.56)) , url('../images/PwaAssets/es-hero.png');background-repeat: no-repeat;background-size:cover;height: inherit;width:content-box;font-family:irsans">
-        <div class="text-center  mt-3 ">
-            <p class="text-white pb-3" style="font-size: 12pt">
+    <div class="mt-2 pt-3 pb-5 estekhdam-hero">
+        <div class="text-center mt-3 pt-4">
+            <p class="text-white pb-3 font-weight-bold font-15">
                 دانشنامه ی بزرگ آهن ملل ، آگاهی رسانی به مشتریان گرامی
             </p>
         </div>
     </div>
     <!--  end-hero-section-->
-    <h5 class="text-center mt-4 font-weight-bold" style="font-family: irsans">ما را بیشتر بشناسید</h5>
-    <div class="p-3">
-        <div class="p-0 mx-auto" style="background-image: url('../images/PwaAssets/Subtract.png');background-repeat: no-repeat;width: inherit;height: 147px">
-
+    <h5 class="text-center mt-4 font-weight-bold">ما را بیشتر بشناسید</h5>
+    <div class="col p-2">
+        <div class="p-0 mx-auto" style="background-image: url('../images/PwaAssets/Subtract.png');background-repeat: no-repeat;width: inherit;height: 147px;background-size: cover">
         </div>
-        <div class="p-3 mt-4" style="background: #CEDFE7;box-shadow: -2px 4px 11px rgba(0, 88, 135, 0.4);border-radius: 16px;font-family: irsans">
+        <div class="col p-3 mt-4" style="background: #CEDFE7;box-shadow: -2px 4px 11px rgba(0, 88, 135, 0.4);border-radius: 16px;">
             <p class="text-justify font-weight-bold" style="font-size: 10pt;line-height: 25px">طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته
                 شده استفاده می
                 نماید، تا از نظر
@@ -174,29 +171,30 @@
                 چگونگی
                 نوع و
                 اندازه فونت و
-                ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند چگونه در نظر گرفته شده‌است.</p>
+                ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند چگونه در نظر گرفته شده‌است.
+            </p>
         </div>
     </div>
 
     <!--  start-info-->
-    <div class="p-3">
-        <div class="col-12 mt-5 mx-auto mb-5 pb-3" style="background: #FFFFFF;box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;">
-            <p class="text-center pt-4" style="font-family: irsans;font-size:15pt;font-weight: bold ">استخدام</p>
+    <div class="p-2 col">
+        <div class="col-12 mt-3 mx-auto mb-2 pb-3 bg-white" style="box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;">
+            <p class="text-center pt-4 font-weight-bold font-20">استخدام</p>
             <div class="row justify-content-center">
                 <div class="col text-center">
                     <img src="../images/PwaAssets/1.png" alt="" class="img-fluid zoom">
-                    <p class="text-center" style="font-family: irsans;font-size:12pt ;"> کارشناس فروش</p>
+                    <p class="text-center font-12 font-weight-bold pt-1"> کارشناس فروش</p>
                 </div>
-                <div class="col text-center ">
+                <div class="col text-center">
                     <img src="../images/PwaAssets/2.png" alt="" class="img-fluid zoom">
-                    <p class="text-center" style="font-family: irsans;font-size:12pt "> مسول انبار</p>
+                    <p class="text-center font-12 font-weight-bold pt-1"> مسول انبار</p>
                 </div>
                 <div class="col text-center">
                     <img src="../images/PwaAssets/3.png" alt="" class="img-fluid zoom">
-                    <p class="text-center" style="font-family: irsans;font-size:12pt "> کارشناس IT</p>
+                    <p class="text-center font-12 font-weight-bold pt-1"> کارشناس IT</p>
                 </div>
             </div>
-            <div class="text-right mr-2" style="font-family: irsans;line-height: 25.41px ">
+            <div class="text-right mr-2 col px-0 mt-3">
                 <p style="font-size: 10pt" class="font-weight-bold"><img src="../images/PwaAssets/Ellipse%2062.png" alt="" class="pl-2">استخدام کارشناس فروش میلگرد</p>
                 <p style="font-size: 10pt" class="font-weight-bold"><img src="../images/PwaAssets/Ellipse%2062.png" alt="" class="pl-2">استخدام کارشناس فروش ورق</p>
                 <p style="font-size: 10pt" class="font-weight-bold"><img src="../images/PwaAssets/Ellipse%2062.png" alt="" class="pl-2">استخدام کارشناس فروش تیرآهن</p>
@@ -209,39 +207,37 @@
     </div>
     <!--  end-info-->
 
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel"  data-interval="false">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="false">
         <div class="carousel-inner">
             <!--    form1-->
             <div class="carousel-item active">
-                <div class="p-3" style="font-family: irsans">
-                    <div class="col-12 mx-auto mb-5 pb-3" style="background: #FFFFFF;box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;">
-                        <h6 class="text-center pt-3 font-weight-bold">فرم</h6>
-                        <form action="" class="pt-4 ">
+                <div class="p-2 col">
+                    <div class="col-12 mx-auto mb-5 pb-3 bg-white px-1 form-box">
+                        <h6 class="text-center pt-3 font-weight-bold font-18">فرم</h6>
+                        <form action="" class="pt-4">
                             <div class="justify-content-center pb-5">
-                                <div class="col text-right">
-                                    <label for="input1" class="pr-1" style="font-size:12pt;font-weight: bold">نام و نام خانوادگی</label>
-                                    <input type="text" class="form-control mt-1" id="input1" style="border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px; height: 38px;"/>
+                                <div class="col text-right px-0">
+                                    <label for="input1" class="pr-1 font-weight-bold font-15">نام و نام خانوادگی</label>
+                                    <input type="text" class="form-control mt-1" id="input1"/>
                                 </div>
-                                <div class="col mt-4 text-right">
-                                    <label for="input2" class="pr-1" style="font-size: 12pt;font-weight: bold">نام پدر</label>
-                                    <input type="text" class="form-control mt-1" id="input2" style="border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px; height: 38px;"/>
+                                <div class="col mt-4 text-right px-0">
+                                    <label for="input2" class="pr-1 font-15 font-weight-bold">نام پدر</label>
+                                    <input type="text" class="form-control mt-1" id="input2"/>
                                 </div>
-                                <div class="col mt-4 text-right">
-                                    <label for="input3" class="pr-1" style="font-size: 12pt;font-weight: bold">کد ملی</label>
-                                    <input type="text" class="form-control mt-1" id="input3" style="border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px; height: 38px;"/>
+                                <div class="col mt-4 text-right px-0">
+                                    <label for="input3" class="pr-1 font-15 font-weight-bold">کد ملی</label>
+                                    <input type="text" class="form-control mt-1" id="input3"/>
                                 </div>
                             </div>
-                            <div class="row text-center mt-5 mx-2">
-                                <a class="btn text-white ml-2 d-block"
+                            <div class="row text-center mt-1 px-3">
+                                <a class="btn text-white ml-2 d-block px-5 font-18 pt-2 next-btn"
                                    data-slide="next"
-                                   href="#carouselExampleSlidesOnly"
-                                   style="background: #005887;box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;font-size:12pt ;width: 103px;height: 45px;">بعدی
+                                   href="#carouselExampleSlidesOnly">بعدی
                                 </a>
-                                <p class="mx-auto font-weight-bold mt-2" style="font-size: 13pt">۱/۴</p>
+                                <p class="mx-auto font-weight-bold mt-2 font-20">۳/۴</p>
                                 <a href="#carouselExampleSlidesOnly"
-                                   class="btn mr-auto"
-                                   data-slide="prev"
-                                   style="box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;font-size:12pt ;width: 103px;height: 45px;border: 1px solid #005887;">
+                                   class="btn mr-auto prev-btn px-5 font-18 pt-2 d-block"
+                                   data-slide="prev">
                                     قبلی
                                 </a>
                             </div>
@@ -252,50 +248,46 @@
             <!--    form1-->
             <!--form2-->
             <div class="carousel-item">
-                <div class="p-3" style="font-family: irsans">
-                    <div class="col-12 mx-auto mb-5 pb-3" style="background: #FFFFFF;box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;">
+                <div class="p-3">
+                    <div class="col-12 mx-auto mb-5 pb-3 bg-white px-1 form-box">
                         <h6 class="text-center pt-3 font-weight-bold">فرم</h6>
-                        <form action="" class="pt-4">
+                        <form action="" class="pt-3">
                             <div class="pt-4 pb-4">
-                                <div class="col text-right">
-                                    <label for="input7" class="pr-1" style="font-size:12pt;font-weight: bold">تاریخ تولد</label>
-                                    <input type="date" class="form-control" id="input7" style="border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px; height: 38px;"/>
+                                <div class="col text-right px-0">
+                                    <label for="input7" class="pr-1 font-weight-bold font-15">تاریخ تولد</label>
+                                    <input type="date" class="form-control" id="input7"/>
                                 </div>
-                                <div class="col text-right pt-3">
-                                    <label for="input4" class="pr-1" style="font-size:12pt;font-weight: bold">ملیت</label>
-                                    <input type="text" class="form-control" id="input4" style="border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px; height: 38px;"/>
+                                <div class="col text-right pt-3 px-0">
+                                    <label for="input4" class="pr-1 font-weight-bold font-15">ملیت</label>
+                                    <input type="text" class="form-control" id="input4"/>
                                 </div>
-                                <div class="col pt-4 form text-right">
-                                    <label style="font-size: 11pt;font-weight: bold">وضعیت تاهل: </label>
+                                <div class="col pt-4 form text-right mb-5 pb-2">
+                                    <label class="font-15 font-weight-bold">وضعیت تاهل: </label>
                                     <label class="form-check-label font-weight-bold pr-2  text-left" for="input35">
                                         مجرد
                                     </label>
-                                    <input class="form-check-input mr-2 mt-1" type="radio" style="width: 21px;height: 21px;border: 1px solid #808080;box-sizing: border-box;background-color: #00AF27!important;"
+                                    <input class="form-check-input mr-2 mt-1 form-radio" type="radio"
                                            name="exampleRadios"
                                            id="input35" value="option4"/>
                                     <label class="form-check-label font-weight-bold mr-3 pr-5 text-left" for="input55">
                                         متاهل
                                     </label>
-                                    <input class="form-check-input mr-2 mt-1" type="radio" style="width: 21px;height: 21px;border: 1px solid #808080;box-sizing: border-box;background-color: #00AF27!important;"
+                                    <input class="form-check-input mr-2 mt-1 form-radio" type="radio"
                                            name="exampleRadios"
                                            id="input55" value="option5"/>
                                 </div>
                             </div>
-                            <div class="row text-center mt-5 mx-2">
-
-                                <a class="btn text-white ml-2 d-block"
+                            <div class="row text-center mt-1 px-3">
+                                <a class="btn text-white ml-2 d-block px-5 font-18 pt-2 next-btn"
                                    data-slide="next"
-                                   href="#carouselExampleSlidesOnly"
-                                   style="background: #005887;box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;font-size:12pt ;width: 103px;height: 45px;">بعدی
+                                   href="#carouselExampleSlidesOnly">بعدی
                                 </a>
-                                <p class="mx-auto font-weight-bold mt-2" style="font-size: 13pt">۲/۴</p>
+                                <p class="mx-auto font-weight-bold mt-2 font-20">۳/۴</p>
                                 <a href="#carouselExampleSlidesOnly"
-                                   class="btn mr-auto"
-                                   data-slide="prev"
-                                   style="box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;font-size:12pt ;width: 103px;height: 45px;border: 1px solid #005887;">
+                                   class="btn mr-auto prev-btn px-5 font-18 pt-2 d-block"
+                                   data-slide="prev">
                                     قبلی
                                 </a>
-
                             </div>
                         </form>
                     </div>
@@ -304,39 +296,35 @@
             <!--form2-->
             <!--    form3-->
             <div class="carousel-item" id="form3">
-                <div class="p-3" style="font-family: irsans">
-                    <div class="col-12 mx-auto mb-5 pb-3" style="background: #FFFFFF;box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;">
+                <div class="col p-2">
+                    <div class="col-12 mx-auto mb-5 pb-3 bg-white px-1 form-box">
                         <h6 class="text-center pt-3 font-weight-bold">فرم</h6>
-                        <form action="" class="pt-4 ">
-                            <div class="pt-4 pb-4">
-                                <div class="col text-right">
-                                    <label class="pr-1" for="input8" style="font-size: 12pt;font-weight: bold">شماره تماس</label>
-                                    <input type="text" class="form-control" id="input8" style="border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px; height: 38px;"/>
+                        <form action="" class="pt-2">
+                            <div class="py-4 col px-1">
+                                <div class="col text-right px-0">
+                                    <label class="pr-1 font-15 font-weight-bold" for="input8">شماره تماس</label>
+                                    <input type="text" class="form-control" id="input8"/>
                                 </div>
-                                <div class="col text-right mt-2">
-                                    <label class="pr-1" for="input9" style="font-size: 12pt;font-weight: bold">ایمیل</label>
-                                    <input type="text" class="form-control" id="input9" style="border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px; height: 38px;"/>
+                                <div class="col text-right px-0 mt-2">
+                                    <label class="pr-1 font-15 font-weight-bold" for="input9">ایمیل</label>
+                                    <input type="text" class="form-control" id="input9"/>
                                 </div>
-                                <div class="col text-right mt-3 mb-5">
-                                    <label class="pr-1" for="input10" style="font-size: 12pt;font-weight: bold">آدرس ارسالی</label>
-                                    <textarea class="form-control position-relative" id="input10" rows="4" style="border: 1px solid #C4C4C4;box-sizing: border-box;border-radius: 10px"></textarea>
+                                <div class="col text-right px-0 mt-3 mb-5">
+                                    <label class="pr-1 font-15 font-weight-bold" for="input10">آدرس ارسالی</label>
+                                    <textarea class="form-control position-relative" id="input10" rows="3"></textarea>
                                 </div>
                             </div>
-                            <div class="row text-center mt-5 mx-2">
-
-                                <a class="btn text-white ml-2 d-block"
+                            <div class="row text-center mt-1 px-3">
+                                <a class="btn text-white ml-2 d-block px-5 font-18 pt-2 next-btn"
                                    data-slide="next"
-                                   href="#carouselExampleSlidesOnly"
-                                   style="background: #005887;box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;font-size:12pt ;width: 103px;height: 45px;">بعدی
+                                   href="#carouselExampleSlidesOnly">بعدی
                                 </a>
-                                <p class="mx-auto font-weight-bold mt-2" style="font-size: 13pt">۳/۴</p>
+                                <p class="mx-auto font-weight-bold mt-2 font-20">۳/۴</p>
                                 <a href="#carouselExampleSlidesOnly"
-                                   class="btn mr-auto"
-                                   data-slide="prev"
-                                   style="box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);border-radius: 16px;font-size:12pt ;width: 103px;height: 45px;border: 1px solid #005887;">
+                                   class="btn mr-auto prev-btn px-5 font-18 pt-2 d-block"
+                                   data-slide="prev">
                                     قبلی
                                 </a>
-
                             </div>
                         </form>
                     </div>
