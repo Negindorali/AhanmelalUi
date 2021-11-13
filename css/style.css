@@ -1671,3 +1671,6 @@ p.footer-styles {
     cursor: pointer;
 
 }
+ul.moments:nth-child(even) {
+    background-color: #F5F5F5 !important;
+}
