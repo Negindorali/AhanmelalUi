@@ -436,10 +436,8 @@ div.hero-product {
 }
 
 .project-tab a {
-    text-decoration: none;
     color: #333;
     font-weight: 600;
-    font-family: irsans;
 }
 
 .btn-filter {
@@ -520,7 +518,6 @@ div.hero-product {
 
 .ng_panel_button {
     color: black;
-    text-decoration: none;
 }
 
 .diagram-box {
@@ -542,7 +539,6 @@ div.hero-product {
 
 .ng_panel_buttons:hover {
     color: black;
-    text-decoration: none;
 }
 
 .ng_panel_buttons.active {
@@ -552,7 +548,6 @@ div.hero-product {
 
 .ng_panel_button:hover {
     color: black;
-    text-decoration: none;
 }
 
 .menu-overlay {
