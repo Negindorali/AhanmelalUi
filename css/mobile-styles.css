@@ -248,12 +248,14 @@ body.melal {
 .search-btn {
     background-color: #007BFF;
     border-radius: 8px !important;
+
 }
 
 .search-product {
     border-radius: 8px !important;
     border: none;
     font-size: 7.5pt;
+
 }
 
 .price-diagram-box {
@@ -369,12 +371,24 @@ body.melal {
 
 .cats-btn {
     border: 2px solid #6F42C1 !important;
-    box-sizing: border-box !important;
     border-radius: 68px !important;
     font-size: 11pt !important;
+    width: 5rem !important;
 }
 
-.cats-btn:hover {
+.cats-btn-buyFrom {
+    border: 2px solid #6F42C1 !important;
+    border-radius: 68px !important;
+    font-size: 11pt !important;
+    width: 10rem !important;
+}
+
+.cats-btn-buyFrom:active {
+    background: #6F42C1;
+    color: white;
+}
+
+.cats-btn:active {
     background: #6F42C1;
     color: white;
 
@@ -384,8 +398,8 @@ body.melal {
     border-radius: 65px !important;
 }
 
-.cats-filter:hover {
-    background: rgba(111, 66, 193, 0.38) !important;
+.cats-filter:active {
+    background-color: rgba(111, 66, 193, 0.38) !important;
     border-radius: 65px !important;
 }
 
@@ -404,7 +418,7 @@ body.melal {
     font-size: 8pt;
     color: rgba(0, 0, 0, 0.88);
     border-bottom: 1px solid #9F9F9F;
-    background-color: white!important;
+    background-color: white !important;
 
 }
 
@@ -426,7 +440,7 @@ body.melal {
     background-repeat: no-repeat;
     background-size: cover;
     width: inherit;
-    height: 213px
+    height: 11rem;
 }
 
 .blog-title-box {
@@ -618,11 +632,64 @@ body.melal {
     border-radius: 10px;
 }
 
+.label-style {
+    display: none;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    z-index: 5;
+    height: max-content;
+    font-size: small
+}
+
 #project1:active {
     background: linear-gradient(#131313e3, #131313e3), url('../images/PwaAssets/images.jpeg') !important;
     background-repeat: no-repeat !important;
     background-size: cover;
 }
+
+#project1:active label {
+    display: block !important;
+}
+
+#project2:active {
+    background: linear-gradient(#131313e3, #131313e3), url('../images/PwaAssets/images.jpeg') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+}
+
+#project2:active label {
+    display: block !important;
+}
+
+#project3:active {
+    background: linear-gradient(#131313e3, #131313e3), url('../images/PwaAssets/images.jpeg') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+}
+
+#project3:active label {
+    display: block !important;
+}
+
+#project4:active {
+    background: linear-gradient(#131313e3, #131313e3), url('../images/PwaAssets/images.jpeg') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+}
+
+#project4:active label {
+    display: block !important;
+}
+#project5:active {
+    background: linear-gradient(#131313e3, #131313e3), url('../images/PwaAssets/images.jpeg') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+}
+
+#project5:active label {
+    display: block !important;
+}
+
 
 .blog-hero {
     background: linear-gradient(0, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.56)), url('../images/PwaAssets/hero-blog.png') !important;
@@ -644,10 +711,6 @@ body.melal {
 .factory-btn-filters {
     border: 2px solid #347BA1;
     border-radius: 68px;
-    font-size: 8pt;
-
-
-
 }
 
 .factory-btn-filters:active {
@@ -790,8 +853,8 @@ body.melal {
 .social-btn {
     border: 1px solid #005887;
     box-sizing: border-box;
-    filter: drop-shadow(0px 0px 8px rgba(0, 88, 135, 0.73));
     border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 88, 135, 0.73);
 }
 
 .social-btn > img {
@@ -808,7 +871,6 @@ body.melal {
     box-shadow: 0px 2px 8px 3px rgba(0, 88, 135, 0.35);
     border-radius: 16px;
 }
-
 
 
 .estekhdam-hero {
@@ -875,6 +937,7 @@ body.melal {
     background-size: cover;
     height: 5rem;
     border-radius: 16px;
+    background-repeat: no-repeat!important;
 }
 
 .experts-cards {
@@ -899,17 +962,17 @@ body.melal {
     border: 2px solid #005887;
     border-radius: 32px;
 }
+
 .expertOrder {
     border: 2px solid white;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
+
 }
 
 .expertOrder::after {
     content: "\f00c انتخاب شد";
     text-align: center;
-    padding:10px;
-    padding-top: 3px!important;
+    padding: 10px;
+    padding-top: 3px !important;
     color: #00B050;
     font-size: 6pt;
     font-weight: 900;

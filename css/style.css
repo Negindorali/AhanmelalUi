@@ -527,7 +527,6 @@ div.hero-product {
 
 .ng_panel_button.active {
     border-bottom: 4px solid #007BFF;
-    border-radius: 5px!important;
 }
 
 .ng_panel_buttons {
@@ -818,17 +817,17 @@ a.faq-activate.active {
 
 .order-divider {
     background-color: rgba(237, 243, 245, 1);
-    top: -2.5rem;
+    top: -2.7rem;
     left: -11rem;
 }
 
 .border-divider {
-    border-top: 1.5px solid #005887;
+    border-top: 2px solid #005887;
 }
 
 .divider-num {
     background-color: rgba(237, 243, 245, 1);
-    top: -1.6rem;
+    top: -2.3rem;
     right: 0;
 }
 
@@ -1666,6 +1665,6 @@ p.footer-styles {
     cursor: pointer;
 
 }
-ul.moments:nth-child(even) {
+.moments > ul:nth-child(even) {
     background-color: #F5F5F5 !important;
 }
